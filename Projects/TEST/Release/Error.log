@@ -1,0 +1,37 @@
+================================Erreur de script================================
+Message :
+wrong number of arguments (given 3, expected 1..2)
+
+Type : ArgumentError
+Script : PSDK//00700 PSDK Event Interpreter/01201 Interpreter_add_item.rb (RMXP)
+Ligne : 12
+Date : 17/09/2022 14:46:00
+Game Version : 256
+Logiciel : Pokémon SDK 26.2
+Script used by eval command : 
+add_item(4, 5, true)
+
+
+===================================Backtraces===================================
+[20] : PSDK//00700 PSDK Event Interpreter/01201 Interpreter_add_item.rb (RMXP) | ligne 12 add_item
+[19] : (eval) (RMXP) | ligne 1 eval_script
+[18] : PSDK//00600 Script_RMXP/03000 Interpreter_7.rb (RMXP) | ligne 124 eval
+[17] : PSDK//00600 Script_RMXP/03000 Interpreter_7.rb (RMXP) | ligne 124 eval_script
+[16] : PSDK//00600 Script_RMXP/03000 Interpreter_7.rb (RMXP) | ligne 114 command_355
+[15] : PSDK//00600 Script_RMXP/02500 Interpreter_2.rb (RMXP) | ligne 16 execute_command
+[14] : PSDK//00600 Script_RMXP/02400 Interpreter_1.rb (RMXP) | ligne 132 update
+[13] : PSDK//00600 Script_RMXP/02400 Interpreter_1.rb (RMXP) | ligne 100 loop
+[12] : PSDK//00600 Script_RMXP/02400 Interpreter_1.rb (RMXP) | ligne 100 update
+[11] : PSDK//01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (RMXP) | ligne 171 auto_transfert_update
+[10] : PSDK//01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (RMXP) | ligne 168 loop
+[9] : PSDK//01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (RMXP) | ligne 168 auto_transfert_update
+[8] : PSDK//01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (RMXP) | ligne 21 update
+[7] : PSDK//00700 Ajout_PSDK/00002 FPSBalancer.rb (RMXP) | ligne 44 times
+[6] : PSDK//00700 Ajout_PSDK/00002 FPSBalancer.rb (RMXP) | ligne 44 run
+[5] : PSDK//01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (RMXP) | ligne 21 update
+[4] : PSDK//01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (RMXP) | ligne 260 main_process
+[3] : PSDK//01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (RMXP) | ligne 153 main
+[2] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 612 <compiled>
+[1] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 364 rgss_main
+[0] : Game.rb (RMXP) | ligne 3 <main>
+===================================Fin du log===================================

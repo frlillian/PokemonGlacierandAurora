@@ -1,0 +1,147 @@
+{
+  "klass": "Specie",
+  "id": 825,
+  "dbSymbol": "drasilius",
+  "forms": [
+    {
+      "form": 0,
+      "height": 0,
+      "weight": 80,
+      "type1": "grass",
+      "type2": "psychic",
+      "baseHp": 106,
+      "baseAtk": 110,
+      "baseDfe": 90,
+      "baseSpd": 130,
+      "baseAts": 154,
+      "baseDfs": 90,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 400,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        0,
+        0
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "drasilius",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "pressure",
+        "__undef__",
+        "unnerve"
+      ],
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "move": "confusion"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "move": "disable"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "move": "safeguard"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "move": "swift"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "move": "future_sight"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "move": "psych_up"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "move": "miracle_eye"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "move": "psycho_cut"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "move": "giga_drain"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "move": "guard_swap"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "move": "synthesis"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "move": "psychic"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 64,
+          "move": "barrier"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "move": "aura_sphere"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 79,
+          "move": "leaf_storm"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 86,
+          "move": "mist"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 93,
+          "move": "me_first"
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "level": 100,
+          "move": "psystrike"
+        }
+      ]
+    }
+  ]
+}

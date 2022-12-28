@@ -1,0 +1,289 @@
+{
+  "klass": "Specie",
+  "id": 784,
+  "dbSymbol": "kommo_o",
+  "forms": [
+    {
+      "form": 0,
+      "height": 1.6,
+      "weight": 78.2,
+      "type1": "dragon",
+      "type2": "fighting",
+      "baseHp": 75,
+      "baseAtk": 110,
+      "baseDfe": 125,
+      "baseSpd": 85,
+      "baseAts": 100,
+      "baseDfs": 105,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 3,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 2,
+      "baseExperience": 270,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        14,
+        14
+      ],
+      "hatchSteps": 10240,
+      "babyDbSymbol": "__undef__",
+      "babyForm": 0,
+      "itemHeld": [],
+      "abilities": [
+        "bulletproof",
+        "soundproof",
+        "overcoat"
+      ],
+      "frontOffsetY": 8,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "clanging_scales",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_tail",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "autotomize",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scary_face",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "headbutt",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "work_up",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulk_up",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_claw",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "noble_roar",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_dance",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "outrage",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "close_combat",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "boomburst",
+          "level": 76
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "work_up"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hone_claws"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dragon_claw"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "calm_mind"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "roar"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "bulk_up"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "taunt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "safeguard"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "earthquake"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "brick_break"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sandstorm"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_tomb"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "facade"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "attract"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "low_sweep"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "round"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "focus_blast"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "false_swipe"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fling"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "shadow_claw"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "payback"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "bulldoze"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_slide"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "x_scissor"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "snarl"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "clanging_scales"
+        }
+      ]
+    },
+    {
+      "form": 1,
+      "height": 2.4,
+      "weight": 207.5,
+      "type1": "dragon",
+      "type2": "fighting",
+      "baseHp": 75,
+      "baseAtk": 110,
+      "baseDfe": 125,
+      "baseSpd": 85,
+      "baseAts": 100,
+      "baseDfs": 105,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 3,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 2,
+      "baseExperience": 270,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        14,
+        14
+      ],
+      "hatchSteps": 10240,
+      "babyDbSymbol": "__undef__",
+      "babyForm": 1,
+      "itemHeld": [],
+      "abilities": [
+        "bulletproof",
+        "soundproof",
+        "overcoat"
+      ],
+      "frontOffsetY": 8,
+      "moveSet": []
+    }
+  ]
+}

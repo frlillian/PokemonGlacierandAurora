@@ -1,0 +1,25 @@
+================================Erreur de script================================
+Message :
+C:/Users/frlil/OneDrive/Documents/SecretProject/Projects/TEST/scripts/99998 Trainer.rb:326: syntax error, unexpected end-of-input, expecting `end'
+
+Type : SyntaxError
+Script : ScriptLoad.rb (PSDK)
+Ligne : 88
+Date : 27/12/2022 14:33:56
+Game Version : 256
+Logiciel : Pokémon SDK 26.4
+===================================Backtraces===================================
+[12] : ScriptLoad.rb (PSDK) | ligne 88 require
+[11] : ScriptLoad.rb (PSDK) | ligne 88 load_scripts
+[10] : ScriptLoad.rb (PSDK) | ligne 85 each
+[9] : ScriptLoad.rb (PSDK) | ligne 85 load_scripts
+[8] : ScriptLoad.rb (PSDK) | ligne 76 load_vscode_scripts
+[7] : ScriptLoad.rb (PSDK) | ligne 42 start
+[6] : tools/GameLoader/50_load_game_uncompiled.rb (PSDK) | ligne 7 <top (required)>
+[5] : ScriptLoad.rb (PSDK) | ligne 190 require
+[4] : ScriptLoad.rb (PSDK) | ligne 190 load_tool
+[3] : tools/GameLoader/Z_load_uncompiled.rb (PSDK) | ligne 14 <top (required)>
+[2] : ScriptLoad.rb (PSDK) | ligne 190 require
+[1] : ScriptLoad.rb (PSDK) | ligne 190 load_tool
+[0] : Game.rb (RMXP) | ligne 11 <main>
+===================================Fin du log===================================
