@@ -176,10 +176,6 @@
     "name": "Hideout"
   },
   {
-    "id": 109,
-    "name": "Hall"
-  },
-  {
     "id": 110,
     "name": "Lab"
   },
@@ -190,6 +186,10 @@
   {
     "id": 112,
     "name": "Bottom"
+  },
+  {
+    "id": 109,
+    "name": "Hall"
   },
   {
     "id": 35,
@@ -240,12 +240,20 @@
     "name": "Manor House"
   },
   {
+    "id": 118,
+    "name": "House South"
+  },
+  {
     "id": 46,
     "name": "DeathMap"
   },
   {
     "id": 47,
     "name": "Route 4"
+  },
+  {
+    "id": 119,
+    "name": "Route 4-west"
   },
   {
     "id": 48,
@@ -416,6 +424,10 @@
     "name": "Cave"
   },
   {
+    "id": 114,
+    "name": "dead"
+  },
+  {
     "id": 90,
     "name": "Inside"
   },
@@ -450,5 +462,17 @@
   {
     "id": 97,
     "name": "house 2"
+  },
+  {
+    "id": 115,
+    "name": "Lab 1"
+  },
+  {
+    "id": 116,
+    "name": "Lab 2"
+  },
+  {
+    "id": 117,
+    "name": "Lab 3"
   }
 ]

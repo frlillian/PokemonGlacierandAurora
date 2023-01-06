@@ -2,7 +2,9 @@
   "klass": "Zone",
   "id": 21,
   "dbSymbol": "zone_21",
-  "maps": [],
+  "maps": [
+    76
+  ],
   "worldmaps": [],
   "panelId": 8,
   "warp": {

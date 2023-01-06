@@ -1,1 +1,45 @@
-{"id":158,"dbSymbol":"hyper_fang","klass":"Move","mapUse":0,"battleEngineMethod":"s_basic","type":"normal","power":80,"accuracy":90,"pp":15,"category":"physical","movecriticalRate":1,"priority":0,"isDirect":true,"isCharge":false,"isRecharge":false,"isBlocable":true,"isSnatchable":false,"isMirrorMove":true,"isPunch":false,"isGravity":false,"isMagicCoatAffected":false,"isUnfreeze":false,"isSoundAttack":false,"isDistance":false,"isHeal":false,"isAuthentic":false,"isBite":false,"isPulse":false,"isBallistics":false,"isMental":false,"isNonSkyBattle":false,"isDance":false,"isKingRockUtility":false,"isPowder":false,"isEffectChance":false,"battleEngineAimedTarget":"adjacent_pokemon","battleStageMod":[],"moveStatus":[{"status":"FLINCH","luckRate":10}]}
+{
+  "klass": "Move",
+  "id": 158,
+  "dbSymbol": "hyper_fang",
+  "mapUse": 0,
+  "battleEngineMethod": "s_basic",
+  "type": "normal",
+  "power": 80,
+  "accuracy": 90,
+  "pp": 15,
+  "category": "physical",
+  "movecriticalRate": 1,
+  "priority": 0,
+  "isDirect": true,
+  "isCharge": false,
+  "isRecharge": false,
+  "isBlocable": true,
+  "isSnatchable": false,
+  "isMirrorMove": true,
+  "isPunch": false,
+  "isGravity": false,
+  "isMagicCoatAffected": false,
+  "isUnfreeze": false,
+  "isSoundAttack": false,
+  "isDistance": false,
+  "isHeal": false,
+  "isAuthentic": false,
+  "isBite": false,
+  "isPulse": false,
+  "isBallistics": false,
+  "isMental": false,
+  "isNonSkyBattle": false,
+  "isDance": false,
+  "isKingRockUtility": false,
+  "isPowder": false,
+  "battleEngineAimedTarget": "adjacent_pokemon",
+  "battleStageMod": [],
+  "moveStatus": [
+    {
+      "status": "FLINCH",
+      "luckRate": 10
+    }
+  ],
+  "effectChance": 10
+}

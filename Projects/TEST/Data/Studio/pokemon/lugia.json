@@ -422,8 +422,8 @@
       "experienceType": 2,
       "baseExperience": 306,
       "baseLoyalty": 1,
-      "catchRate": 3,
-      "femaleRate": -1,
+      "catchRate": 20,
+      "femaleRate": 0,
       "breedGroups": [
         15,
         15
@@ -431,7 +431,16 @@
       "hatchSteps": 30720,
       "babyDbSymbol": "__undef__",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "pressure",
         "pressure",
@@ -477,12 +486,12 @@
         {
           "klass": "LevelLearnableMove",
           "level": 43,
-          "move": "aeroblast"
+          "move": "outrage"
         },
         {
           "klass": "LevelLearnableMove",
           "level": 50,
-          "move": "punishment"
+          "move": "blizzard"
         },
         {
           "klass": "LevelLearnableMove",

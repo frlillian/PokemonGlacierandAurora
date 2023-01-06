@@ -133,7 +133,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "freeze_shock",
+          "move": "ice_hammer",
           "level": 41
         },
         {

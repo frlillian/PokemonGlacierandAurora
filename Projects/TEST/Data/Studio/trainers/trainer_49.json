@@ -71,7 +71,7 @@
       ]
     },
     {
-      "specie": "oshawott",
+      "specie": "dewott",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -79,7 +79,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 23
+        "level": 27
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

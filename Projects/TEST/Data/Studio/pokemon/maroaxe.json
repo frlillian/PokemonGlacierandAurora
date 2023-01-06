@@ -22,7 +22,7 @@
       "evAts": 0,
       "evDfs": 0,
       "evolutions": [],
-      "experienceType": 0,
+      "experienceType": 3,
       "baseExperience": 150,
       "baseLoyalty": 70,
       "catchRate": 45,
@@ -108,7 +108,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 27,
+          "level": 29,
           "move": "metal_claw"
         },
         {
@@ -140,6 +140,14 @@
           "klass": "LevelLearnableMove",
           "level": 59,
           "move": "meteor_mash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cut"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flash_cannon"
         },
         {
           "klass": "TechLearnableMove",

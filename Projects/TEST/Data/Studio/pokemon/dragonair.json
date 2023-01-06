@@ -326,7 +326,7 @@
           "conditions": [
             {
               "type": "minLevel",
-              "value": 40
+              "value": 47
             }
           ],
           "dbSymbol": "dragonite",

@@ -66,7 +66,7 @@ class Interpreter
         healer(:ground, :ice, :rock, :water)
     end
     def idle()
-        $scene.display_message_and_wait("The old gods speak threw this idle. Their voices echo in wispers.")
+        $scene.display_message_and_wait("The old gods speak through this idol. Their voices echo in whispers.")
         healer(:dragon, :dark, :psychic, :ghost, :poison)
     end
     def lamp()
@@ -156,9 +156,9 @@ class Interpreter
         bi = Battle::Logic::BattleInfo.new
         bi.add_party(0, *bi.player_basic_info)
         party = []
-        party << PFM::Pokemon.generate_from_hash(id: 261, level: 10, trainer_name: 'Genna', trainer_id: 1)
-        party << PFM::Pokemon.generate_from_hash(id: 821, level: 11, trainer_name: 'Genna', trainer_id: 1)
-        party << PFM::Pokemon.generate_from_hash(id: 5, level: 13, shiny: true, trainer_name: 'Genna', trainer_id: 1)
+        party << PFM::Pokemon.generate_from_hash(id: 261, level: 12, trainer_name: 'Genna', trainer_id: 1)
+        party << PFM::Pokemon.generate_from_hash(id: 821, level: 14, trainer_name: 'Genna', trainer_id: 1)
+        party << PFM::Pokemon.generate_from_hash(id: 5, level: 16, shiny: true, trainer_name: 'Genna', trainer_id: 1)
         bag = PFM::Bag.new
         bag.add_item(26, 2)
         bi.add_party(1, party, 'Genna', 'Ranger', 'dp_33', bag, 255, 4)
@@ -296,7 +296,7 @@ class Interpreter
         end
         max = $actors[index].atk
         largest = "atk"
-        $scene.display_message_and_wait("Screams echo all around you.")
+        $scene.display_message_and_wait("You're Pokemon serves the Gods now. The Gods Reward you.")
         if $actors[index].dfe > max
             max = $actors[index].dfe
             largest = "dfe"
@@ -308,6 +308,10 @@ class Interpreter
         if $actors[index].dfs > max
             max = $actors[index].dfs
             largest = "dfs"
+        end
+        if $actors[index].hp > max
+            max = $actors[index].hp
+            largest = "hp"
         end
         if $actors[index].spd > max
             max = $actors[index].spd
@@ -328,7 +332,10 @@ class Interpreter
             call_battle_wild(PFM::Pokemon.new(592, level, false, false, 0), 100)
         end
         if largest == "spd"
-            call_battle_wild(PFM::Pokemon.new(479, level, false, false, 0), 100)
+            call_battle_wild(PFM::Pokemon.new(425, level, false, false, 0), 100)
+        end
+        if largest == "hp"
+            call_battle_wild(PFM::Pokemon.new(622, level, false, false, 0), 100)
         end
     end
 end
@@ -355,3 +362,22 @@ module PFM
         end
     end
 end  
+
+module Battle
+    class Logic
+      # Class responsive of calculating experience & EV of Pokemon when a Pokemon faints
+      class ExpHandler
+
+        def exp_multipliers(receiver)
+            aura_factor = aura_factor(receiver)
+            lucky_factor = receiver.item_db_symbol == :lucky_egg ? 1.5 : 1
+            trade_factor = receiver.from_player? ? 1 : 1
+            loyalty_factor = happy?(receiver) ? 1.2 : 1
+            evolution_factor = receiver.evolve_check(:level_up) ? 1.2 : 1
+            return aura_factor * lucky_factor * trade_factor * loyalty_factor * evolution_factor
+        end    
+    
+    end
+    end
+end
+  

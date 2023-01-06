@@ -21,7 +21,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 35
+        "level": 32
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -87,7 +87,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 35
+        "level": 34
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -153,7 +153,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 38
+        "level": 33
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -219,7 +219,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 40
+        "level": 35
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -285,7 +285,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 41
+        "level": 40
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

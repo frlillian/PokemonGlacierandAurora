@@ -54,10 +54,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "stealth_rock",
+            "power_gem",
+            "dazzling_gleam",
+            "toxic"
           ]
         },
         {
@@ -112,10 +112,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "stealth_rock",
+            "power_gem",
+            "dazzling_gleam",
+            "toxic"
           ]
         },
         {
@@ -170,10 +170,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "confuse_ray",
+            "draining_kiss",
+            "diamond_storm",
+            "magical_leaf"
           ]
         },
         {
@@ -183,6 +183,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "givenName",
+          "value": "Jenny"
         }
       ]
     }
