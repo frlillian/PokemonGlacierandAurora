@@ -1,7 +1,7 @@
 class Interpreter
     def trainer(trainer_id, dialog: 'Let\'s battle!', troop_id: 3, bgm: DEFAULT_TRAINER_BGM, disable: 'A', enable: 'B')
         trainer_eye_sequence(dialog)
-        start_trainer_battle(trainer_id, troop_id: troop_id)
+        start_trainer_battle(trainer_id, troop_id: troop_id, bgm: bgm)
     end
 
     def typeCheck(*types)
@@ -341,6 +341,19 @@ class Interpreter
 end
 
 module PFM
+    class GameState
+        def loyalty_update
+            return unless (@steps - (@steps / 64) * 64) == 0
+            return if cant_process_event_tasks?
+      
+            @actors.each do |pokemon|
+              value = pokemon.loyalty < 200 ? 2 : 1
+              value *= 2 if data_item(pokemon.captured_with).db_symbol == :luxury_ball
+              value *= 1.5 if pokemon.item_db_symbol == :soothe_bell
+              pokemon.loyalty += value.floor
+            end
+          end      
+    end
     class Pokemon
         def clawjou
             if $game_switches[124]
@@ -360,6 +373,9 @@ module PFM
             end
             return false;
         end
+        ShotItem = %i[__undef__ long_barrelattachment explosive_shot]
+        FORM_CALIBRATE[:insurvern] = proc { @form = ShotItem.index(item_db_symbol).to_i }
+        # FORM_CALIBRATE[:blastoise] = proc { @form = ShotItem.index(item_db_symbol).to_i }
     end
 end  
 
@@ -380,4 +396,30 @@ module Battle
     end
     end
 end
+
+module Battle
+    module Effects
+      class Ability
+        class BoostingMoveType < Ability
+          register(:assassin, :dark)
+        end
+      end
+      class Item
+        class LongBarrelAttachment < Item
+          # Return the chance of hit multiplier
+          # @param user [PFM::PokemonBattler] user of the move
+          # @param target [PFM::PokemonBattler] target of the move
+          # @param move [Battle::Move]
+          # @return [Float]
+          def chance_of_hit_multiplier(user, target, move)
+            return 1 if user != @target
+            return 1 if user.db_symbol != :insurvern && user.db_symbol != :blastoise
+  
+            return 1.2
+          end
+        end
+        register(:long_barrelattachment, LongBarrelAttachment)
+      end
+    end
+  end
   

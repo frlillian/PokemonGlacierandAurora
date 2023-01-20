@@ -10,8 +10,8 @@
       "type1": "ground",
       "type2": "steel",
       "baseHp": 70,
-      "baseAtk": 110,
-      "baseDfe": 120,
+      "baseAtk": 100,
+      "baseDfe": 110,
       "baseSpd": 55,
       "baseAts": 60,
       "baseDfs": 90,
@@ -330,8 +330,8 @@
       "type1": "fire",
       "type2": "ghost",
       "baseHp": 70,
-      "baseAtk": 110,
-      "baseDfe": 120,
+      "baseAtk": 100,
+      "baseDfe": 110,
       "baseSpd": 55,
       "baseAts": 60,
       "baseDfs": 90,
@@ -425,11 +425,6 @@
           "klass": "LevelLearnableMove",
           "move": "hex",
           "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "iron_head",
-          "level": 20
         },
         {
           "klass": "LevelLearnableMove",

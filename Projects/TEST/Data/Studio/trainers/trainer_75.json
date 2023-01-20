@@ -203,7 +203,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 41
+        "level": 42
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -331,7 +331,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 43
+        "level": 45
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -364,10 +364,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "flare_blitz",
+            "hyper_beam",
+            "aura_sphere",
+            "dragon_dance"
           ]
         },
         {

@@ -17,8 +17,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 26,
-          "maximumLevel": 32
+          "minimumLevel": 28,
+          "maximumLevel": 35
         }
       },
       "randomEncounterChance": 20,
@@ -59,8 +59,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 26,
-          "maximumLevel": 32
+          "minimumLevel": 28,
+          "maximumLevel": 35
         }
       },
       "randomEncounterChance": 20,
@@ -101,8 +101,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 26,
-          "maximumLevel": 32
+          "minimumLevel": 28,
+          "maximumLevel": 35
         }
       },
       "randomEncounterChance": 20,
@@ -143,8 +143,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 26,
-          "maximumLevel": 32
+          "minimumLevel": 28,
+          "maximumLevel": 35
         }
       },
       "randomEncounterChance": 20,
@@ -185,11 +185,11 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 26,
-          "maximumLevel": 32
+          "minimumLevel": 28,
+          "maximumLevel": 35
         }
       },
-      "randomEncounterChance": 5,
+      "randomEncounterChance": 10,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -227,11 +227,11 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 26,
-          "maximumLevel": 32
+          "minimumLevel": 28,
+          "maximumLevel": 35
         }
       },
-      "randomEncounterChance": 15,
+      "randomEncounterChance": 10,
       "expandPokemonSetup": [
         {
           "type": "evs",

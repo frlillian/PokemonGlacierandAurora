@@ -46,6 +46,10 @@
             "__undef__",
             "__undef__"
           ]
+        },
+        {
+          "type": "ability",
+          "value": "snow_cloak"
         }
       ]
     },
@@ -172,6 +176,10 @@
             "__undef__",
             "__undef__"
           ]
+        },
+        {
+          "type": "ability",
+          "value": "snow_cloak"
         }
       ]
     },
@@ -214,6 +222,10 @@
             "__undef__",
             "__undef__"
           ]
+        },
+        {
+          "type": "ability",
+          "value": "ice_body"
         }
       ]
     },
@@ -298,6 +310,10 @@
             "__undef__",
             "__undef__"
           ]
+        },
+        {
+          "type": "ability",
+          "value": "overcoat"
         }
       ]
     },

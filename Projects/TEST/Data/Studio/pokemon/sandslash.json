@@ -363,7 +363,18 @@
       "evSpd": 0,
       "evAts": 0,
       "evDfs": 0,
-      "evolutions": [],
+      "evolutions": [
+        {
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "assault_vest"
+            }
+          ],
+          "dbSymbol": "insurvern"
+        }
+      ],
       "experienceType": 1,
       "baseExperience": 158,
       "baseLoyalty": 70,
@@ -395,22 +406,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "icicle_spear",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "metal_claw",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "icicle_crash",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "slash",
+          "move": "scratch",
           "level": 1
         },
         {
@@ -420,13 +416,73 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ice_ball",
-          "level": 1
+          "move": "mist",
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metal_burst",
-          "level": 1
+          "move": "ice_ball",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rapid_spin",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_cutter",
+          "level": 11
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_claw",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "swift",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_swipes",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "slash",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_head",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gyro_ball",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "swords_dance",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hail",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "blizzard",
+          "level": 46
         },
         {
           "klass": "TechLearnableMove",

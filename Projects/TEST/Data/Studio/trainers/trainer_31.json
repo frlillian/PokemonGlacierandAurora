@@ -21,7 +21,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 18
+        "level": 20
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -195,7 +195,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 23
+        "level": 24
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

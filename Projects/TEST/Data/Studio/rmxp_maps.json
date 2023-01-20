@@ -304,6 +304,10 @@
     "name": "Store"
   },
   {
+    "id": 125,
+    "name": "House East"
+  },
+  {
     "id": 60,
     "name": "Route 6"
   },
@@ -474,5 +478,25 @@
   {
     "id": 117,
     "name": "Lab 3"
+  },
+  {
+    "id": 120,
+    "name": "Bydorn"
+  },
+  {
+    "id": 121,
+    "name": "Player's House"
+  },
+  {
+    "id": 122,
+    "name": "Simp House"
+  },
+  {
+    "id": 123,
+    "name": "Simp House#2"
+  },
+  {
+    "id": 124,
+    "name": "Centre Pokémon"
   }
 ]

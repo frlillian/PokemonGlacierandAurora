@@ -21,7 +21,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 40
+        "level": 41
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "specie": "bastiodon",
+      "specie": "tyrantrum",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",

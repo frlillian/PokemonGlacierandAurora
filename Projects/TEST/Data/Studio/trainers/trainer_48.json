@@ -13,64 +13,6 @@
   "ai": 4,
   "party": [
     {
-      "specie": "growlithe",
-      "form": 0,
-      "shinySetup": {
-        "kind": "automatic",
-        "rate": -1
-      },
-      "levelSetup": {
-        "kind": "fixed",
-        "level": 25
-      },
-      "randomEncounterChance": 1,
-      "expandPokemonSetup": [
-        {
-          "type": "evs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "ivs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "loyalty",
-          "value": 70
-        },
-        {
-          "type": "moves",
-          "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
-          ]
-        },
-        {
-          "type": "originalTrainerName",
-          "value": "Simon"
-        },
-        {
-          "type": "originalTrainerId",
-          "value": 0
-        }
-      ]
-    },
-    {
       "specie": "crawdaunt",
       "form": 0,
       "shinySetup": {
@@ -129,15 +71,73 @@
       ]
     },
     {
-      "specie": "sawsbuck",
-      "form": 1,
+      "specie": "growlithe",
+      "form": 0,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 23
+        "level": 25
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Simon"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "specie": "politiny",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 25
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

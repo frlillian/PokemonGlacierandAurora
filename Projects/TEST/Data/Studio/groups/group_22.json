@@ -59,11 +59,11 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 15,
-          "maximumLevel": 20
+          "minimumLevel": 20,
+          "maximumLevel": 24
         }
       },
-      "randomEncounterChance": 20,
+      "randomEncounterChance": 10,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -101,8 +101,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 15,
-          "maximumLevel": 20
+          "minimumLevel": 20,
+          "maximumLevel": 24
         }
       },
       "randomEncounterChance": 40,
@@ -143,8 +143,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 19,
-          "maximumLevel": 24
+          "minimumLevel": 25,
+          "maximumLevel": 30
         }
       },
       "randomEncounterChance": 5,
@@ -185,8 +185,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 20,
-          "maximumLevel": 24
+          "minimumLevel": 25,
+          "maximumLevel": 30
         }
       },
       "randomEncounterChance": 5,
@@ -214,6 +214,52 @@
             "__undef__",
             "__undef__"
           ]
+        }
+      ]
+    },
+    {
+      "specie": "piplup",
+      "form": 0,
+      "shinySetup": {
+        "kind": "rate",
+        "rate": 1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 20,
+          "maximumLevel": 24
+        }
+      },
+      "randomEncounterChance": 10,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "hail"
+          ]
+        },
+        {
+          "type": "ability",
+          "value": "snow_cloak"
         }
       ]
     }

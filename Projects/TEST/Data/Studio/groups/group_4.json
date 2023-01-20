@@ -147,7 +147,7 @@
           "maximumLevel": 12
         }
       },
-      "randomEncounterChance": 30,
+      "randomEncounterChance": 20,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -231,7 +231,7 @@
           "maximumLevel": 12
         }
       },
-      "randomEncounterChance": 5,
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",

@@ -17,7 +17,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 27,
+          "minimumLevel": 30,
           "maximumLevel": 35
         }
       },
@@ -59,7 +59,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 27,
+          "minimumLevel": 30,
           "maximumLevel": 35
         }
       },
@@ -101,7 +101,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 27,
+          "minimumLevel": 30,
           "maximumLevel": 35
         }
       },
@@ -143,7 +143,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 27,
+          "minimumLevel": 30,
           "maximumLevel": 35
         }
       },
@@ -185,7 +185,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 27,
+          "minimumLevel": 30,
           "maximumLevel": 35
         }
       },
@@ -227,7 +227,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 27,
+          "minimumLevel": 30,
           "maximumLevel": 35
         }
       },
@@ -269,7 +269,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 27,
+          "minimumLevel": 30,
           "maximumLevel": 35
         }
       },
@@ -311,7 +311,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 29,
+          "minimumLevel": 30,
           "maximumLevel": 37
         }
       },
