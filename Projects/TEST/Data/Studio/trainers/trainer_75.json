@@ -21,7 +21,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 41
+        "level": 45
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -71,6 +71,10 @@
         {
           "type": "ability",
           "value": "levitate"
+        },
+        {
+          "type": "itemHeld",
+          "value": "focus_sash"
         }
       ]
     },
@@ -83,7 +87,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 40
+        "level": 45
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -137,7 +141,7 @@
       ]
     },
     {
-      "specie": "drapion",
+      "specie": "yveltal",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -145,7 +149,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 40
+        "level": 45
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -178,10 +182,10 @@
         {
           "type": "moves",
           "value": [
+            "blizzard",
             "poison_jab",
-            "ice_fang",
-            "fire_fang",
-            "roar"
+            "sky_attack",
+            "foul_play"
           ]
         },
         {
@@ -196,14 +200,14 @@
     },
     {
       "specie": "umbreon",
-      "form": 0,
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 42
+        "level": 49
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -269,7 +273,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 42
+        "level": 49
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -331,7 +335,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 45
+        "level": 49
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

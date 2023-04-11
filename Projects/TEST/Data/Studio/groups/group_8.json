@@ -4,7 +4,9 @@
   "dbSymbol": "group_8",
   "systemTag": "Grass",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -134,7 +136,7 @@
       ]
     },
     {
-      "specie": "luxio",
+      "specie": "ralts",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",

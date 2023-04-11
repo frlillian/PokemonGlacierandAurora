@@ -53,43 +53,43 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "circle_throw"
+          "move": "circle_throw",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "bubble_beam"
+          "move": "bubble_beam",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "hypnosis"
+          "move": "hypnosis",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "double_slap"
+          "move": "double_slap",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "submission"
+          "move": "submission",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 32,
-          "move": "dynamic_punch"
+          "move": "dynamic_punch",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "mind_reader"
+          "move": "mind_reader",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "circle_throw"
+          "move": "circle_throw",
+          "level": 53
         },
         {
           "klass": "TutorLearnableMove",
@@ -287,7 +287,20 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "062",
+        "iconShiny": "",
+        "front": "062",
+        "frontShiny": "062",
+        "back": "062",
+        "backShiny": "062",
+        "footprint": "062",
+        "character": "062_0",
+        "characterShiny": "062s_0",
+        "cry": "062cry.ogg",
+        "hasFemale": false
+      }
     },
     {
       "form": 1,
@@ -339,33 +352,33 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "fire_punch"
+          "move": "fire_punch",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "scald"
+          "move": "scald",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "flame_wheel"
+          "move": "flame_wheel",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "flamethrower"
+          "move": "flamethrower",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "hydro_pump"
+          "move": "hydro_pump",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 32,
-          "move": "dynamic_punch"
+          "move": "dynamic_punch",
+          "level": 32
         },
         {
           "klass": "TutorLearnableMove",
@@ -563,7 +576,20 @@
           "klass": "EvolutionLearnableMove",
           "move": "fire_punch"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "062_01",
+        "iconShiny": "",
+        "front": "062_01",
+        "frontShiny": "062",
+        "back": "062_01",
+        "backShiny": "062",
+        "footprint": "062",
+        "character": "",
+        "characterShiny": "",
+        "cry": "062cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

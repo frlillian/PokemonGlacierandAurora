@@ -14,14 +14,14 @@
   "party": [
     {
       "specie": "umbreon",
-      "form": 0,
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 26
+        "level": 30
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

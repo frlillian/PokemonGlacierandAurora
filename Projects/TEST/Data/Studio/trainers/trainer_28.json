@@ -13,6 +13,64 @@
   "ai": 4,
   "party": [
     {
+      "specie": "kirlia",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 22
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Garith"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    },
+    {
       "specie": "meditite",
       "form": 0,
       "shinySetup": {
@@ -21,7 +79,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 17
+        "level": 24
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -191,7 +249,7 @@
       ]
     },
     {
-      "specie": "kirlia",
+      "specie": "combusken",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -199,7 +257,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 22
+        "level": 24
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

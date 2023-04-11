@@ -41,86 +41,99 @@
         "multiscale"
       ],
       "frontOffsetY": 1,
+      "resources": {
+        "icon": "249",
+        "iconShiny": "",
+        "front": "249",
+        "frontShiny": "249",
+        "back": "249",
+        "backShiny": "249",
+        "footprint": "249",
+        "character": "249_0",
+        "characterShiny": "249s_0",
+        "cry": "249cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "whirlwind"
+          "move": "whirlwind",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "weather_ball"
+          "move": "weather_ball",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "gust"
+          "move": "gust",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "dragon_rush"
+          "move": "dragon_rush",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "extrasensory"
+          "move": "extrasensory",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "rain_dance"
+          "move": "rain_dance",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "hydro_pump"
+          "move": "hydro_pump",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "aeroblast"
+          "move": "aeroblast",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 50,
-          "move": "punishment"
+          "move": "punishment",
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 57,
-          "move": "ancient_power"
+          "move": "ancient_power",
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 65,
-          "move": "safeguard"
+          "move": "safeguard",
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 71,
-          "move": "recover"
+          "move": "recover",
+          "level": 71
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 79,
-          "move": "future_sight"
+          "move": "future_sight",
+          "level": 79
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 85,
-          "move": "natural_gift"
+          "move": "natural_gift",
+          "level": 85
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 93,
-          "move": "calm_mind"
+          "move": "calm_mind",
+          "level": 93
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 99,
-          "move": "sky_attack"
+          "move": "sky_attack",
+          "level": 99
         },
         {
           "klass": "TutorLearnableMove",
@@ -447,86 +460,99 @@
         "multiscale"
       ],
       "frontOffsetY": 1,
+      "resources": {
+        "icon": "249_01",
+        "iconShiny": "",
+        "front": "249_01",
+        "frontShiny": "249",
+        "back": "249_1",
+        "backShiny": "249",
+        "footprint": "249",
+        "character": "",
+        "characterShiny": "",
+        "cry": "249cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "whirlwind"
+          "move": "whirlwind",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "weather_ball"
+          "move": "weather_ball",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "gust"
+          "move": "gust",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "dragon_rush"
+          "move": "dragon_rush",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "extrasensory"
+          "move": "extrasensory",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "rain_dance"
+          "move": "rain_dance",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "hydro_pump"
+          "move": "hydro_pump",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "outrage"
+          "move": "outrage",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 50,
-          "move": "blizzard"
+          "move": "blizzard",
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 57,
-          "move": "ancient_power"
+          "move": "ancient_power",
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 65,
-          "move": "safeguard"
+          "move": "safeguard",
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 71,
-          "move": "recover"
+          "move": "recover",
+          "level": 71
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 79,
-          "move": "future_sight"
+          "move": "future_sight",
+          "level": 79
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 85,
-          "move": "natural_gift"
+          "move": "natural_gift",
+          "level": 85
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 93,
-          "move": "calm_mind"
+          "move": "calm_mind",
+          "level": 93
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 99,
-          "move": "sky_attack"
+          "move": "sky_attack",
+          "level": 99
         },
         {
           "klass": "TutorLearnableMove",

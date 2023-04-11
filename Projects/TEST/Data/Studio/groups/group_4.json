@@ -4,7 +4,9 @@
   "dbSymbol": "group_4",
   "systemTag": "Grass",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -17,7 +19,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 5,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
@@ -59,7 +61,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 5,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
@@ -101,11 +103,11 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 6,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
-      "randomEncounterChance": 5,
+      "randomEncounterChance": 10,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -134,7 +136,7 @@
       ]
     },
     {
-      "specie": "weedle",
+      "specie": "eevee",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -143,11 +145,11 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 5,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
-      "randomEncounterChance": 20,
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -185,11 +187,11 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 5,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
-      "randomEncounterChance": 20,
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -227,11 +229,11 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 5,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
-      "randomEncounterChance": 15,
+      "randomEncounterChance": 20,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -269,7 +271,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 5,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
@@ -311,7 +313,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 5,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },

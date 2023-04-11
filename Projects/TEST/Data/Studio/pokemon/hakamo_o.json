@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "kommo_o",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 45
             }
-          ],
-          "dbSymbol": "kommo_o",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 2,
@@ -235,7 +235,20 @@
           "klass": "TechLearnableMove",
           "move": "snarl"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "783",
+        "iconShiny": "",
+        "front": "783",
+        "frontShiny": "783",
+        "back": "783",
+        "backShiny": "783",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      }
     }
   ]
 }

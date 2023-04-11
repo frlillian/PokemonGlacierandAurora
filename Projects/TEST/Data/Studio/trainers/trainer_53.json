@@ -13,7 +13,7 @@
   "ai": 5,
   "party": [
     {
-      "specie": "pawniard",
+      "specie": "bisharp",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -21,7 +21,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 37
+        "level": 45
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

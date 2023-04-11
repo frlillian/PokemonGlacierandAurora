@@ -13,7 +13,7 @@
   "ai": 3,
   "party": [
     {
-      "specie": "monferno",
+      "specie": "braixen",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -21,7 +21,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 15
+        "level": 17
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "specie": "onix",
+      "specie": "graveler",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -79,7 +79,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 14
+        "level": 18
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

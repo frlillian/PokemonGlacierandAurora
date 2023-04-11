@@ -4,7 +4,9 @@
   "dbSymbol": "group_20",
   "systemTag": "Cave",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -218,7 +220,7 @@
       ]
     },
     {
-      "specie": "staravia",
+      "specie": "golbat",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",

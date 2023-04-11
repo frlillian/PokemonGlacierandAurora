@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "dragonite",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 55
             }
-          ],
-          "dbSymbol": "dragonite",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 2,
@@ -55,83 +55,83 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "wrap"
+          "move": "wrap",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "leer"
+          "move": "leer",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "thunder_wave"
+          "move": "thunder_wave",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "twister"
+          "move": "twister",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "thunder_wave"
+          "move": "thunder_wave",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "twister"
+          "move": "twister",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "dragon_rage"
+          "move": "dragon_rage",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "slam"
+          "move": "slam",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "agility"
+          "move": "agility",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "dragon_tail"
+          "move": "dragon_tail",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 39,
-          "move": "aqua_tail"
+          "move": "aqua_tail",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 47,
-          "move": "dragon_rush"
+          "move": "dragon_rush",
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "safeguard"
+          "move": "safeguard",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 61,
-          "move": "dragon_dance"
+          "move": "dragon_dance",
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 67,
-          "move": "outrage"
+          "move": "outrage",
+          "level": 67
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 75,
-          "move": "hyper_beam"
+          "move": "hyper_beam",
+          "level": 75
         },
         {
           "klass": "TutorLearnableMove",
@@ -301,7 +301,20 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "148",
+        "iconShiny": "",
+        "front": "148",
+        "frontShiny": "148",
+        "back": "148",
+        "backShiny": "148",
+        "footprint": "148",
+        "character": "148_0",
+        "characterShiny": "148s_0",
+        "cry": "148cry.ogg",
+        "hasFemale": false
+      }
     },
     {
       "form": 1,
@@ -323,14 +336,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "dragonite",
+          "form": 1,
           "conditions": [
             {
               "type": "minLevel",
               "value": 47
             }
-          ],
-          "dbSymbol": "dragonite",
-          "form": 1
+          ]
         }
       ],
       "experienceType": 2,
@@ -355,83 +368,83 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "wrap"
+          "move": "wrap",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "growth"
+          "move": "growth",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "vine_whip"
+          "move": "vine_whip",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "twister"
+          "move": "twister",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "vine_whip"
+          "move": "vine_whip",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "twister"
+          "move": "twister",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "dragon_rage"
+          "move": "dragon_rage",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "mega_drain"
+          "move": "mega_drain",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "agility"
+          "move": "agility",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "dragon_tail"
+          "move": "dragon_tail",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 39,
-          "move": "giga_drain"
+          "move": "giga_drain",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 47,
-          "move": "dragon_rush"
+          "move": "dragon_rush",
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "wood_hammer"
+          "move": "wood_hammer",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 61,
-          "move": "dragon_dance"
+          "move": "dragon_dance",
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 67,
-          "move": "outrage"
+          "move": "outrage",
+          "level": 67
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 75,
-          "move": "leaf_storm"
+          "move": "leaf_storm",
+          "level": 75
         },
         {
           "klass": "TutorLearnableMove",
@@ -601,7 +614,20 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "148_01",
+        "iconShiny": "",
+        "front": "148_01",
+        "frontShiny": "148",
+        "back": "148_01",
+        "backShiny": "148",
+        "footprint": "148",
+        "character": "",
+        "characterShiny": "",
+        "cry": "148cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

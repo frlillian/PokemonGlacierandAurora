@@ -44,73 +44,73 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "helping_hand"
+          "move": "helping_hand",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "move": "tackle",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tail_whip"
+          "move": "tail_whip",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "sand_attack"
+          "move": "sand_attack",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "confusion"
+          "move": "confusion",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "quick_attack"
+          "move": "quick_attack",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "swift"
+          "move": "swift",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "psybeam"
+          "move": "psybeam",
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "future_sight"
+          "move": "future_sight",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "psych_up"
+          "move": "psych_up",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "morning_sun"
+          "move": "morning_sun",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "psychic"
+          "move": "psychic",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 41,
-          "move": "last_resort"
+          "move": "last_resort",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 45,
-          "move": "power_swap"
+          "move": "power_swap",
+          "level": 45
         },
         {
           "klass": "TutorLearnableMove",
@@ -304,7 +304,20 @@
           "klass": "TechLearnableMove",
           "move": "dazzling_gleam"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "196",
+        "iconShiny": "",
+        "front": "196",
+        "frontShiny": "196",
+        "back": "196",
+        "backShiny": "196",
+        "footprint": "196",
+        "character": "196_0",
+        "characterShiny": "196s_0",
+        "cry": "196cry.ogg",
+        "hasFemale": false
+      }
     },
     {
       "form": 1,
@@ -347,73 +360,73 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "helping_hand"
+          "move": "helping_hand",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "move": "tackle",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tail_whip"
+          "move": "tail_whip",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "sand_attack"
+          "move": "sand_attack",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "confusion"
+          "move": "confusion",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "quick_attack"
+          "move": "quick_attack",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "rock_polish"
+          "move": "rock_polish",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "psybeam"
+          "move": "psybeam",
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "future_sight"
+          "move": "future_sight",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "stealth_rock"
+          "move": "stealth_rock",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "morning_sun"
+          "move": "morning_sun",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "psychic"
+          "move": "psychic",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 41,
-          "move": "power_gem"
+          "move": "power_gem",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 45,
-          "move": "power_swap"
+          "move": "power_swap",
+          "level": 45
         },
         {
           "klass": "TutorLearnableMove",
@@ -635,7 +648,20 @@
           "klass": "EvolutionLearnableMove",
           "move": "ancient_power"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "196_01",
+        "iconShiny": "",
+        "front": "196_01",
+        "frontShiny": "196",
+        "back": "196_01",
+        "backShiny": "196",
+        "footprint": "196",
+        "character": "196_0",
+        "characterShiny": "",
+        "cry": "196cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

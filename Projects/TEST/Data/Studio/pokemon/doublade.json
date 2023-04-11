@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "aegislash",
+          "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "dusk_stone"
             }
-          ],
-          "dbSymbol": "aegislash",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -55,78 +55,78 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "move": "tackle",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "swords_dance"
+          "move": "swords_dance",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "fury_cutter"
+          "move": "fury_cutter",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 8,
-          "move": "mist"
+          "move": "mist",
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "pursuit"
+          "move": "pursuit",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 18,
-          "move": "haze"
+          "move": "haze",
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "shadow_sneak"
+          "move": "shadow_sneak",
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 22,
-          "move": "aerial_ace"
+          "move": "aerial_ace",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 26,
-          "move": "retaliate"
+          "move": "retaliate",
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "slash"
+          "move": "slash",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 32,
-          "move": "hail"
+          "move": "hail",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 36,
-          "move": "night_slash"
+          "move": "night_slash",
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 41,
-          "move": "power_trick"
+          "move": "power_trick",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 45,
-          "move": "blizzard"
+          "move": "blizzard",
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 51,
-          "move": "ice_hammer"
+          "move": "ice_hammer",
+          "level": 51
         },
         {
           "klass": "TutorLearnableMove",
@@ -260,7 +260,20 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "680",
+        "iconShiny": "",
+        "front": "680",
+        "frontShiny": "680",
+        "back": "680",
+        "backShiny": "680",
+        "footprint": "",
+        "character": "680_0",
+        "characterShiny": "680s_0",
+        "cry": "680cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

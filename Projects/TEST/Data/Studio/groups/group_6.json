@@ -9,7 +9,7 @@
   "encounters": [
     {
       "specie": "abra",
-      "form": 0,
+      "form": 1,
       "shinySetup": {
         "kind": "rate",
         "rate": 1
@@ -46,10 +46,6 @@
             "__undef__",
             "__undef__"
           ]
-        },
-        {
-          "type": "ability",
-          "value": "snow_cloak"
         }
       ]
     },
@@ -139,7 +135,7 @@
     },
     {
       "specie": "mienfoo",
-      "form": 0,
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
@@ -176,10 +172,6 @@
             "__undef__",
             "__undef__"
           ]
-        },
-        {
-          "type": "ability",
-          "value": "snow_cloak"
         }
       ]
     },
@@ -273,7 +265,7 @@
     },
     {
       "specie": "teddiursa",
-      "form": 0,
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
@@ -308,12 +300,8 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "hail"
           ]
-        },
-        {
-          "type": "ability",
-          "value": "overcoat"
         }
       ]
     },

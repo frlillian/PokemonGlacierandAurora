@@ -50,6 +50,19 @@
         "moxie"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "813",
+        "iconShiny": "813",
+        "front": "813",
+        "frontShiny": "813",
+        "back": "813",
+        "backShiny": "813",
+        "footprint": "",
+        "character": "026s_0",
+        "characterShiny": "026s_0",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",

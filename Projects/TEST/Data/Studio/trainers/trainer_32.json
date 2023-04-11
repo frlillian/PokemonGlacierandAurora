@@ -1,1 +1,190 @@
-{"klass":"TrainerBattleSetup","id":32,"dbSymbol":"trainer_32","vsType":1,"isCouple":false,"baseMoney":30,"battlers":["001"],"bagEntries":[],"battleId":0,"ai":2,"party":[{"specie":"staravia","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"fixed","level":14},"randomEncounterChance":1,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"ivs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]},{"type":"originalTrainerName","value":"Tim"},{"type":"originalTrainerId","value":0}]},{"specie":"growlithe","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"fixed","level":18},"randomEncounterChance":1,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"ivs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]},{"type":"originalTrainerName","value":"Tim"},{"type":"originalTrainerId","value":0}]},{"specie":"sawk","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"fixed","level":20},"randomEncounterChance":1,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"ivs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]},{"type":"originalTrainerName","value":"Tim"},{"type":"originalTrainerId","value":0}]}]}
+{
+  "klass": "TrainerBattleSetup",
+  "id": 32,
+  "dbSymbol": "trainer_32",
+  "vsType": 1,
+  "isCouple": false,
+  "baseMoney": 30,
+  "battlers": [
+    "001"
+  ],
+  "bagEntries": [],
+  "battleId": 0,
+  "ai": 2,
+  "party": [
+    {
+      "specie": "staravia",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 20
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Tim"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "specie": "growlithe",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 20
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Tim"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "specie": "sawk",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 20
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Tim"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

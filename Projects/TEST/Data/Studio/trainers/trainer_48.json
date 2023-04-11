@@ -71,7 +71,7 @@
       ]
     },
     {
-      "specie": "growlithe",
+      "specie": "arcanine",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -137,7 +137,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 25
+        "level": 26
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

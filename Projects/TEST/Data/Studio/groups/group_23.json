@@ -4,7 +4,9 @@
   "dbSymbol": "group_23",
   "systemTag": "Ocean",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -167,7 +169,7 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
+            "shadow_sneak",
             "__undef__",
             "__undef__",
             "__undef__"

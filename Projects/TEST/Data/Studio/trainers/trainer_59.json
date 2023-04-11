@@ -21,7 +21,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 32
+        "level": 35
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -87,7 +87,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 34
+        "level": 37
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -153,7 +153,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 33
+        "level": 37
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -219,7 +219,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 35
+        "level": 37
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -285,7 +285,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 40
+        "level": 41
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -339,6 +339,68 @@
         {
           "type": "ability",
           "value": "sand_veil"
+        }
+      ]
+    },
+    {
+      "specie": "sunphin",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 37
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "calm_mind",
+            "brine",
+            "moonblast",
+            "focus_blast"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Elizabeth"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "torrent"
         }
       ]
     }

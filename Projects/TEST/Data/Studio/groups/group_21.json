@@ -4,11 +4,13 @@
   "dbSymbol": "group_21",
   "systemTag": "Ocean",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
-      "specie": "marill",
+      "specie": "azumarill",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -21,7 +23,7 @@
           "maximumLevel": 35
         }
       },
-      "randomEncounterChance": 30,
+      "randomEncounterChance": 20,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -190,6 +192,48 @@
         }
       },
       "randomEncounterChance": 5,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "inkay",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 30,
+          "maximumLevel": 35
+        }
+      },
+      "randomEncounterChance": 10,
       "expandPokemonSetup": [
         {
           "type": "evs",

@@ -23,6 +23,7 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "maroaxe",
           "form": 0,
           "conditions": [
             {
@@ -33,8 +34,7 @@
               "type": "stone",
               "value": "fire_stone"
             }
-          ],
-          "dbSymbol": "maroaxe"
+          ]
         }
       ],
       "experienceType": 1,
@@ -68,93 +68,93 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "growl"
+          "move": "growl",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tail_whip"
+          "move": "tail_whip",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "bone_club"
+          "move": "bone_club",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "headbutt"
+          "move": "headbutt",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 3,
-          "move": "tail_whip"
+          "move": "tail_whip",
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "bone_club"
+          "move": "bone_club",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "headbutt"
+          "move": "headbutt",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "leer"
+          "move": "leer",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "focus_energy"
+          "move": "focus_energy",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "bonemerang"
+          "move": "bonemerang",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "rage"
+          "move": "rage",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 27,
-          "move": "false_swipe"
+          "move": "false_swipe",
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "thrash"
+          "move": "thrash",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "fling"
+          "move": "fling",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "bone_rush"
+          "move": "bone_rush",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 49,
-          "move": "endeavor"
+          "move": "endeavor",
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "double_edge"
+          "move": "double_edge",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 59,
-          "move": "retaliate"
+          "move": "retaliate",
+          "level": 59
         },
         {
           "klass": "TutorLearnableMove",
@@ -388,7 +388,20 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "105",
+        "iconShiny": "",
+        "front": "105",
+        "frontShiny": "105",
+        "back": "105",
+        "backShiny": "105",
+        "footprint": "105",
+        "character": "105_0",
+        "characterShiny": "105s_0",
+        "cry": "105cry.ogg",
+        "hasFemale": false
+      }
     },
     {
       "form": 1,
@@ -410,6 +423,7 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "maroaxe",
           "form": 1,
           "conditions": [
             {
@@ -420,8 +434,7 @@
               "type": "stone",
               "value": "fire_stone"
             }
-          ],
-          "dbSymbol": "maroaxe"
+          ]
         }
       ],
       "experienceType": 1,
@@ -708,7 +721,20 @@
           "klass": "EvolutionLearnableMove",
           "move": "shadow_bone"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "105_01",
+        "iconShiny": "",
+        "front": "105_01",
+        "frontShiny": "105_01",
+        "back": "105_01",
+        "backShiny": "105_01",
+        "footprint": "105",
+        "character": "",
+        "characterShiny": "",
+        "cry": "105cry.ogg",
+        "hasFemale": false
+      }
     },
     {
       "form": 2,
@@ -757,7 +783,20 @@
         "battle_armor"
       ],
       "frontOffsetY": 24,
-      "moveSet": []
+      "moveSet": [],
+      "resources": {
+        "icon": "105",
+        "iconShiny": "",
+        "front": "105",
+        "frontShiny": "105",
+        "back": "105",
+        "backShiny": "105",
+        "footprint": "105",
+        "character": "",
+        "characterShiny": "",
+        "cry": "105cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

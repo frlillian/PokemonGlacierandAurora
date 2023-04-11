@@ -243,7 +243,20 @@
           "klass": "EvolutionLearnableMove",
           "move": "clanging_scales"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "784",
+        "iconShiny": "",
+        "front": "784",
+        "frontShiny": "784",
+        "back": "784",
+        "backShiny": "784",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      }
     },
     {
       "form": 1,
@@ -283,7 +296,20 @@
         "overcoat"
       ],
       "frontOffsetY": 8,
-      "moveSet": []
+      "moveSet": [],
+      "resources": {
+        "icon": "784",
+        "iconShiny": "",
+        "front": "784",
+        "frontShiny": "784",
+        "back": "784",
+        "backShiny": "784",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      }
     }
   ]
 }

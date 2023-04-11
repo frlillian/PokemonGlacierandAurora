@@ -2,7 +2,7 @@
   "klass": "Group",
   "id": 28,
   "dbSymbol": "group_28",
-  "systemTag": "Cave",
+  "systemTag": "RegularGround",
   "terrainTag": 0,
   "isDoubleBattle": false,
   "customConditions": [],

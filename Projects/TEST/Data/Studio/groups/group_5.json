@@ -17,7 +17,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 6,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
@@ -59,11 +59,11 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 6,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
-      "randomEncounterChance": 20,
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -101,11 +101,11 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 6,
+          "minimumLevel": 8,
           "maximumLevel": 12
         }
       },
-      "randomEncounterChance": 20,
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -143,7 +143,7 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 6,
+          "minimumLevel": 8,
           "maximumLevel": 13
         }
       },
@@ -185,11 +185,53 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 6,
+          "minimumLevel": 8,
           "maximumLevel": 13
         }
       },
-      "randomEncounterChance": 20,
+      "randomEncounterChance": 15,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "sandshrew",
+      "form": 1,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 8,
+          "maximumLevel": 12
+        }
+      },
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",

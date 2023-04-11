@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "pikachu",
+          "form": 1,
           "conditions": [
             {
               "type": "minLoyalty",
               "value": 220
             }
-          ],
-          "dbSymbol": "pikachu",
-          "form": 1
+          ]
         }
       ],
       "experienceType": 1,
@@ -55,33 +55,33 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "thunder_shock"
+          "move": "thunder_shock",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "charm"
+          "move": "charm",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "tail_whip"
+          "move": "tail_whip",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 10,
-          "move": "sweet_kiss"
+          "move": "sweet_kiss",
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "nasty_plot"
+          "move": "nasty_plot",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 18,
-          "move": "thunder_wave"
+          "move": "thunder_wave",
+          "level": 18
         },
         {
           "klass": "TutorLearnableMove",
@@ -291,7 +291,20 @@
           "klass": "BreedLearnableMove",
           "move": "disarming_voice"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "172",
+        "iconShiny": "",
+        "front": "172",
+        "frontShiny": "172",
+        "back": "172",
+        "backShiny": "172",
+        "footprint": "172",
+        "character": "172_0",
+        "characterShiny": "172s_0",
+        "cry": "172cry.ogg",
+        "hasFemale": false
+      }
     },
     {
       "form": 1,
@@ -313,14 +326,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "pikachu",
+          "form": 15,
           "conditions": [
             {
               "type": "minLevel",
               "value": 18
             }
-          ],
-          "dbSymbol": "pikachu",
-          "form": 15
+          ]
         }
       ],
       "experienceType": 1,
@@ -345,93 +358,93 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tail_whip"
+          "move": "tail_whip",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "thunder_shock"
+          "move": "thunder_shock",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "growl"
+          "move": "growl",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "meditate"
+          "move": "meditate",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "mach_punch"
+          "move": "mach_punch",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "electro_ball"
+          "move": "electro_ball",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "nuzzle"
+          "move": "nuzzle",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "counter"
+          "move": "counter",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "force_palm"
+          "move": "force_palm",
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 22,
-          "move": "low_kick"
+          "move": "low_kick",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "spark"
+          "move": "spark",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "discharge"
+          "move": "discharge",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "thunderbolt"
+          "move": "thunderbolt",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 35,
-          "move": "jump_kick"
+          "move": "jump_kick",
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 42,
-          "move": "aura_sphere"
+          "move": "aura_sphere",
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 45,
-          "move": "wild_charge"
+          "move": "wild_charge",
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 46,
-          "move": "light_screen"
+          "move": "light_screen",
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 50,
-          "move": "thunder"
+          "move": "thunder",
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
@@ -646,7 +659,20 @@
           "klass": "BreedLearnableMove",
           "move": "disarming_voice"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "172_01",
+        "iconShiny": "",
+        "front": "172_01",
+        "frontShiny": "172",
+        "back": "172_01",
+        "backShiny": "172",
+        "footprint": "172",
+        "character": "172_1",
+        "characterShiny": "172s_1",
+        "cry": "172cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "hakamo_o",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 28
             }
-          ],
-          "dbSymbol": "hakamo_o",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 0,
@@ -230,7 +230,20 @@
           "klass": "TechLearnableMove",
           "move": "snarl"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "782",
+        "iconShiny": "",
+        "front": "782",
+        "frontShiny": "782",
+        "back": "782",
+        "backShiny": "782",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      }
     }
   ]
 }

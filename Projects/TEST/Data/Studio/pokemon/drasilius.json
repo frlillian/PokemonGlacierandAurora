@@ -22,7 +22,7 @@
       "evAts": 0,
       "evDfs": 0,
       "evolutions": [],
-      "experienceType": 0,
+      "experienceType": 3,
       "baseExperience": 400,
       "baseLoyalty": 70,
       "catchRate": 45,
@@ -53,95 +53,108 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "confusion"
+          "move": "confusion",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "disable"
+          "move": "disable",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "safeguard"
+          "move": "safeguard",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 8,
-          "move": "swift"
+          "move": "swift",
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "future_sight"
+          "move": "future_sight",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 22,
-          "move": "psych_up"
+          "move": "psych_up",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "miracle_eye"
+          "move": "miracle_eye",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 36,
-          "move": "psycho_cut"
+          "move": "psycho_cut",
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "giga_drain"
+          "move": "giga_drain",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "guard_swap"
+          "move": "guard_swap",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 50,
-          "move": "synthesis"
+          "move": "synthesis",
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 57,
-          "move": "psychic"
+          "move": "psychic",
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 64,
-          "move": "barrier"
+          "move": "barrier",
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 70,
-          "move": "aura_sphere"
+          "move": "aura_sphere",
+          "level": 70
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 79,
-          "move": "leaf_storm"
+          "move": "leaf_storm",
+          "level": 79
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 86,
-          "move": "mist"
+          "move": "mist",
+          "level": 86
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 93,
-          "move": "me_first"
+          "move": "me_first",
+          "level": 93
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 100,
-          "move": "psystrike"
+          "move": "psystrike",
+          "level": 100
         }
-      ]
+      ],
+      "resources": {
+        "icon": "825",
+        "iconShiny": "",
+        "front": "825",
+        "frontShiny": "",
+        "back": "825",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      }
     }
   ]
 }

@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "machamp",
+          "form": 0,
           "conditions": [
             {
               "type": "trade",
               "value": true
             }
-          ],
-          "form": 0,
-          "dbSymbol": "machamp"
+          ]
         }
       ],
       "experienceType": 3,
@@ -64,98 +64,98 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "low_kick"
+          "move": "low_kick",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "leer"
+          "move": "leer",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "focus_energy"
+          "move": "focus_energy",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "karate_chop"
+          "move": "karate_chop",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 3,
-          "move": "focus_energy"
+          "move": "focus_energy",
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "karate_chop"
+          "move": "karate_chop",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "foresight"
+          "move": "foresight",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "low_sweep"
+          "move": "low_sweep",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "seismic_toss"
+          "move": "seismic_toss",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 19,
-          "move": "revenge"
+          "move": "revenge",
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "knock_off"
+          "move": "knock_off",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "vital_throw"
+          "move": "vital_throw",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 27,
-          "move": "wake_up_slap"
+          "move": "wake_up_slap",
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "dual_chop"
+          "move": "dual_chop",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "submission"
+          "move": "submission",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "bulk_up"
+          "move": "bulk_up",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 47,
-          "move": "cross_chop"
+          "move": "cross_chop",
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "scary_face"
+          "move": "scary_face",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 57,
-          "move": "dynamic_punch"
+          "move": "dynamic_punch",
+          "level": 57
         },
         {
           "klass": "TutorLearnableMove",
@@ -357,7 +357,20 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "067",
+        "iconShiny": "",
+        "front": "067",
+        "frontShiny": "067",
+        "back": "067",
+        "backShiny": "067",
+        "footprint": "067",
+        "character": "067_0",
+        "characterShiny": "067s_0",
+        "cry": "067cry.ogg",
+        "hasFemale": false
+      }
     },
     {
       "form": 1,
@@ -379,14 +392,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "machamp",
+          "form": 1,
           "conditions": [
             {
               "type": "stone",
               "value": "water_stone"
             }
-          ],
-          "form": 1,
-          "dbSymbol": "machamp"
+          ]
         }
       ],
       "experienceType": 3,
@@ -420,98 +433,98 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "low_kick"
+          "move": "low_kick",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "leer"
+          "move": "leer",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "focus_energy"
+          "move": "focus_energy",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "karate_chop"
+          "move": "karate_chop",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 3,
-          "move": "focus_energy"
+          "move": "focus_energy",
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "karate_chop"
+          "move": "karate_chop",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "foresight"
+          "move": "foresight",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "low_sweep"
+          "move": "low_sweep",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "seismic_toss"
+          "move": "seismic_toss",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 19,
-          "move": "revenge"
+          "move": "revenge",
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "aqua_jet"
+          "move": "aqua_jet",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "vital_throw"
+          "move": "vital_throw",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 27,
-          "move": "wake_up_slap"
+          "move": "wake_up_slap",
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "dual_chop"
+          "move": "dual_chop",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "dive"
+          "move": "dive",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "bulk_up"
+          "move": "bulk_up",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 47,
-          "move": "cross_chop"
+          "move": "cross_chop",
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "scary_face"
+          "move": "scary_face",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 57,
-          "move": "dynamic_punch"
+          "move": "dynamic_punch",
+          "level": 57
         },
         {
           "klass": "TutorLearnableMove",
@@ -717,7 +730,20 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "067_01",
+        "iconShiny": "",
+        "front": "067_01",
+        "frontShiny": "067",
+        "back": "067_01",
+        "backShiny": "067",
+        "footprint": "067",
+        "character": "",
+        "characterShiny": "",
+        "cry": "067cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

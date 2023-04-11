@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "klang",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 38
             }
-          ],
-          "dbSymbol": "klang",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 3,
@@ -55,78 +55,78 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "vise_grip"
+          "move": "vise_grip",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 6,
-          "move": "charge"
+          "move": "charge",
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "thunder_shock"
+          "move": "thunder_shock",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 16,
-          "move": "gear_grind"
+          "move": "gear_grind",
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "bind"
+          "move": "bind",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 26,
-          "move": "charge_beam"
+          "move": "charge_beam",
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 31,
-          "move": "autotomize"
+          "move": "autotomize",
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 36,
-          "move": "mirror_shot"
+          "move": "mirror_shot",
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 39,
-          "move": "screech"
+          "move": "screech",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 42,
-          "move": "discharge"
+          "move": "discharge",
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 45,
-          "move": "metal_sound"
+          "move": "metal_sound",
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 48,
-          "move": "shift_gear"
+          "move": "shift_gear",
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 50,
-          "move": "lock_on"
+          "move": "lock_on",
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 54,
-          "move": "zap_cannon"
+          "move": "zap_cannon",
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 57,
-          "move": "hyper_beam"
+          "move": "hyper_beam",
+          "level": 57
         },
         {
           "klass": "TutorLearnableMove",
@@ -264,7 +264,20 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "599",
+        "iconShiny": "",
+        "front": "599",
+        "frontShiny": "599",
+        "back": "599",
+        "backShiny": "599",
+        "footprint": "599",
+        "character": "599_0",
+        "characterShiny": "599s_0",
+        "cry": "599cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

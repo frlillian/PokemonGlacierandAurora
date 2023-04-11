@@ -303,7 +303,7 @@
     },
     {
       "specie": "munchlax",
-      "form": 0,
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
@@ -340,10 +340,6 @@
             "__undef__",
             "__undef__"
           ]
-        },
-        {
-          "type": "ability",
-          "value": "pixilate"
         }
       ]
     }

@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "yanmega",
+          "form": 0,
           "conditions": [
             {
               "type": "skill1",
               "value": "ancient_power"
             }
-          ],
-          "dbSymbol": "yanmega",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -55,83 +55,83 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "move": "tackle",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "foresight"
+          "move": "foresight",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 6,
-          "move": "quick_attack"
+          "move": "quick_attack",
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "double_team"
+          "move": "double_team",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 14,
-          "move": "sonic_boom"
+          "move": "sonic_boom",
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "detect"
+          "move": "detect",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 22,
-          "move": "supersonic"
+          "move": "supersonic",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 27,
-          "move": "uproar"
+          "move": "uproar",
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 30,
-          "move": "pursuit"
+          "move": "pursuit",
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "ancient_power"
+          "move": "ancient_power",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 38,
-          "move": "hypnosis"
+          "move": "hypnosis",
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "wing_attack"
+          "move": "wing_attack",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 46,
-          "move": "screech"
+          "move": "screech",
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 49,
-          "move": "u_turn"
+          "move": "u_turn",
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 54,
-          "move": "air_slash"
+          "move": "air_slash",
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 57,
-          "move": "bug_buzz"
+          "move": "bug_buzz",
+          "level": 57
         },
         {
           "klass": "TutorLearnableMove",
@@ -301,7 +301,20 @@
           "klass": "BreedLearnableMove",
           "move": "feint"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "193",
+        "iconShiny": "",
+        "front": "193",
+        "frontShiny": "193",
+        "back": "193",
+        "backShiny": "193",
+        "footprint": "193",
+        "character": "193_0",
+        "characterShiny": "193s_0",
+        "cry": "193cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

@@ -1,1 +1,265 @@
-{"klass":"Group","id":12,"dbSymbol":"group_12","systemTag":"Cave","terrainTag":0,"isDoubleBattle":false,"customConditions":[],"encounters":[{"specie":"onix","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":20,"maximumLevel":25}},"randomEncounterChance":20,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]}]},{"specie":"aron","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":20,"maximumLevel":25}},"randomEncounterChance":20,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","thunder_fang"]}]},{"specie":"dwebble","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":20,"maximumLevel":25}},"randomEncounterChance":20,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]}]},{"specie":"woobat","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":20,"maximumLevel":25}},"randomEncounterChance":20,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]}]},{"specie":"golbat","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":20,"maximumLevel":25}},"randomEncounterChance":20,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]}]}]}
+{
+  "klass": "Group",
+  "id": 12,
+  "dbSymbol": "group_12",
+  "systemTag": "Cave",
+  "terrainTag": 0,
+  "tool": null,
+  "isDoubleBattle": false,
+  "isHordeBattle": false,
+  "customConditions": [],
+  "encounters": [
+    {
+      "specie": "onix",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 20,
+          "maximumLevel": 25
+        }
+      },
+      "randomEncounterChance": 20,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "aron",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 20,
+          "maximumLevel": 25
+        }
+      },
+      "randomEncounterChance": 10,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "thunder_fang"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "dwebble",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 20,
+          "maximumLevel": 25
+        }
+      },
+      "randomEncounterChance": 20,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "woobat",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 20,
+          "maximumLevel": 25
+        }
+      },
+      "randomEncounterChance": 20,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "magby",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 20,
+          "maximumLevel": 25
+        }
+      },
+      "randomEncounterChance": 10,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "nasty_plot"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "murkrow",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 20,
+          "maximumLevel": 25
+        }
+      },
+      "randomEncounterChance": 20,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    }
+  ]
+}

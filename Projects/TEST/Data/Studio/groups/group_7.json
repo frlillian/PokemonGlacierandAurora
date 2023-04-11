@@ -1,1 +1,263 @@
-{"klass":"Group","id":7,"dbSymbol":"group_7","systemTag":"Sand","terrainTag":0,"isDoubleBattle":false,"customConditions":[],"encounters":[{"specie":"vulpix","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":11,"maximumLevel":15}},"randomEncounterChance":15,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]}]},{"specie":"houndour","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":11,"maximumLevel":15}},"randomEncounterChance":15,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]}]},{"specie":"charmander","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":11,"maximumLevel":13}},"randomEncounterChance":5,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["scald","__undef__","__undef__","__undef__"]}]},{"specie":"torkoal","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":11,"maximumLevel":15}},"randomEncounterChance":30,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]}]},{"specie":"larvesta","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":10,"maximumLevel":13}},"randomEncounterChance":5,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["water_pulse","__undef__","__undef__","__undef__"]}]},{"specie":"numel","form":0,"shinySetup":{"kind":"automatic","rate":-1},"levelSetup":{"kind":"minmax","level":{"minimumLevel":10,"maximumLevel":13}},"randomEncounterChance":30,"expandPokemonSetup":[{"type":"evs","value":{"hp":0,"atk":0,"dfe":0,"spd":0,"ats":0,"dfs":0}},{"type":"loyalty","value":70},{"type":"moves","value":["__undef__","__undef__","__undef__","__undef__"]}]}]}
+{
+  "klass": "Group",
+  "id": 7,
+  "dbSymbol": "group_7",
+  "systemTag": "Sand",
+  "terrainTag": 0,
+  "isDoubleBattle": false,
+  "customConditions": [],
+  "encounters": [
+    {
+      "specie": "vulpix",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 11,
+          "maximumLevel": 15
+        }
+      },
+      "randomEncounterChance": 15,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "houndour",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 11,
+          "maximumLevel": 15
+        }
+      },
+      "randomEncounterChance": 15,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "charmander",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 11,
+          "maximumLevel": 13
+        }
+      },
+      "randomEncounterChance": 10,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "scald",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "torkoal",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 11,
+          "maximumLevel": 15
+        }
+      },
+      "randomEncounterChance": 25,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "fennekin",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 10,
+          "maximumLevel": 13
+        }
+      },
+      "randomEncounterChance": 10,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "water_pulse",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    },
+    {
+      "specie": "numel",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 10,
+          "maximumLevel": 13
+        }
+      },
+      "randomEncounterChance": 25,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    }
+  ]
+}

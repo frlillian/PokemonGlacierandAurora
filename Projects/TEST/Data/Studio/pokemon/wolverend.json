@@ -22,7 +22,7 @@
       "evAts": 0,
       "evDfs": 0,
       "evolutions": [],
-      "experienceType": 0,
+      "experienceType": 3,
       "baseExperience": 216,
       "baseLoyalty": 70,
       "catchRate": 45,
@@ -50,51 +50,64 @@
         "reckless"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "811",
+        "iconShiny": "",
+        "front": "811",
+        "frontShiny": "",
+        "back": "811",
+        "backShiny": "",
+        "footprint": "",
+        "character": "811_0",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "aura_sphere"
+          "move": "aura_sphere",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "reversal"
+          "move": "reversal",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "pound"
+          "move": "pound",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "meditate"
+          "move": "meditate",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "detect"
+          "move": "detect",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "fake_out"
+          "move": "fake_out",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "meditate"
+          "move": "meditate",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "detect"
+          "move": "detect",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "fake_out"
+          "move": "fake_out",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
@@ -103,23 +116,23 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "swift"
+          "move": "swift",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "calm_mind"
+          "move": "calm_mind",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "drain_punch"
+          "move": "drain_punch",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "jump_kick"
+          "move": "jump_kick",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
@@ -128,18 +141,18 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 49,
-          "move": "shadow_force"
+          "move": "shadow_force",
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 60,
-          "move": "high_jump_kick"
+          "move": "high_jump_kick",
+          "level": 60
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 63,
-          "move": "reversal"
+          "move": "reversal",
+          "level": 63
         },
         {
           "klass": "TutorLearnableMove",

@@ -23,36 +23,38 @@
       "evDfs": 1,
       "evolutions": [
         {
+          "dbSymbol": "vaporeon",
+          "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "water_stone"
             }
-          ],
-          "dbSymbol": "vaporeon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "jolteon",
+          "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "thunder_stone"
             }
-          ],
-          "dbSymbol": "jolteon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "flareon",
+          "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "fire_stone"
             }
-          ],
-          "dbSymbol": "flareon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "espeon",
+          "form": 0,
           "conditions": [
             {
               "type": "minLoyalty",
@@ -77,11 +79,11 @@
                 94
               ]
             }
-          ],
-          "dbSymbol": "espeon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "umbreon",
+          "form": 1,
           "conditions": [
             {
               "type": "minLoyalty",
@@ -107,21 +109,21 @@
                 0
               ]
             }
-          ],
-          "dbSymbol": "umbreon",
-          "form": 1
+          ]
         },
         {
+          "dbSymbol": "leafeon",
+          "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "leaf_stone"
             }
-          ],
-          "dbSymbol": "leafeon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "glaceon",
+          "form": 0,
           "conditions": [
             {
               "type": "maps",
@@ -133,11 +135,11 @@
               "type": "minLoyalty",
               "value": 220
             }
-          ],
-          "dbSymbol": "glaceon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "sylveon",
+          "form": 0,
           "conditions": [
             {
               "type": "minLoyalty",
@@ -147,19 +149,17 @@
               "type": "func",
               "value": "elv_nymphali"
             }
-          ],
-          "dbSymbol": "sylveon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "vikeon",
+          "form": 0,
           "conditions": [
             {
               "type": "itemHold",
               "value": "metal_coat"
             }
-          ],
-          "dbSymbol": "vikeon",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -184,88 +184,88 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "helping_hand"
+          "move": "helping_hand",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "growl"
+          "move": "growl",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "move": "tackle",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tail_whip"
+          "move": "tail_whip",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "sand_attack"
+          "move": "sand_attack",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "baby_doll_eyes"
+          "move": "baby_doll_eyes",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 10,
-          "move": "swift"
+          "move": "swift",
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "quick_attack"
+          "move": "quick_attack",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "bite"
+          "move": "bite",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "refresh"
+          "move": "refresh",
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "covet"
+          "move": "covet",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "take_down"
+          "move": "take_down",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "charm"
+          "move": "charm",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "baton_pass"
+          "move": "baton_pass",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "double_edge"
+          "move": "double_edge",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 41,
-          "move": "last_resort"
+          "move": "last_resort",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 45,
-          "move": "trump_card"
+          "move": "trump_card",
+          "level": 45
         },
         {
           "klass": "TutorLearnableMove",
@@ -439,7 +439,20 @@
           "klass": "BreedLearnableMove",
           "move": "stored_power"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "133",
+        "iconShiny": "",
+        "front": "133",
+        "frontShiny": "133",
+        "back": "133",
+        "backShiny": "133",
+        "footprint": "133",
+        "character": "133_0",
+        "characterShiny": "133s_0",
+        "cry": "133cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

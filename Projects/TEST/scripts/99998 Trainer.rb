@@ -4,6 +4,11 @@ class Interpreter
         start_trainer_battle(trainer_id, troop_id: troop_id, bgm: bgm)
     end
 
+    def all_sleep()
+        $actors.each do |pokemon|
+            $actors[0].status_sleep(true)
+        end
+    end
     def typeCheck(*types)
         healed = []
         types.map!{|type| data_type(type).id}
@@ -156,9 +161,9 @@ class Interpreter
         bi = Battle::Logic::BattleInfo.new
         bi.add_party(0, *bi.player_basic_info)
         party = []
-        party << PFM::Pokemon.generate_from_hash(id: 261, level: 12, trainer_name: 'Genna', trainer_id: 1)
-        party << PFM::Pokemon.generate_from_hash(id: 821, level: 14, trainer_name: 'Genna', trainer_id: 1)
-        party << PFM::Pokemon.generate_from_hash(id: 5, level: 16, shiny: true, trainer_name: 'Genna', trainer_id: 1)
+        party << PFM::Pokemon.generate_from_hash(id: 261, level: 16, trainer_name: 'Genna', trainer_id: 1)
+        party << PFM::Pokemon.generate_from_hash(id: 821, level: 16, trainer_name: 'Genna', trainer_id: 1)
+        party << PFM::Pokemon.generate_from_hash(id: 5, level: 18, shiny: true, trainer_name: 'Genna', trainer_id: 1)
         bag = PFM::Bag.new
         bag.add_item(26, 2)
         bi.add_party(1, party, 'Genna', 'Ranger', 'dp_33', bag, 255, 4)
@@ -375,7 +380,7 @@ module PFM
         end
         ShotItem = %i[__undef__ long_barrelattachment explosive_shot]
         FORM_CALIBRATE[:insurvern] = proc { @form = ShotItem.index(item_db_symbol).to_i }
-        # FORM_CALIBRATE[:blastoise] = proc { @form = ShotItem.index(item_db_symbol).to_i }
+        FORM_CALIBRATE[:blastoise] = proc { @form = ShotItem.index(item_db_symbol).to_i }
     end
 end  
 

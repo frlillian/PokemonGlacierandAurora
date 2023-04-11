@@ -50,96 +50,109 @@
         "battle_armor"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "812",
+        "iconShiny": "",
+        "front": "812",
+        "frontShiny": "",
+        "back": "812",
+        "backShiny": "",
+        "footprint": "",
+        "character": "105_0",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "growl"
+          "move": "growl",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tail_whip"
+          "move": "tail_whip",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "metal_claw"
+          "move": "metal_claw",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "headbutt"
+          "move": "headbutt",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 3,
-          "move": "tail_whip"
+          "move": "tail_whip",
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "bone_club"
+          "move": "bone_club",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "headbutt"
+          "move": "headbutt",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "leer"
+          "move": "leer",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "focus_energy"
+          "move": "focus_energy",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 21,
-          "move": "bonemerang"
+          "move": "bonemerang",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "rage"
+          "move": "rage",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "metal_claw"
+          "move": "metal_claw",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "iron_head"
+          "move": "iron_head",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "metal_sound"
+          "move": "metal_sound",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 40,
-          "move": "thrash"
+          "move": "thrash",
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 49,
-          "move": "iron_defense"
+          "move": "iron_defense",
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "double_edge"
+          "move": "double_edge",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 59,
-          "move": "meteor_mash"
+          "move": "meteor_mash",
+          "level": 59
         },
         {
           "klass": "TechLearnableMove",
@@ -370,6 +383,19 @@
         "battle_armor"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "812_01",
+        "iconShiny": "",
+        "front": "812_01",
+        "frontShiny": "",
+        "back": "812_01",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",

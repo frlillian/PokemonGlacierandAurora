@@ -22,7 +22,7 @@
       "evAts": 2,
       "evDfs": 0,
       "evolutions": [],
-      "experienceType": 0,
+      "experienceType": 3,
       "baseExperience": 40,
       "baseLoyalty": 70,
       "catchRate": 45,
@@ -50,6 +50,19 @@
         "slush_rush"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "814",
+        "iconShiny": "",
+        "front": "814",
+        "frontShiny": "",
+        "back": "814",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -272,7 +285,7 @@
       "evAts": 2,
       "evDfs": 0,
       "evolutions": [],
-      "experienceType": 0,
+      "experienceType": 3,
       "baseExperience": 40,
       "baseLoyalty": 70,
       "catchRate": 45,
@@ -300,6 +313,19 @@
         "slush_rush"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "814_01",
+        "iconShiny": "",
+        "front": "814_01",
+        "frontShiny": "",
+        "back": "814_01",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -522,7 +548,7 @@
       "evAts": 2,
       "evDfs": 0,
       "evolutions": [],
-      "experienceType": 0,
+      "experienceType": 3,
       "baseExperience": 40,
       "baseLoyalty": 70,
       "catchRate": 45,
@@ -550,6 +576,19 @@
         "slush_rush"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "814_02",
+        "iconShiny": "",
+        "front": "814_02",
+        "frontShiny": "",
+        "back": "814_02",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",

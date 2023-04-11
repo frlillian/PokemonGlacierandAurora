@@ -256,6 +256,14 @@
     "name": "Route 4-west"
   },
   {
+    "id": 127,
+    "name": "Cave"
+  },
+  {
+    "id": 128,
+    "name": "cave lower"
+  },
+  {
     "id": 48,
     "name": "Jord Town"
   },
@@ -306,6 +314,14 @@
   {
     "id": 125,
     "name": "House East"
+  },
+  {
+    "id": 126,
+    "name": "MAP126"
+  },
+  {
+    "id": 129,
+    "name": "Temple"
   },
   {
     "id": 60,

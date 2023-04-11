@@ -53,103 +53,103 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "scratch"
+          "move": "scratch",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "defense_curl"
+          "move": "defense_curl",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "sand_attack"
+          "move": "sand_attack",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "poison_sting"
+          "move": "poison_sting",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 3,
-          "move": "sand_attack"
+          "move": "sand_attack",
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "poison_sting"
+          "move": "poison_sting",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "rollout"
+          "move": "rollout",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "rapid_spin"
+          "move": "rapid_spin",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "fury_cutter"
+          "move": "fury_cutter",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 14,
-          "move": "magnitude"
+          "move": "magnitude",
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "swift"
+          "move": "swift",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "fury_swipes"
+          "move": "fury_swipes",
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 22,
-          "move": "crush_claw"
+          "move": "crush_claw",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 24,
-          "move": "sand_tomb"
+          "move": "sand_tomb",
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 28,
-          "move": "slash"
+          "move": "slash",
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "dig"
+          "move": "dig",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 38,
-          "move": "gyro_ball"
+          "move": "gyro_ball",
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 43,
-          "move": "swords_dance"
+          "move": "swords_dance",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 48,
-          "move": "sandstorm"
+          "move": "sandstorm",
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 53,
-          "move": "earthquake"
+          "move": "earthquake",
+          "level": 53
         },
         {
           "klass": "TutorLearnableMove",
@@ -343,7 +343,20 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "028",
+        "iconShiny": "",
+        "front": "028",
+        "frontShiny": "028",
+        "back": "028",
+        "backShiny": "028",
+        "footprint": "028",
+        "character": "028_0",
+        "characterShiny": "028s_0",
+        "cry": "028cry.ogg",
+        "hasFemale": false
+      }
     },
     {
       "form": 1,
@@ -365,14 +378,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "insurvern",
           "form": 0,
           "conditions": [
             {
               "type": "itemHold",
               "value": "assault_vest"
             }
-          ],
-          "dbSymbol": "insurvern"
+          ]
         }
       ],
       "experienceType": 1,
@@ -656,7 +669,20 @@
           "klass": "EvolutionLearnableMove",
           "move": "icicle_spear"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "028_01",
+        "iconShiny": "",
+        "front": "028_01",
+        "frontShiny": "028_01",
+        "back": "028_01",
+        "backShiny": "028_01",
+        "footprint": "028",
+        "character": "",
+        "characterShiny": "",
+        "cry": "028cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

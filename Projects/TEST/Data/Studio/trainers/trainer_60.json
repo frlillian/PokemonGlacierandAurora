@@ -72,12 +72,16 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "assault_vest"
         }
       ]
     },
     {
-      "specie": "lopunny",
-      "form": 0,
+      "specie": "blastoise",
+      "form": 2,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
@@ -130,6 +134,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "explosive_shot"
         }
       ]
     },
@@ -142,7 +150,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 39
+        "level": 40
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -188,6 +196,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "leftovers"
         }
       ]
     }

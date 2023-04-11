@@ -3,7 +3,8 @@
   "id": 4,
   "dbSymbol": "zone_4",
   "maps": [
-    26
+    26,
+    120
   ],
   "worldmaps": [],
   "panelId": 5,
