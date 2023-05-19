@@ -45,9 +45,9 @@
         }
       ],
       "abilities": [
-        "competitive",
-        "torrent",
-        "liquid_voice"
+        "misty_surge",
+        "liquid_voice",
+        "competitive"
       ],
       "frontOffsetY": 0,
       "resources": {

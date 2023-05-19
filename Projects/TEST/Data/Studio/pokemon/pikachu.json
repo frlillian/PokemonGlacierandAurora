@@ -3284,7 +3284,7 @@
         "backShiny": "025",
         "backShinyF": "025f",
         "footprint": "025",
-        "character": "",
+        "character": "025_15_char",
         "characterShiny": "",
         "cry": "025cry.ogg",
         "hasFemale": false

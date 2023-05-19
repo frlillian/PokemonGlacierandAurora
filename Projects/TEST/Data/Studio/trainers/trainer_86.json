@@ -8,7 +8,12 @@
   "battlers": [
     "001"
   ],
-  "bagEntries": [],
+  "bagEntries": [
+    {
+      "dbSymbol": "mega_ring",
+      "amount": 1
+    }
+  ],
   "battleId": 0,
   "ai": 7,
   "party": [
@@ -278,7 +283,7 @@
     },
     {
       "specie": "gyarados",
-      "form": 30,
+      "form": 0,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
@@ -313,7 +318,7 @@
         },
         {
           "type": "itemHeld",
-          "value": "white_herb"
+          "value": "gyaradosite"
         },
         {
           "type": "loyalty",

@@ -8,7 +8,12 @@
   "battlers": [
     "001"
   ],
-  "bagEntries": [],
+  "bagEntries": [
+    {
+      "dbSymbol": "mega_bracelet",
+      "amount": 1
+    }
+  ],
   "battleId": 0,
   "ai": 6,
   "party": [
@@ -137,6 +142,10 @@
         {
           "type": "ability",
           "value": "sturdy"
+        },
+        {
+          "type": "itemHeld",
+          "value": "steelixite"
         }
       ]
     },

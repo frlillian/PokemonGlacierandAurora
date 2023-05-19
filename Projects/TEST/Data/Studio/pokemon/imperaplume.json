@@ -45,11 +45,24 @@
         }
       ],
       "abilities": [
-        "__undef__",
-        "__undef__",
-        "__undef__"
+        "guts",
+        "intimidate",
+        "defiant"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "823",
+        "iconShiny": "",
+        "front": "823",
+        "frontShiny": "",
+        "back": "823",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -328,20 +341,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "823",
-        "iconShiny": "",
-        "front": "823",
-        "frontShiny": "",
-        "back": "823",
-        "backShiny": "",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

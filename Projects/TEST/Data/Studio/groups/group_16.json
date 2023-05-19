@@ -23,7 +23,7 @@
           "maximumLevel": 30
         }
       },
-      "randomEncounterChance": 20,
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "specie": "inkay",
+      "specie": "buizel",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -233,7 +233,7 @@
           "maximumLevel": 30
         }
       },
-      "randomEncounterChance": 10,
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",

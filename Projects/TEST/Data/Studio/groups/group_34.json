@@ -90,6 +90,10 @@
             "__undef__",
             "acid_armor"
           ]
+        },
+        {
+          "type": "ability",
+          "value": "sludge_born"
         }
       ]
     },

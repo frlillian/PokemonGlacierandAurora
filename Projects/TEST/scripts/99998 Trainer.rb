@@ -386,6 +386,20 @@ end
 
 module Battle
     class Logic
+      class WeatherChangeHandler < ChangeHandlerBase
+        WEATHER_SYM_TO_MSG = {
+        none: 97,
+        rain: 88,
+        sunny: 87,
+        sandstorm: 89,
+        hail: 90,
+        fog: 91,
+        hardsun: 271,
+        hardrain: 269,
+        wind: 273,
+        time: 288
+      }
+    end
       # Class responsive of calculating experience & EV of Pokemon when a Pokemon faints
       class ExpHandler
 
@@ -395,19 +409,112 @@ module Battle
             trade_factor = receiver.from_player? ? 1 : 1
             loyalty_factor = happy?(receiver) ? 1.2 : 1
             evolution_factor = receiver.evolve_check(:level_up) ? 1.2 : 1
-            return aura_factor * lucky_factor * trade_factor * loyalty_factor * evolution_factor
-        end    
+            return aura_factor * lucky_factor * trade_factor * loyalty_factor * evolution_factor * 0.9
+        end
     
     end
     end
+    class Move
+        class RelicBlast < Basic
+            TYPES = {
+                relic_crown: :dragon,
+                relic_statue: :fighting,
+                relic_band: :water,
+                relic_vase: :fire
+              }
+
+            TYPES.default = :ghost
+            def deal_effect(user, actual_targets)
+                if new_type != data_type(:ghost).id
+                    old_typ = user.type3
+                    user.type3 = new_type
+                    if old_typ != new_type
+                        scene.display_message_and_wait(message(user))
+                    end
+                end
+            end
+            def new_type
+                for i in 0..5 do
+                    if @scene.logic.battler(0, i).id == 816
+                        return data_type(TYPES[@scene.logic.battler(0, i).item_db_symbol] || 0).id
+                    end
+                end
+                return data_type(:ghost).id
+            end
+            def type
+                return new_type
+            end
+            def message(target)
+                return parse_text_with_pokemon(19, 902, target, '[VAR TYPE(0001)]' => data_type(new_type).name)
+            end
+        Move.register(:s_relic_blast, RelicBlast)
+        end
+
+        class DrakeRenaissance < Basic
+            def deal_effect(user, actual_targets)
+                user.type3 = data_type(type).id
+                scene.display_message_and_wait(message(user))
+            end
+            def type
+                return :dragon
+            end
+            def message(target)
+                return parse_text_with_pokemon(19, 902, target, '[VAR TYPE(0001)]' => data_type(type).name)
+            end
+        Move.register(:s_drake_renaissance, DrakeRenaissance)
+        end
+        class AncientPower < Basic
+          def effect_chance
+            return 50 if $env.time?
+            return data.effect_chance == 0 ? 100 : data.effect_chance
+          end
+          def deal_stats(user, actual_targets)
+            super(user, [user])
+          end    
+        Move.register(:s_ancient_power, AncientPower)
+    end
 end
 
-module Battle
     module Effects
       class Ability
         class BoostingMoveType < Ability
           register(:assassin, :dark)
+          register(:sludge_born, :poison)
         end
+        class AncientDragonCall < Ability
+            def on_switch_event(handler, who, with)
+                return if with != @target
+      
+                weather_handler = handler.logic.weather_change_handler
+                return unless weather_handler.weather_appliable?(weather)
+      
+                handler.scene.visual.show_ability(with)
+                nb_turn = with.hold_item?(item_db_symbol) ? 13 : 8
+                weather_handler.weather_change(weather, nb_turn)
+                # handler.scene.visual.show_rmxp_animation(with, animation_id)
+            end
+      
+            private
+    
+            # Tell the weather to set
+            # @return [Symbol]
+            def weather
+              return :time
+            end
+    
+            # Tell which item increase the turn count
+            # @return [Symbol]
+            def item_db_symbol
+              return 1
+            end
+    
+            # Tell which animation to play
+            # @return [Integer]
+            def animation_id
+              494
+            end
+        end
+        register(:ancient_dragon_call, AncientDragonCall)
       end
       class Item
         class LongBarrelAttachment < Item
@@ -423,8 +530,311 @@ module Battle
             return 1.2
           end
         end
-        register(:long_barrelattachment, LongBarrelAttachment)
+        class HeartOfTheTundra < Item
+          @TYPE1 = data_type(:none).id
+          @TYPE2 = data_type(:none).id
+          def on_switch_event(handler, who, with)
+            return if with != @target
+            @TYPE1 = data_type(with.type1).id
+            @TYPE2 = data_type(with.type2).id
+            with.type1 = data_type(:ice).id
+            with.type2 = data_type(:none).id
+            @logic.scene.display_message_and_wait("The air grows cold as " + with.name + " Terastallizes!")
+            @logic.scene.visual.show_rmxp_animation(@target, 360)
+          end
+          def on_end_turn_event(logic, scene, battlers)
+            return unless battlers.include?(@target)
+            return if @target.dead?
+
+            @logic.scene.visual.show_rmxp_animation(@target, 360)
+          end
+          def sp_atk_multiplier(user, target, move)
+            if (@TYPE1 == data_type(:ice).id || @TYPE2 == data_type(:ice).id) and move.type == data_type(:ice).id
+              return 2
+            end
+            if move.type == @TYPE1 || move.type == @TYPE1
+              return 1.5
+            end
+            return 1
+          end
       end
+
+        register(:long_barrelattachment, LongBarrelAttachment)
+        register(:hear_of_the_tundra, HeartOfTheTundra)
+      end
+    class Weather
+      class Time < Weather
+        # List of abilities that blocks sandstorm damages
+        TIME_BLOCKING_ABILITIES = %i[magic_guard overcoat]
+        # Function called at the end of a turn
+        # @param logic [Battle::Logic] logic of the battle
+        # @param scene [Battle::Scene] battle scene
+        # @param battlers [Array<PFM::PokemonBattler>] all alive battlers
+        def on_end_turn_event(logic, scene, battlers)
+            if $env.decrease_weather_duration
+                scene.display_message_and_wait("The echos faid...")
+                logic.weather_change_handler.weather_change(:none, 0)
+            else
+                # scene.visual.show_rmxp_animation(battlers.first || logic.battler(0, 0), 494)
+                scene.display_message_and_wait("Echos of fallen titans sound across the battle field. Their kin rejoyce.")
+                battlers.each do |battler|
+                if battler.type_dragon?
+                    logic.damage_handler.heal(battler, (battler.max_hp / 8).clamp(1, Float::INFINITY))
+                    next
+                end
+            end
+            end
+        end
+
+        # Give the move [Spe]def mutiplier
+        # @param user [PFM::PokemonBattler] user of the move
+        # @param target [PFM::PokemonBattler] target of the move
+        # @param move [Battle::Move] move
+        # @return [Float, Integer] multiplier
+        def sp_atk_multiplier(user, target, move)
+        # return 1 if not move.physical?
+            return 1 unless user.type_dragon?
+
+            return 1.25
+        end
+      end
+      register(:time, Time)
+    end
+  end
+end
+
+
+module BattleEngine
+    module Abilities
+      module_function
+      #===
+      #> Abilities that act on Pokémon launch
+      #===
+      UnTracableAbilities = [122, 104, 175]
+      def on_launch_ability(pkmn, switched = false)
+        enemies = BattleEngine::get_enemies!(pkmn)
+        enemy = nil
+        if has_ability_usable(pkmn, pkmn.ability)
+          case pkmn.ability
+          when 11 #> Intimidate
+            if switched #> When the Pokémon is switched
+              _mp([:ability_display, pkmn])
+              enemies.each { |enemy| _mp([:change_atk, enemy, -1]) }
+            end
+          when 69 #> Trace
+            unless enemy_has_ability_usable(pkmn, 69)
+              target = BattleEngine::_random_target_selection(pkmn, nil)
+              unless UnTracableAbilities.include?(target.ability)
+                _mp([:ability_display, pkmn])
+                _mp([:set_ability, pkmn, target.ability])
+                _msgp(19, 381, target, ::PFM::Text::ABILITY[1] => target.ability_name)
+              end
+            end
+          when 72 #> Pressure
+            _mp([:ability_display, pkmn])
+            _msgp(19, 487, pkmn)
+          when 107 #> Drizzle
+            if ::GameData::Flag_4G
+              nb_turn = 1/0.0
+            else
+              nb_turn = BattleEngine::_has_item(pkmn, 285) ? 8 : 5 #> Damp Rock
+            end
+            _mp([:ability_display, pkmn])
+            _mp([:weather_change, :rain, nb_turn])
+            _mp([:global_animation, 493])
+          when 108 #> Drought
+            if ::GameData::Flag_4G
+              nb_turn = 1/0.0
+            else
+              nb_turn = BattleEngine::_has_item(pkmn, 284) ? 8 : 5 #> Heat Rock
+            end
+            _mp([:ability_display, pkmn])
+            _mp([:weather_change, :sunny, nb_turn])
+            _mp([:global_animation, 492])
+          when 87 #> Sand Stream
+            if ::GameData::Flag_4G
+              nb_turn = 1/0.0
+            else
+              nb_turn = BattleEngine::_has_item(pkmn, 283) ? 8 : 5 #> Smooth Rock
+            end
+            _mp([:ability_display, pkmn])
+            _mp([:weather_change, :sandstorm, nb_turn])
+            _mp([:global_animation, 494])
+          when 233 #> Dragon Call
+            if ::GameData::Flag_4G
+              nb_turn = 1/0.0
+            end
+            _mp([:ability_display, pkmn])
+            _mp([:weather_change, :time, nb_turn])
+            # _mp([:global_animation, 494])
+          when 118 #> Snow Warning
+            if ::GameData::Flag_4G
+              nb_turn = 1/0.0
+            else
+              nb_turn = BattleEngine::_has_item(pkmn, 282) ? 8 : 5 #> Icy Rock
+            end
+            _mp([:ability_display, pkmn])
+            _mp([:weather_change, :hail, nb_turn])
+          when 102 #> Anticipation
+            skill = nil
+            enemies.each do |enemy|
+              enemy.skills_set.each do |skill|
+                if BattleEngine._type_modifier_calculation(pkmn, skill) >= 2 || 
+                  skill.symbol == :s_ohko || 
+                  skill.symbol == :s_explosion
+                  _mp([:ability_display, pkmn])
+                  _msgp(19, 436, pkmn)
+                  skill = true
+                  break
+                end
+              end
+              break if skill == true
+            end
+          when 50 #> Forewarn
+            skill = nil
+            _pkmn = enemies[0]
+            _skill = _pkmn.skills_set[0]
+            enemies.each do |enemy|
+              enemy.skills_set.each do |skill|
+                if _skill.power < skill.power
+                  _skill = skill
+                  _pkmn = enemy
+                elsif _skill.power == skill.power && rand(2) == 0
+                  _skill = skill
+                  _pkmn = enemy
+                end
+              end
+            end
+            _msgp(19, 433, _pkmn, BattleEngine::MOVE[1] => _skill.name)
+          when 85 #> Frisk
+            target = BattleEngine::_random_target_selection(pkmn, nil)
+            if(target.item_holding != 0)
+              _mp([:ability_display, pkmn])
+              _msgp(19, 439, pkmn, PKNICK[1] => target.given_name, ::PFM::Text::ITEM2[2] => target.item_name)
+            end
+          when 70 #> Download
+            target = BattleEngine::_random_target_selection(pkmn, nil)
+            _mp([:ability_display, pkmn])
+            _mp([target.dfe < target.dfs ? :change_atk : :change_ats, pkmn, 1])
+          end
+        end
+        #> Enemy's abilities check
+        enemies.each do |enemy|
+          unless enemy.battle_effect.has_no_ability_effect? || enemy.dead? || enemy.battle_effect.nb_of_turn_here > 0
+            case enemy.ability
+            when 11 #> Intimidate
+              _mp([:ability_display, enemy])
+              _mp([:change_atk, pkmn, -1])
+            end
+          end
+        end
+      end
+      #===
+      #> Abilities triggered when the weather changes
+      #===
+      #===
+      #> Abilities that heal at the end of the turn
+      #===
+      #===
+      #> Abilitied at the end of the turn
+      #===
+      #===
+      #> Abilities that attrack moves
+      #===  
     end
   end
   
+
+  module PFM
+    class Environment
+      # List of weather symbols
+      WEATHER_NAMES = %i[none rain sunny sandstorm hail fog hardsun hardrain wind time]
+      # Apply a new weather to the current environment
+      # @param id [Integer, Symbol] ID of the weather : 0 = None, 1 = Rain, 2 = Sun/Zenith, 3 = Darud Sandstorm, 4 = Hail, 5 = Foggy
+      # @param duration [Integer, nil] the total duration of the weather (battle), nil = never stops
+      def apply_weather(id, duration = nil)
+        id = WEATHER_NAMES.index(id) || 0 if id.is_a?(Symbol)
+        @battle_weather = id
+        @weather = id unless @game_state.game_temp.in_battle && !@game_state.game_switches[::Yuki::Sw::MixWeather]
+        @duration = (duration || Float::INFINITY)
+        ajust_weather_switches
+      end
+  
+      # Return the current weather duration
+      # @return [Numeric] can be Float::INFINITY
+      def weather_duration
+        return @duration
+      end
+      alias get_weather_duration weather_duration
+  
+      # Decrease the weather duration, set it to normal (none = 0) if the duration is less than 0
+      # @return [Boolean] true = the weather stopped
+      # Return the current weather id according to the game state (in battle or not)
+      # @return [Integer]
+  
+      # Return the db_symbol of the current weather
+      # @return [Symbol]
+  
+      # Ancheint Dragon Call
+      def time?
+        return current_weather_db_symbol == :time
+      end
+  
+      private
+  
+      # Update the state of each switches so the system knows what happens
+      def ajust_weather_switches
+        weather = current_weather
+        weather_switches.each_with_index do |switch_id, i|
+          next if switch_id < 1
+  
+          @game_state.game_switches[switch_id] = weather == i
+        end
+        @game_state.game_map.need_refresh = true
+      end
+  
+      # Get the list of switch related to weather
+      # @return [Array<Integer>]
+      def weather_switches
+        sw = Yuki::Sw
+        return [-1, sw::WT_Rain, sw::WT_Sunset, sw::WT_Sandstorm, sw::WT_Snow, sw::WT_Fog]
+      end
+    end
+  end
+
+
+  module BattleEngine
+    module BE_Interpreter
+      def weather_change(meteo_sym, nb_turn=5)
+        case meteo_sym
+        when :rain
+          $env.apply_weather(1, nb_turn)
+          _msgp(18, 88, nil)
+        when :sunny
+          $env.apply_weather(2, nb_turn)
+          _msgp(18, 87, nil)
+        when :sandstorm
+          $env.apply_weather(3, nb_turn)
+          _msgp(18, 89, nil)
+        when :hail
+          $env.apply_weather(4, nb_turn)
+          _msgp(18, 90, nil)
+        when :fog
+          $env.apply_weather(5, nb_turn)
+          _msgp(18, 91, nil)
+        when :time
+          $env.apply_weather(9, nb_turn)
+          _msgp(18, 288, nil)
+        else
+          $env.apply_weather(0, nb_turn)
+        end
+        #> Display that the effect will not work
+        if($env.current_weather != 0 && BattleEngine.state[:air_lock])
+          @scene.ability_display(BattleEngine.state[:air_lock])
+          @scene.display_message(parse_text(18,97)) # "The effects of the weather disappeared."
+        end
+        #> Weather ability
+        Abilities.on_weather_change
+      end
+    end
+  end

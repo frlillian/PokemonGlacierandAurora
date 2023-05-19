@@ -1,0 +1,14 @@
+{
+  "id": 131,
+  "dbSymbol": "hear_of_the_tundra",
+  "icon": "109",
+  "price": 0,
+  "socket": 1,
+  "position": 0,
+  "isBattleUsable": false,
+  "isMapUsable": false,
+  "isLimited": false,
+  "isHoldable": true,
+  "flingPower": 30,
+  "klass": "Item"
+}

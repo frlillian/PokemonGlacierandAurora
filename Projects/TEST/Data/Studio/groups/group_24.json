@@ -4,7 +4,9 @@
   "dbSymbol": "group_24",
   "systemTag": "Grass",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -92,7 +94,7 @@
       ]
     },
     {
-      "specie": "tyrunt",
+      "specie": "vigoroth",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",

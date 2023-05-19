@@ -4,11 +4,13 @@
   "dbSymbol": "group_10",
   "systemTag": "TallGrass",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
-      "specie": "frogadier",
+      "specie": "bayleef",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -21,7 +23,7 @@
           "maximumLevel": 18
         }
       },
-      "randomEncounterChance": 5,
+      "randomEncounterChance": 10,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -92,7 +94,7 @@
       ]
     },
     {
-      "specie": "aipom",
+      "specie": "buneary",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -134,7 +136,7 @@
       ]
     },
     {
-      "specie": "marill",
+      "specie": "houndour",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -147,7 +149,7 @@
           "maximumLevel": 18
         }
       },
-      "randomEncounterChance": 20,
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -189,7 +191,7 @@
           "maximumLevel": 18
         }
       },
-      "randomEncounterChance": 10,
+      "randomEncounterChance": 15,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -212,7 +214,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "muddy_water"
           ]
         }
       ]
@@ -231,7 +233,7 @@
           "maximumLevel": 18
         }
       },
-      "randomEncounterChance": 25,
+      "randomEncounterChance": 20,
       "expandPokemonSetup": [
         {
           "type": "evs",

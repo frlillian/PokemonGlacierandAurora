@@ -25,7 +25,7 @@
       "experienceType": 4,
       "baseExperience": 189,
       "baseLoyalty": 70,
-      "catchRate": 60,
+      "catchRate": 45,
       "femaleRate": 50,
       "breedGroups": [
         2,
@@ -50,6 +50,23 @@
         "cute_charm"
       ],
       "frontOffsetY": 10,
+      "resources": {
+        "icon": "350",
+        "iconShiny": "",
+        "front": "350",
+        "frontF": "350f",
+        "frontShiny": "350",
+        "frontShinyF": "350f",
+        "back": "350",
+        "backF": "350f",
+        "backShiny": "350",
+        "backShinyF": "350f",
+        "footprint": "350",
+        "character": "350_0",
+        "characterShiny": "350s_0",
+        "cry": "350cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -292,24 +309,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "350",
-        "iconShiny": "",
-        "front": "350",
-        "frontF": "350f",
-        "frontShiny": "350",
-        "frontShinyF": "350f",
-        "back": "350",
-        "backF": "350f",
-        "backShiny": "350",
-        "backShinyF": "350f",
-        "footprint": "350",
-        "character": "350_0",
-        "characterShiny": "350s_0",
-        "cry": "350cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

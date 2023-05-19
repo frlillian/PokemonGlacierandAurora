@@ -61,6 +61,19 @@
         "big_pecks"
       ],
       "frontOffsetY": 3,
+      "resources": {
+        "icon": "017",
+        "iconShiny": "",
+        "front": "017",
+        "frontShiny": "017",
+        "back": "017",
+        "backShiny": "017",
+        "footprint": "017",
+        "character": "017_0",
+        "characterShiny": "017s_0",
+        "cry": "017cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -254,27 +267,14 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "017",
-        "iconShiny": "",
-        "front": "017",
-        "frontShiny": "017",
-        "back": "017",
-        "backShiny": "017",
-        "footprint": "017",
-        "character": "017_0",
-        "characterShiny": "017s_0",
-        "cry": "017cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
       "height": 1.1,
       "weight": 30,
       "type1": "rock",
-      "type2": "dragon",
+      "type2": "flying",
       "baseHp": 63,
       "baseAtk": 60,
       "baseDfe": 55,
@@ -322,11 +322,24 @@
         }
       ],
       "abilities": [
-        "keen_eye",
-        "tangled_feet",
+        "pressure",
+        "big_pecks",
         "big_pecks"
       ],
       "frontOffsetY": 3,
+      "resources": {
+        "icon": "017_01",
+        "iconShiny": "",
+        "front": "017_01",
+        "frontShiny": "017",
+        "back": "017_01",
+        "backShiny": "017",
+        "footprint": "017",
+        "character": "",
+        "characterShiny": "",
+        "cry": "017cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -370,7 +383,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "feather_dance",
+          "move": "wing_attack",
           "level": 27
         },
         {
@@ -587,21 +600,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "drake_renaissance"
         }
-      ],
-      "resources": {
-        "icon": "017_01",
-        "iconShiny": "",
-        "front": "017_01",
-        "frontShiny": "017",
-        "back": "017_01",
-        "backShiny": "017",
-        "footprint": "017",
-        "character": "",
-        "characterShiny": "",
-        "cry": "017cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

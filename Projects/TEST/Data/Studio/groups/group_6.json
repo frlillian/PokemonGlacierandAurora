@@ -4,7 +4,9 @@
   "dbSymbol": "group_6",
   "systemTag": "Grass",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -50,8 +52,8 @@
       ]
     },
     {
-      "specie": "geodude",
-      "form": 0,
+      "specie": "tauros",
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
@@ -83,7 +85,7 @@
         {
           "type": "moves",
           "value": [
-            "ice_shard",
+            "__undef__",
             "__undef__",
             "__undef__",
             "__undef__"

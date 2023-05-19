@@ -4,7 +4,9 @@
   "dbSymbol": "group_22",
   "systemTag": "Ocean",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -92,7 +94,7 @@
       ]
     },
     {
-      "specie": "marill",
+      "specie": "spheal",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",

@@ -10,7 +10,7 @@
   "customConditions": [],
   "encounters": [
     {
-      "specie": "pineco",
+      "specie": "ralts",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "specie": "aipom",
+      "specie": "buneary",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",

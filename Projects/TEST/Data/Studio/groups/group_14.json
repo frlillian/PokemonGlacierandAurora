@@ -4,7 +4,9 @@
   "dbSymbol": "group_14",
   "systemTag": "TallGrass",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -86,7 +88,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "surf"
+            "giga_drain"
           ]
         }
       ]
@@ -176,7 +178,7 @@
       ]
     },
     {
-      "specie": "spinarak",
+      "specie": "joltik",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",

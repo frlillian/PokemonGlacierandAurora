@@ -455,9 +455,9 @@
         }
       ],
       "abilities": [
-        "pressure",
-        "pressure",
-        "multiscale"
+        "ancient_dragon_call",
+        "ancient_dragon_call",
+        "ancient_dragon_call"
       ],
       "frontOffsetY": 1,
       "resources": {
@@ -536,7 +536,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "future_sight",
+          "move": "sky_attack",
           "level": 79
         },
         {
@@ -551,7 +551,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sky_attack",
+          "move": "future_sight",
           "level": 99
         },
         {

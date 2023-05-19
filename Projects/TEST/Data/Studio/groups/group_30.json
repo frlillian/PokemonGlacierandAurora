@@ -4,7 +4,9 @@
   "dbSymbol": "group_30",
   "systemTag": "RegularGround",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -86,7 +88,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "pursuit"
           ]
         }
       ]
@@ -128,7 +130,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "pursuit"
           ]
         }
       ]
@@ -170,7 +172,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "pursuit"
           ]
         }
       ]

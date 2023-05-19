@@ -60,6 +60,19 @@
         "big_pecks"
       ],
       "frontOffsetY": 14,
+      "resources": {
+        "icon": "018",
+        "iconShiny": "",
+        "front": "018",
+        "frontShiny": "018",
+        "back": "018",
+        "backShiny": "018",
+        "footprint": "018",
+        "character": "018_0",
+        "characterShiny": "018s_0",
+        "cry": "018cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -271,27 +284,14 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "018",
-        "iconShiny": "",
-        "front": "018",
-        "frontShiny": "018",
-        "back": "018",
-        "backShiny": "018",
-        "footprint": "018",
-        "character": "018_0",
-        "characterShiny": "018s_0",
-        "cry": "018cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
       "height": 1.5,
       "weight": 39.5,
       "type1": "rock",
-      "type2": "dragon",
+      "type2": "flying",
       "baseHp": 83,
       "baseAtk": 80,
       "baseDfe": 75,
@@ -338,11 +338,24 @@
         }
       ],
       "abilities": [
-        "keen_eye",
-        "tangled_feet",
+        "pressure",
+        "big_pecks",
         "big_pecks"
       ],
       "frontOffsetY": 14,
+      "resources": {
+        "icon": "018_01",
+        "iconShiny": "",
+        "front": "018_01",
+        "frontShiny": "018",
+        "back": "018_01",
+        "backShiny": "018",
+        "footprint": "018",
+        "character": "",
+        "characterShiny": "",
+        "cry": "018cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -396,7 +409,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "feather_dance",
+          "move": "wing_attack",
           "level": 27
         },
         {
@@ -614,20 +627,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "018_01",
-        "iconShiny": "",
-        "front": "018_01",
-        "frontShiny": "018",
-        "back": "018_01",
-        "backShiny": "018",
-        "footprint": "018",
-        "character": "",
-        "characterShiny": "",
-        "cry": "018cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 30,
@@ -676,6 +676,19 @@
         "no_guard"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "018_30",
+        "iconShiny": "",
+        "front": "018_30",
+        "frontShiny": "018_30",
+        "back": "018_30",
+        "backShiny": "018_30",
+        "footprint": "018",
+        "character": "",
+        "characterShiny": "",
+        "cry": "018cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -887,20 +900,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "018_30",
-        "iconShiny": "",
-        "front": "018_30",
-        "frontShiny": "018_30",
-        "back": "018_30",
-        "backShiny": "018_30",
-        "footprint": "018",
-        "character": "",
-        "characterShiny": "",
-        "cry": "018cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

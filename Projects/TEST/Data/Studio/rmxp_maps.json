@@ -244,6 +244,10 @@
     "name": "House South"
   },
   {
+    "id": 134,
+    "name": "MAP134"
+  },
+  {
     "id": 46,
     "name": "DeathMap"
   },
@@ -257,11 +261,19 @@
   },
   {
     "id": 127,
-    "name": "Cave"
+    "name": "Ladenox Cave"
   },
   {
     "id": 128,
     "name": "cave lower"
+  },
+  {
+    "id": 130,
+    "name": "????"
+  },
+  {
+    "id": 131,
+    "name": "Ladenox Cave"
   },
   {
     "id": 48,
@@ -290,6 +302,10 @@
   {
     "id": 54,
     "name": "MAP054"
+  },
+  {
+    "id": 133,
+    "name": "Tundra"
   },
   {
     "id": 55,
@@ -446,6 +462,10 @@
   {
     "id": 114,
     "name": "dead"
+  },
+  {
+    "id": 132,
+    "name": "Summit"
   },
   {
     "id": 90,

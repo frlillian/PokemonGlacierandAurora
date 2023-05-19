@@ -23,7 +23,7 @@
           "maximumLevel": 13
         }
       },
-      "randomEncounterChance": 5,
+      "randomEncounterChance": 10,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -45,48 +45,6 @@
           "value": [
             "__undef__",
             "ancient_power",
-            "__undef__",
-            "__undef__"
-          ]
-        }
-      ]
-    },
-    {
-      "specie": "ralts",
-      "form": 0,
-      "shinySetup": {
-        "kind": "automatic",
-        "rate": -1
-      },
-      "levelSetup": {
-        "kind": "minmax",
-        "level": {
-          "minimumLevel": 10,
-          "maximumLevel": 13
-        }
-      },
-      "randomEncounterChance": 15,
-      "expandPokemonSetup": [
-        {
-          "type": "evs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "loyalty",
-          "value": 70
-        },
-        {
-          "type": "moves",
-          "value": [
-            "earth_power",
-            "__undef__",
             "__undef__",
             "__undef__"
           ]
@@ -149,7 +107,7 @@
           "maximumLevel": 13
         }
       },
-      "randomEncounterChance": 5,
+      "randomEncounterChance": 10,
       "expandPokemonSetup": [
         {
           "type": "evs",
@@ -191,7 +149,7 @@
           "maximumLevel": 13
         }
       },
-      "randomEncounterChance": 15,
+      "randomEncounterChance": 20,
       "expandPokemonSetup": [
         {
           "type": "evs",

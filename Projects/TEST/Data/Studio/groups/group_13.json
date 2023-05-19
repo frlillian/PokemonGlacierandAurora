@@ -178,7 +178,7 @@
       ]
     },
     {
-      "specie": "oshawott",
+      "specie": "dewott",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "specie": "mantine",
+      "specie": "beautifly",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -256,7 +256,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "hydro_cannon"
           ]
         }
       ]

@@ -4,7 +4,9 @@
   "dbSymbol": "group_28",
   "systemTag": "RegularGround",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -92,7 +94,7 @@
       ]
     },
     {
-      "specie": "diggersby",
+      "specie": "sableye",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
