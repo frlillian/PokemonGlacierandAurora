@@ -52,6 +52,19 @@
         "sheer_force"
       ],
       "frontOffsetY": 23,
+      "resources": {
+        "icon": "371",
+        "iconShiny": "",
+        "front": "371",
+        "frontShiny": "371",
+        "back": "371",
+        "backShiny": "371",
+        "footprint": "371",
+        "character": "371_0",
+        "characterShiny": "371s_0",
+        "cry": "371cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -117,30 +130,6 @@
           "klass": "LevelLearnableMove",
           "move": "double_edge",
           "level": 49
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "snore"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "outrage"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "hyper_voice"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "dragon_pulse"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "zen_headbutt"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "draco_meteor"
         },
         {
           "klass": "TechLearnableMove",
@@ -305,21 +294,32 @@
         {
           "klass": "BreedLearnableMove",
           "move": "fire_fang"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "draco_meteor"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "dragon_pulse"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "hyper_voice"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "outrage"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "zen_headbutt"
         }
-      ],
-      "resources": {
-        "icon": "371",
-        "iconShiny": "",
-        "front": "371",
-        "frontShiny": "371",
-        "back": "371",
-        "backShiny": "371",
-        "footprint": "371",
-        "character": "371_0",
-        "characterShiny": "371s_0",
-        "cry": "371cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

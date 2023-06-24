@@ -52,6 +52,19 @@
         "telepathy"
       ],
       "frontOffsetY": 15,
+      "resources": {
+        "icon": "714",
+        "iconShiny": "",
+        "front": "714",
+        "frontShiny": "714",
+        "back": "714",
+        "backShiny": "714",
+        "footprint": "",
+        "character": "714_0",
+        "characterShiny": "714s_0",
+        "cry": "714cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -344,21 +357,12 @@
         {
           "klass": "BreedLearnableMove",
           "move": "switcheroo"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "714",
-        "iconShiny": "",
-        "front": "714",
-        "frontShiny": "714",
-        "back": "714",
-        "backShiny": "714",
-        "footprint": "",
-        "character": "714_0",
-        "characterShiny": "714s_0",
-        "cry": "714cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

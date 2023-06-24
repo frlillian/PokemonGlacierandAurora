@@ -45,13 +45,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "wingull",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "wacan_berry",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "keen_eye",
         "hydration",
         "rain_dish"
       ],
       "frontOffsetY": 23,
+      "resources": {
+        "icon": "278",
+        "iconShiny": "",
+        "front": "278",
+        "frontShiny": "278",
+        "back": "278",
+        "backShiny": "278",
+        "footprint": "278",
+        "character": "278_0",
+        "characterShiny": "278s_0",
+        "cry": "278cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -307,20 +329,7 @@
           "klass": "BreedLearnableMove",
           "move": "soak"
         }
-      ],
-      "resources": {
-        "icon": "278",
-        "iconShiny": "",
-        "front": "278",
-        "frontShiny": "278",
-        "back": "278",
-        "backShiny": "278",
-        "footprint": "278",
-        "character": "278_0",
-        "characterShiny": "278s_0",
-        "cry": "278cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -280,6 +280,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
       ]
     }

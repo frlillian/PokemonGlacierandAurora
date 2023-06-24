@@ -29,10 +29,6 @@
             {
               "type": "minLevel",
               "value": 39
-            },
-            {
-              "type": "dayNight",
-              "value": 3
             }
           ]
         }
@@ -56,6 +52,19 @@
         "sturdy"
       ],
       "frontOffsetY": 26,
+      "resources": {
+        "icon": "696",
+        "iconShiny": "",
+        "front": "696",
+        "frontShiny": "696",
+        "back": "696",
+        "backShiny": "696",
+        "footprint": "",
+        "character": "696_0",
+        "characterShiny": "696s_0",
+        "cry": "696cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -344,20 +353,7 @@
           "klass": "BreedLearnableMove",
           "move": "fire_fang"
         }
-      ],
-      "resources": {
-        "icon": "696",
-        "iconShiny": "",
-        "front": "696",
-        "frontShiny": "696",
-        "back": "696",
-        "backShiny": "696",
-        "footprint": "",
-        "character": "696_0",
-        "characterShiny": "696s_0",
-        "cry": "696cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

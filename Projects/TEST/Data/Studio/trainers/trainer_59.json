@@ -6,7 +6,7 @@
   "isCouple": false,
   "baseMoney": 30,
   "battlers": [
-    "001"
+    "083"
   ],
   "bagEntries": [],
   "battleId": 0,
@@ -21,7 +21,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 35
+        "level": 36
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -58,7 +58,7 @@
         {
           "type": "moves",
           "value": [
-            "recycle",
+            "flash_cannon",
             "rest",
             "play_rough",
             "thief"

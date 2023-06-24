@@ -34,13 +34,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "sawk",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "aspear_berry",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "sturdy",
         "inner_focus",
         "mold_breaker"
       ],
       "frontOffsetY": 19,
+      "resources": {
+        "icon": "539",
+        "iconShiny": "",
+        "front": "539",
+        "frontShiny": "539",
+        "back": "539",
+        "backShiny": "539",
+        "footprint": "539",
+        "character": "539_0",
+        "characterShiny": "539s_0",
+        "cry": "539cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -317,20 +339,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "539",
-        "iconShiny": "",
-        "front": "539",
-        "frontShiny": "539",
-        "back": "539",
-        "backShiny": "539",
-        "footprint": "539",
-        "character": "539_0",
-        "characterShiny": "539s_0",
-        "cry": "539cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

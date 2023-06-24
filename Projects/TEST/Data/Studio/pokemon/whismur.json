@@ -45,13 +45,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "whismur",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "chesto_berry",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "soundproof",
         "soundproof",
         "rattled"
       ],
       "frontOffsetY": 29,
+      "resources": {
+        "icon": "293",
+        "iconShiny": "",
+        "front": "293",
+        "frontShiny": "293",
+        "back": "293",
+        "backShiny": "293",
+        "footprint": "293",
+        "character": "293_0",
+        "characterShiny": "293s_0",
+        "cry": "293cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -314,20 +336,7 @@
           "klass": "BreedLearnableMove",
           "move": "disarming_voice"
         }
-      ],
-      "resources": {
-        "icon": "293",
-        "iconShiny": "",
-        "front": "293",
-        "frontShiny": "293",
-        "back": "293",
-        "backShiny": "293",
-        "footprint": "293",
-        "character": "293_0",
-        "characterShiny": "293s_0",
-        "cry": "293cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -29,10 +29,6 @@
             {
               "type": "minLevel",
               "value": 34
-            },
-            {
-              "type": "dayNight",
-              "value": 3
             }
           ]
         }
@@ -56,7 +52,6 @@
         "contrary"
       ],
       "frontOffsetY": 24,
-      "moveSet": [],
       "resources": {
         "icon": "753",
         "iconShiny": "",
@@ -69,7 +64,8 @@
         "characterShiny": "",
         "cry": "",
         "hasFemale": false
-      }
+      },
+      "moveSet": []
     }
   ]
 }

@@ -468,7 +468,7 @@
         "back": "249_1",
         "backShiny": "249",
         "footprint": "249",
-        "character": "",
+        "character": "249_01",
         "characterShiny": "",
         "cry": "249cry.ogg",
         "hasFemale": false
@@ -829,6 +829,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
       ]
     }

@@ -69,6 +69,19 @@
         "solar_power"
       ],
       "frontOffsetY": 8,
+      "resources": {
+        "icon": "006",
+        "iconShiny": "",
+        "front": "006",
+        "frontShiny": "006",
+        "back": "006",
+        "backShiny": "006",
+        "footprint": "006",
+        "character": "006_0",
+        "characterShiny": "006s_0",
+        "cry": "006cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -420,20 +433,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "006",
-        "iconShiny": "",
-        "front": "006",
-        "frontShiny": "006",
-        "back": "006",
-        "backShiny": "006",
-        "footprint": "006",
-        "character": "006_0",
-        "characterShiny": "006s_0",
-        "cry": "006cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 30,
@@ -482,6 +482,19 @@
         "tough_claws"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "006_30",
+        "iconShiny": "",
+        "front": "006_30",
+        "frontShiny": "006_30",
+        "back": "006_30",
+        "backShiny": "006",
+        "footprint": "006",
+        "character": "",
+        "characterShiny": "",
+        "cry": "006cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -833,20 +846,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "006_30",
-        "iconShiny": "",
-        "front": "006_30",
-        "frontShiny": "006_30",
-        "back": "006_30",
-        "backShiny": "006",
-        "footprint": "006",
-        "character": "",
-        "characterShiny": "",
-        "cry": "006cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 31,
@@ -895,6 +895,19 @@
         "drought"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "006_31",
+        "iconShiny": "",
+        "front": "006_31",
+        "frontShiny": "006_31",
+        "back": "006_31",
+        "backShiny": "006",
+        "footprint": "006",
+        "character": "",
+        "characterShiny": "",
+        "cry": "006cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1246,20 +1259,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "006_31",
-        "iconShiny": "",
-        "front": "006_31",
-        "frontShiny": "006_31",
-        "back": "006",
-        "backShiny": "006",
-        "footprint": "006",
-        "character": "",
-        "characterShiny": "",
-        "cry": "006cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

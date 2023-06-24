@@ -6,22 +6,89 @@
   "isCouple": false,
   "baseMoney": 30,
   "battlers": [
-    "001"
+    "071"
   ],
-  "bagEntries": [],
+  "bagEntries": [
+    {
+      "dbSymbol": "mega_ring",
+      "amount": 1
+    }
+  ],
   "battleId": 0,
   "ai": 5,
   "party": [
     {
-      "specie": "mightyena",
+      "specie": "charizard",
       "form": 0,
+      "shinySetup": {
+        "kind": "rate",
+        "rate": 1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 50
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "dragon_rage",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Genna"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "charizardite_y"
+        }
+      ]
+    },
+    {
+      "specie": "mightyena",
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 43
+        "level": 47
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -129,68 +196,6 @@
       ]
     },
     {
-      "specie": "charizard",
-      "form": 0,
-      "shinySetup": {
-        "kind": "rate",
-        "rate": 1
-      },
-      "levelSetup": {
-        "kind": "fixed",
-        "level": 50
-      },
-      "randomEncounterChance": 1,
-      "expandPokemonSetup": [
-        {
-          "type": "evs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "ivs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "loyalty",
-          "value": 70
-        },
-        {
-          "type": "moves",
-          "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
-          ]
-        },
-        {
-          "type": "originalTrainerName",
-          "value": "Genna"
-        },
-        {
-          "type": "originalTrainerId",
-          "value": 0
-        },
-        {
-          "type": "itemHeld",
-          "value": "leftovers"
-        }
-      ]
-    },
-    {
       "specie": "alakazam",
       "form": 0,
       "shinySetup": {
@@ -232,10 +237,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "blizzard"
+            "psychic",
+            "calm_mind",
+            "focus_blast",
+            "diamond_storm"
           ]
         },
         {
@@ -257,7 +262,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 44
+        "level": 49
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -290,8 +295,8 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
+            "solar_beam",
+            "sunny_day",
             "__undef__",
             "__undef__"
           ]
@@ -303,6 +308,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "leftovers"
         }
       ]
     },

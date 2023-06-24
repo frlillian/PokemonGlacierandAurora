@@ -834,7 +834,7 @@
       "evolutions": [
         {
           "dbSymbol": "ursaring",
-          "form": 0,
+          "form": 2,
           "conditions": [
             {
               "type": "minLevel",

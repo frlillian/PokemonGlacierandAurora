@@ -45,7 +45,7 @@
         }
       ],
       "abilities": [
-        "lightning_rod",
+        "steelworker",
         "steelworker",
         "battle_armor"
       ],
@@ -58,7 +58,7 @@
         "back": "812",
         "backShiny": "",
         "footprint": "",
-        "character": "105_0",
+        "character": "812",
         "characterShiny": "",
         "cry": "",
         "hasFemale": false
@@ -366,7 +366,7 @@
       ],
       "hatchSteps": 1024,
       "babyDbSymbol": "cubone",
-      "babyForm": 0,
+      "babyForm": 1,
       "itemHeld": [
         {
           "dbSymbol": "none",
@@ -378,9 +378,9 @@
         }
       ],
       "abilities": [
-        "cursed_body",
         "steelworker",
-        "battle_armor"
+        "steelworker",
+        "cursed_body"
       ],
       "frontOffsetY": 0,
       "resources": {

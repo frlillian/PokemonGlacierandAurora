@@ -47,12 +47,12 @@
       "babyForm": 0,
       "itemHeld": [
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "fire_stone",
+          "chance": 90
         },
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "alakazite",
+          "chance": 10
         }
       ],
       "abilities": [

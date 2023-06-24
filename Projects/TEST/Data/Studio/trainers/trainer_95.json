@@ -1,1 +1,401 @@
-{"klass":"TrainerBattleSetup","id":95,"dbSymbol":"trainer_95","vsType":1,"isCouple":false,"baseMoney":30,"battlers":["001"],"bagEntries":[],"battleId":0,"ai":0,"party":[]}
+{
+  "klass": "TrainerBattleSetup",
+  "id": 95,
+  "dbSymbol": "trainer_95",
+  "vsType": 1,
+  "isCouple": false,
+  "baseMoney": 30,
+  "battlers": [
+    "001"
+  ],
+  "bagEntries": [
+    {
+      "dbSymbol": "mega_ring",
+      "amount": 1
+    }
+  ],
+  "battleId": 0,
+  "ai": 7,
+  "party": [
+    {
+      "specie": "aerodactyl",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 63
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "outrage",
+            "drake_renaissance",
+            "sky_attack",
+            "ancient_power"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Lo John"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "ancient_dragon_call"
+        },
+        {
+          "type": "itemHeld",
+          "value": "aerodactylite"
+        }
+      ]
+    },
+    {
+      "specie": "kommo_o",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 67
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "draco_meteor",
+            "power_up_punch",
+            "dragon_dance",
+            "brutal_swing"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Lo John"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "black_glasses"
+        },
+        {
+          "type": "caughtWith",
+          "value": "dusk_ball"
+        }
+      ]
+    },
+    {
+      "specie": "tyrantrum",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 64
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "ancient_power",
+            "head_smash",
+            "earthquake",
+            "iron_tail"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Lo John"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "assault_vest"
+        }
+      ]
+    },
+    {
+      "specie": "dragalge",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 65
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "gunk_shot",
+            "toxic",
+            "toxic_spikes",
+            "hydro_pump"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Lo John"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "wide_lens"
+        }
+      ]
+    },
+    {
+      "specie": "bastiodon",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 64
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "leaf_blade",
+            "play_rough",
+            "ancient_power",
+            "iron_head"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Lo John"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "sturdy"
+        }
+      ]
+    },
+    {
+      "specie": "goodra",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 66
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "itemHeld",
+          "value": "twisted_spoon"
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "psychic",
+            "calm_mind",
+            "hypnosis",
+            "sludge_wave"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Lo John"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    }
+  ]
+}

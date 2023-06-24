@@ -45,13 +45,35 @@
       "hatchSteps": 8960,
       "babyDbSymbol": "aron",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "aggronite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "sturdy",
         "rock_head",
         "heavy_metal"
       ],
       "frontOffsetY": 32,
+      "resources": {
+        "icon": "304",
+        "iconShiny": "",
+        "front": "304",
+        "frontShiny": "304",
+        "back": "304",
+        "backShiny": "304",
+        "footprint": "304",
+        "character": "304_0",
+        "characterShiny": "304s_0",
+        "cry": "304cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -367,20 +389,7 @@
           "klass": "BreedLearnableMove",
           "move": "head_smash"
         }
-      ],
-      "resources": {
-        "icon": "304",
-        "iconShiny": "",
-        "front": "304",
-        "frontShiny": "304",
-        "back": "304",
-        "backShiny": "304",
-        "footprint": "304",
-        "character": "304_0",
-        "characterShiny": "304s_0",
-        "cry": "304cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

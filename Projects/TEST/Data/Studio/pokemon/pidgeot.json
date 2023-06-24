@@ -290,13 +290,13 @@
       "form": 1,
       "height": 1.5,
       "weight": 39.5,
-      "type1": "rock",
+      "type1": "ice",
       "type2": "flying",
       "baseHp": 83,
       "baseAtk": 80,
       "baseDfe": 75,
       "baseSpd": 101,
-      "baseAts": 70,
+      "baseAts": 110,
       "baseDfs": 70,
       "evHp": 0,
       "evAtk": 0,
@@ -304,17 +304,7 @@
       "evSpd": 3,
       "evAts": 0,
       "evDfs": 0,
-      "evolutions": [
-        {
-          "form": 30,
-          "conditions": [
-            {
-              "type": "gemme",
-              "value": "pidgeotite"
-            }
-          ]
-        }
-      ],
+      "evolutions": [],
       "experienceType": 3,
       "baseExperience": 216,
       "baseLoyalty": 70,
@@ -338,9 +328,9 @@
         }
       ],
       "abilities": [
-        "pressure",
-        "big_pecks",
-        "big_pecks"
+        "ice_body",
+        "ice_body",
+        "ice_body"
       ],
       "frontOffsetY": 14,
       "resources": {
@@ -389,7 +379,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_blast",
+          "move": "ice_shard",
           "level": 9
         },
         {
@@ -424,7 +414,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_blast",
+          "move": "icicle_crash",
           "level": 44
         },
         {
@@ -434,7 +424,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "stealth_rock",
+          "move": "hail",
           "level": 56
         },
         {
@@ -444,7 +434,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "stone_edge",
+          "move": "sheer_cold",
           "level": 68
         },
         {
@@ -626,6 +616,18 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "blizzard"
         }
       ]
     },

@@ -13,64 +13,6 @@
   "ai": 1,
   "party": [
     {
-      "specie": "torterra",
-      "form": 0,
-      "shinySetup": {
-        "kind": "automatic",
-        "rate": -1
-      },
-      "levelSetup": {
-        "kind": "fixed",
-        "level": 47
-      },
-      "randomEncounterChance": 1,
-      "expandPokemonSetup": [
-        {
-          "type": "evs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "ivs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "loyalty",
-          "value": 70
-        },
-        {
-          "type": "moves",
-          "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
-          ]
-        },
-        {
-          "type": "originalTrainerName",
-          "value": "Mistletoe"
-        },
-        {
-          "type": "originalTrainerId",
-          "value": 0
-        }
-      ]
-    },
-    {
       "specie": "infernape",
       "form": 0,
       "shinySetup": {
@@ -79,7 +21,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 49
+        "level": 50
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -112,10 +54,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "inferno",
+            "focus_blast",
+            "thunder_punch",
+            "u_turn"
           ]
         },
         {
@@ -125,6 +67,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "wide_lens"
         }
       ]
     },
@@ -137,7 +83,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 48
+        "level": 50
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -171,9 +117,9 @@
           "type": "moves",
           "value": [
             "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "flash_cannon",
+            "hydro_pump",
+            "drill_peck"
           ]
         },
         {
@@ -183,6 +129,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "sky_plate"
         }
       ]
     },
@@ -195,7 +145,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 47
+        "level": 50
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -228,10 +178,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "toxic",
+            "sludge_wave",
+            "razor_leaf",
+            "giga_drain"
           ]
         },
         {
@@ -241,6 +191,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "leftovers"
         }
       ]
     },
@@ -253,7 +207,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 45
+        "level": 50
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -286,10 +240,72 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "ice_beam",
+            "water_shuriken",
+            "dark_pulse",
+            "smokescreen"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Mistletoe"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "razor_claw"
+        }
+      ]
+    },
+    {
+      "specie": "delphox",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 50
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "mystical_fire",
+            "psychic",
+            "grass_knot",
+            "calm_mind"
           ]
         },
         {
@@ -303,7 +319,7 @@
       ]
     },
     {
-      "specie": "delphox",
+      "specie": "torterra",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -311,7 +327,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 46
+        "level": 50
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -344,10 +360,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "earthquake",
+            "synthesis",
+            "giga_drain",
+            "stone_edge"
           ]
         },
         {

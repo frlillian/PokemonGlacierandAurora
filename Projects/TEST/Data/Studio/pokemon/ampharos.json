@@ -51,6 +51,19 @@
         "plus"
       ],
       "frontOffsetY": 15,
+      "resources": {
+        "icon": "181",
+        "iconShiny": "",
+        "front": "181",
+        "frontShiny": "181",
+        "back": "181",
+        "backShiny": "181",
+        "footprint": "181",
+        "character": "181_0",
+        "characterShiny": "181s_0",
+        "cry": "181cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -363,21 +376,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "181",
-        "iconShiny": "",
-        "front": "181",
-        "frontShiny": "181",
-        "back": "181",
-        "backShiny": "181",
-        "footprint": "181",
-        "character": "181_0",
-        "characterShiny": "181s_0",
-        "cry": "181cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -427,6 +431,19 @@
         "mold_breaker"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "181",
+        "iconShiny": "",
+        "front": "181",
+        "frontShiny": "181",
+        "back": "181",
+        "backShiny": "181",
+        "footprint": "181",
+        "character": "",
+        "characterShiny": "",
+        "cry": "181cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -740,20 +757,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "181",
-        "iconShiny": "",
-        "front": "181",
-        "frontShiny": "181",
-        "back": "181",
-        "backShiny": "181",
-        "footprint": "181",
-        "character": "",
-        "characterShiny": "",
-        "cry": "181cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 30,
@@ -793,6 +797,19 @@
         "mold_breaker"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "181_30",
+        "iconShiny": "",
+        "front": "181_30",
+        "frontShiny": "181_30",
+        "back": "181",
+        "backShiny": "181",
+        "footprint": "181",
+        "character": "",
+        "characterShiny": "",
+        "cry": "181cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1106,20 +1123,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "181_30",
-        "iconShiny": "",
-        "front": "181_30",
-        "frontShiny": "181_30",
-        "back": "181",
-        "backShiny": "181",
-        "footprint": "181",
-        "character": "",
-        "characterShiny": "",
-        "cry": "181cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 31,
@@ -1159,6 +1163,19 @@
         "plus"
       ],
       "frontOffsetY": 15,
+      "resources": {
+        "icon": "181",
+        "iconShiny": "",
+        "front": "181",
+        "frontShiny": "181",
+        "back": "181",
+        "backShiny": "181",
+        "footprint": "181",
+        "character": "",
+        "characterShiny": "",
+        "cry": "181cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1472,20 +1489,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "181",
-        "iconShiny": "",
-        "front": "181",
-        "frontShiny": "181",
-        "back": "181",
-        "backShiny": "181",
-        "footprint": "181",
-        "character": "",
-        "characterShiny": "",
-        "cry": "181cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -136,7 +136,7 @@
       ]
     },
     {
-      "specie": "magikarp",
+      "specie": "helioptile",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -146,7 +146,7 @@
         "kind": "minmax",
         "level": {
           "minimumLevel": 30,
-          "maximumLevel": 35
+          "maximumLevel": 34
         }
       },
       "randomEncounterChance": 20,
@@ -169,7 +169,7 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
+            "hydro_pump",
             "__undef__",
             "__undef__",
             "__undef__"

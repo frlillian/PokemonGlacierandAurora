@@ -34,13 +34,39 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "kricketot",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "occa_berry",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "swarm",
         "swarm",
         "technician"
       ],
       "frontOffsetY": 19,
+      "resources": {
+        "icon": "402",
+        "iconShiny": "",
+        "front": "402",
+        "frontF": "402f",
+        "frontShiny": "402",
+        "frontShinyF": "402f",
+        "back": "402",
+        "backF": "402f",
+        "backShiny": "402",
+        "backShinyF": "402f",
+        "footprint": "402",
+        "character": "402_0",
+        "characterShiny": "402s_0",
+        "cry": "402cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -281,24 +307,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "402",
-        "iconShiny": "",
-        "front": "402",
-        "frontF": "402f",
-        "frontShiny": "402",
-        "frontShinyF": "402f",
-        "back": "402",
-        "backF": "402f",
-        "backShiny": "402",
-        "backShinyF": "402f",
-        "footprint": "402",
-        "character": "402_0",
-        "characterShiny": "402s_0",
-        "cry": "402cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

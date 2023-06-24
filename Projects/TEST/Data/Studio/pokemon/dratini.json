@@ -52,6 +52,19 @@
         "marvel_scale"
       ],
       "frontOffsetY": 26,
+      "resources": {
+        "icon": "147",
+        "iconShiny": "",
+        "front": "147",
+        "frontShiny": "147",
+        "back": "147",
+        "backShiny": "147",
+        "footprint": "147",
+        "character": "147_0",
+        "characterShiny": "147s_0",
+        "cry": "147cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -335,20 +348,7 @@
           "klass": "BreedLearnableMove",
           "move": "aqua_jet"
         }
-      ],
-      "resources": {
-        "icon": "147",
-        "iconShiny": "",
-        "front": "147",
-        "frontShiny": "147",
-        "back": "147",
-        "backShiny": "147",
-        "footprint": "147",
-        "character": "147_0",
-        "characterShiny": "147s_0",
-        "cry": "147cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -399,6 +399,19 @@
         "marvel_scale"
       ],
       "frontOffsetY": 26,
+      "resources": {
+        "icon": "147_01",
+        "iconShiny": "",
+        "front": "147_01",
+        "frontShiny": "147",
+        "back": "147_01",
+        "backShiny": "147",
+        "footprint": "147",
+        "character": "",
+        "characterShiny": "",
+        "cry": "147cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -693,21 +706,12 @@
         {
           "klass": "BreedLearnableMove",
           "move": "aqua_jet"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "147_01",
-        "iconShiny": "",
-        "front": "147_01",
-        "frontShiny": "147",
-        "back": "147_01",
-        "backShiny": "147",
-        "footprint": "147",
-        "character": "",
-        "characterShiny": "",
-        "cry": "147cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -51,8 +51,8 @@
           "chance": 0
         },
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "blastoisinite",
+          "chance": 10
         }
       ],
       "abilities": [
@@ -61,6 +61,19 @@
         "rain_dish"
       ],
       "frontOffsetY": 28,
+      "resources": {
+        "icon": "007",
+        "iconShiny": "",
+        "front": "007",
+        "frontShiny": "007",
+        "back": "007",
+        "backShiny": "007",
+        "footprint": "007",
+        "character": "007_0",
+        "characterShiny": "007s_0",
+        "cry": "007cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -364,20 +377,7 @@
           "klass": "BreedLearnableMove",
           "move": "aqua_jet"
         }
-      ],
-      "resources": {
-        "icon": "007",
-        "iconShiny": "",
-        "front": "007",
-        "frontShiny": "007",
-        "back": "007",
-        "backShiny": "007",
-        "footprint": "007",
-        "character": "007_0",
-        "characterShiny": "007s_0",
-        "cry": "007cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

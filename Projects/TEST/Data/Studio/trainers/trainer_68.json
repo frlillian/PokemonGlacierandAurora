@@ -6,9 +6,14 @@
   "isCouple": false,
   "baseMoney": 30,
   "battlers": [
-    "001"
+    "086"
   ],
-  "bagEntries": [],
+  "bagEntries": [
+    {
+      "dbSymbol": "mega_cuff",
+      "amount": 1
+    }
+  ],
   "battleId": 0,
   "ai": 6,
   "party": [
@@ -54,9 +59,9 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
+            "metal_claw",
+            "earthquake",
+            "stone_edge",
             "double_edge"
           ]
         },
@@ -71,6 +76,10 @@
         {
           "type": "ability",
           "value": "rock_head"
+        },
+        {
+          "type": "itemHeld",
+          "value": "assault_vest"
         }
       ]
     },
@@ -116,10 +125,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "roar_of_time",
+            "ice_beam",
+            "flash_cannon",
+            "earth_power"
           ]
         },
         {
@@ -129,6 +138,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "rocky_helmet"
         }
       ]
     },
@@ -174,10 +187,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "toxic_spikes",
+            "sludge_bomb",
+            "dragon_pulse",
+            "hydro_pump"
           ]
         },
         {
@@ -187,6 +200,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "splash_plate"
         }
       ]
     },
@@ -232,10 +249,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "meteor_mash",
+            "power_up_punch",
+            "earthquake",
+            "zen_headbutt"
           ]
         },
         {
@@ -245,6 +262,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "focus_sash"
         }
       ]
     },
@@ -257,7 +278,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 43
+        "level": 46
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -290,10 +311,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "air_slash",
+            "dragon_pulse",
+            "focus_blast",
+            "steel_wing"
           ]
         },
         {
@@ -303,6 +324,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "razor_fang"
         }
       ]
     },
@@ -348,10 +373,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "iron_head",
+            "x_scissor",
+            "night_slash",
+            "aerial_ace"
           ]
         },
         {
@@ -361,6 +386,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "scizorite"
         }
       ]
     }

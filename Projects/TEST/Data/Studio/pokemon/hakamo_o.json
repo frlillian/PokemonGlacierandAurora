@@ -52,6 +52,19 @@
         "overcoat"
       ],
       "frontOffsetY": 13,
+      "resources": {
+        "icon": "783",
+        "iconShiny": "",
+        "front": "783",
+        "frontShiny": "783",
+        "back": "783",
+        "backShiny": "783",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -234,21 +247,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "snarl"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "783",
-        "iconShiny": "",
-        "front": "783",
-        "frontShiny": "783",
-        "back": "783",
-        "backShiny": "783",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

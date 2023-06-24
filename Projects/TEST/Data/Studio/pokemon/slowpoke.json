@@ -61,8 +61,8 @@
       "babyForm": 0,
       "itemHeld": [
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "sitrus_berry",
+          "chance": 100
         },
         {
           "dbSymbol": "none",
@@ -75,6 +75,19 @@
         "regenerator"
       ],
       "frontOffsetY": 26,
+      "resources": {
+        "icon": "079",
+        "iconShiny": "",
+        "front": "079",
+        "frontShiny": "079",
+        "back": "079",
+        "backShiny": "079",
+        "footprint": "079",
+        "character": "079_0",
+        "characterShiny": "079s_0",
+        "cry": "079cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -428,20 +441,7 @@
           "klass": "BreedLearnableMove",
           "move": "belch"
         }
-      ],
-      "resources": {
-        "icon": "079",
-        "iconShiny": "",
-        "front": "079",
-        "frontShiny": "079",
-        "back": "079",
-        "backShiny": "079",
-        "footprint": "079",
-        "character": "079_0",
-        "characterShiny": "079s_0",
-        "cry": "079cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

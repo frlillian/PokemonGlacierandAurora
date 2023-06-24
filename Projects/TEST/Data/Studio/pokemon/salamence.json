@@ -44,13 +44,35 @@
       "hatchSteps": 10240,
       "babyDbSymbol": "bagon",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "salamencite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "intimidate",
         "intimidate",
         "moxie"
       ],
       "frontOffsetY": 12,
+      "resources": {
+        "icon": "373",
+        "iconShiny": "",
+        "front": "373",
+        "frontShiny": "373",
+        "back": "373",
+        "backShiny": "373",
+        "footprint": "373",
+        "character": "373_0",
+        "characterShiny": "373s_0",
+        "cry": "373cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -356,21 +378,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "373",
-        "iconShiny": "",
-        "front": "373",
-        "frontShiny": "373",
-        "back": "373",
-        "backShiny": "373",
-        "footprint": "373",
-        "character": "373_0",
-        "characterShiny": "373s_0",
-        "cry": "373cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 30,
@@ -410,6 +423,19 @@
         "aerilate"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "373_30",
+        "iconShiny": "",
+        "front": "373_30",
+        "frontShiny": "373_30",
+        "back": "373_30",
+        "backShiny": "373_30",
+        "footprint": "373",
+        "character": "",
+        "characterShiny": "",
+        "cry": "373cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -716,20 +742,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "373_30",
-        "iconShiny": "",
-        "front": "373_30",
-        "frontShiny": "373_30",
-        "back": "373_30",
-        "backShiny": "373_30",
-        "footprint": "373",
-        "character": "",
-        "characterShiny": "",
-        "cry": "373cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

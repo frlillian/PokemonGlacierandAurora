@@ -45,13 +45,35 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "minccino",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "fairy_gem",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "cute_charm",
         "technician",
         "skill_link"
       ],
       "frontOffsetY": 23,
+      "resources": {
+        "icon": "572",
+        "iconShiny": "",
+        "front": "572",
+        "frontShiny": "572",
+        "back": "572",
+        "backShiny": "572",
+        "footprint": "572",
+        "character": "572_0",
+        "characterShiny": "572s_0",
+        "cry": "572cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -342,20 +364,7 @@
           "klass": "BreedLearnableMove",
           "move": "aqua_tail"
         }
-      ],
-      "resources": {
-        "icon": "572",
-        "iconShiny": "",
-        "front": "572",
-        "frontShiny": "572",
-        "back": "572",
-        "backShiny": "572",
-        "footprint": "572",
-        "character": "572_0",
-        "characterShiny": "572s_0",
-        "cry": "572cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

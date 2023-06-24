@@ -44,13 +44,39 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "heracross",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "heracronite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "guts",
         "swarm",
         "moxie"
       ],
       "frontOffsetY": 16,
+      "resources": {
+        "icon": "214",
+        "iconShiny": "",
+        "front": "214",
+        "frontF": "214f",
+        "frontShiny": "214",
+        "frontShinyF": "214f",
+        "back": "214",
+        "backF": "214f",
+        "backShiny": "214",
+        "backShinyF": "214f",
+        "footprint": "214",
+        "character": "214_0",
+        "characterShiny": "214s_0",
+        "cry": "214cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -374,24 +400,7 @@
           "klass": "BreedLearnableMove",
           "move": "rock_blast"
         }
-      ],
-      "resources": {
-        "icon": "214",
-        "iconShiny": "",
-        "front": "214",
-        "frontF": "214f",
-        "frontShiny": "214",
-        "frontShinyF": "214f",
-        "back": "214",
-        "backF": "214f",
-        "backShiny": "214",
-        "backShinyF": "214f",
-        "footprint": "214",
-        "character": "214_0",
-        "characterShiny": "214s_0",
-        "cry": "214cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 30,
@@ -431,6 +440,23 @@
         "skill_link"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "214_30",
+        "iconShiny": "",
+        "front": "214_30",
+        "frontF": "214f",
+        "frontShiny": "214_30",
+        "frontShinyF": "214f",
+        "back": "214_30",
+        "backF": "214f",
+        "backShiny": "214",
+        "backShinyF": "214f",
+        "footprint": "214",
+        "character": "",
+        "characterShiny": "",
+        "cry": "214cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -714,24 +740,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "214_30",
-        "iconShiny": "",
-        "front": "214_30",
-        "frontF": "214f",
-        "frontShiny": "214_30",
-        "frontShinyF": "214f",
-        "back": "214_30",
-        "backF": "214f",
-        "backShiny": "214",
-        "backShinyF": "214f",
-        "footprint": "214",
-        "character": "",
-        "characterShiny": "",
-        "cry": "214cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

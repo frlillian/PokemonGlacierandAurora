@@ -85,7 +85,7 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
+            "thunder",
             "__undef__",
             "__undef__",
             "__undef__"
@@ -258,6 +258,10 @@
             "__undef__",
             "hydro_cannon"
           ]
+        },
+        {
+          "type": "ability",
+          "value": "swift_swim"
         }
       ]
     },

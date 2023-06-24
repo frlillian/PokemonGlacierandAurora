@@ -6,7 +6,7 @@
   "isCouple": false,
   "baseMoney": 30,
   "battlers": [
-    "001"
+    "068"
   ],
   "bagEntries": [
     {
@@ -158,7 +158,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 45
+        "level": 54
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -282,7 +282,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 49
+        "level": 52
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -344,7 +344,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 49
+        "level": 51
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

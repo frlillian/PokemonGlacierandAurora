@@ -29,10 +29,6 @@
             {
               "type": "minLevel",
               "value": 39
-            },
-            {
-              "type": "dayNight",
-              "value": 0
             }
           ]
         }
@@ -56,6 +52,19 @@
         "snow_warning"
       ],
       "frontOffsetY": 17,
+      "resources": {
+        "icon": "698",
+        "iconShiny": "",
+        "front": "698",
+        "frontShiny": "698",
+        "back": "698",
+        "backShiny": "698",
+        "footprint": "",
+        "character": "698_0",
+        "characterShiny": "698s_0",
+        "cry": "698cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -395,20 +404,7 @@
           "klass": "BreedLearnableMove",
           "move": "discharge"
         }
-      ],
-      "resources": {
-        "icon": "698",
-        "iconShiny": "",
-        "front": "698",
-        "frontShiny": "698",
-        "back": "698",
-        "backShiny": "698",
-        "footprint": "",
-        "character": "698_0",
-        "characterShiny": "698s_0",
-        "cry": "698cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

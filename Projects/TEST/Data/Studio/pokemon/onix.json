@@ -55,8 +55,8 @@
           "chance": 0
         },
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "steelixite",
+          "chance": 10
         }
       ],
       "abilities": [
@@ -65,6 +65,19 @@
         "weak_armor"
       ],
       "frontOffsetY": 11,
+      "resources": {
+        "icon": "095",
+        "iconShiny": "",
+        "front": "095",
+        "frontShiny": "095",
+        "back": "095",
+        "backShiny": "095",
+        "footprint": "095",
+        "character": "095_0",
+        "characterShiny": "095s_0",
+        "cry": "095cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -392,20 +405,7 @@
           "klass": "BreedLearnableMove",
           "move": "rototiller"
         }
-      ],
-      "resources": {
-        "icon": "095",
-        "iconShiny": "",
-        "front": "095",
-        "frontShiny": "095",
-        "back": "095",
-        "backShiny": "095",
-        "footprint": "095",
-        "character": "095_0",
-        "characterShiny": "095s_0",
-        "cry": "095cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -13,7 +13,7 @@
   "ai": 6,
   "party": [
     {
-      "specie": "electivire",
+      "specie": "kommo_o",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -54,9 +54,9 @@
         {
           "type": "moves",
           "value": [
-            "dig",
-            "ice_punch",
-            "wild_charge",
+            "iron_defense",
+            "outrage",
+            "bulk_up",
             "power_up_punch"
           ]
         },

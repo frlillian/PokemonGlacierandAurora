@@ -29,10 +29,6 @@
             {
               "type": "itemHold",
               "value": "razor_claw"
-            },
-            {
-              "type": "dayNight",
-              "value": 0
             }
           ]
         }
@@ -56,6 +52,23 @@
         "pickpocket"
       ],
       "frontOffsetY": 24,
+      "resources": {
+        "icon": "215",
+        "iconShiny": "",
+        "front": "215",
+        "frontF": "215f",
+        "frontShiny": "215",
+        "frontShinyF": "215f",
+        "back": "215",
+        "backF": "215f",
+        "backShiny": "215",
+        "backShinyF": "215f",
+        "footprint": "215",
+        "character": "215_0",
+        "characterShiny": "215s_0",
+        "cry": "215cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -433,24 +446,7 @@
           "klass": "BreedLearnableMove",
           "move": "icicle_crash"
         }
-      ],
-      "resources": {
-        "icon": "215",
-        "iconShiny": "",
-        "front": "215",
-        "frontF": "215f",
-        "frontShiny": "215",
-        "frontShinyF": "215f",
-        "back": "215",
-        "backF": "215f",
-        "backShiny": "215",
-        "backShinyF": "215f",
-        "footprint": "215",
-        "character": "215_0",
-        "characterShiny": "215s_0",
-        "cry": "215cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

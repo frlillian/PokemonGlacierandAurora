@@ -54,10 +54,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "draining_kiss",
+            "psybeam",
+            "confuse_ray",
+            "fire_punch"
           ]
         },
         {
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "specie": "meditite",
+      "specie": "medicham",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -112,10 +112,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "psybeam",
+            "force_palm",
+            "thunder_punch",
+            "poison_jab"
           ]
         },
         {
@@ -186,7 +186,7 @@
         },
         {
           "type": "itemHeld",
-          "value": "wide_lens"
+          "value": "none"
         }
       ]
     },
@@ -290,10 +290,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "shadow_claw",
+            "double_kick",
+            "flame_charge",
+            "rock_tomb"
           ]
         },
         {
@@ -303,6 +303,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "sky_plate"
         }
       ]
     }

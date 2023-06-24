@@ -45,13 +45,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "helioptile",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "splash_plate",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "dry_skin",
         "sand_veil",
         "solar_power"
       ],
       "frontOffsetY": 28,
+      "resources": {
+        "icon": "694",
+        "iconShiny": "",
+        "front": "694",
+        "frontShiny": "694",
+        "back": "694",
+        "backShiny": "694",
+        "footprint": "",
+        "character": "694_0",
+        "characterShiny": "694s_0",
+        "cry": "694cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -306,20 +328,7 @@
           "klass": "BreedLearnableMove",
           "move": "electric_terrain"
         }
-      ],
-      "resources": {
-        "icon": "694",
-        "iconShiny": "",
-        "front": "694",
-        "frontShiny": "694",
-        "back": "694",
-        "backShiny": "694",
-        "footprint": "",
-        "character": "694_0",
-        "characterShiny": "694s_0",
-        "cry": "694cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

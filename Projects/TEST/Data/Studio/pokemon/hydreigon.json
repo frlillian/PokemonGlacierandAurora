@@ -41,6 +41,19 @@
         "levitate"
       ],
       "frontOffsetY": 5,
+      "resources": {
+        "icon": "635",
+        "iconShiny": "",
+        "front": "635",
+        "frontShiny": "635",
+        "back": "635",
+        "backShiny": "635",
+        "footprint": "635",
+        "character": "635_0",
+        "characterShiny": "635s_0",
+        "cry": "635cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -401,21 +414,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "635",
-        "iconShiny": "",
-        "front": "635",
-        "frontShiny": "635",
-        "back": "635",
-        "backShiny": "635",
-        "footprint": "635",
-        "character": "635_0",
-        "characterShiny": "635s_0",
-        "cry": "635cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

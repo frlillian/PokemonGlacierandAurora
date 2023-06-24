@@ -1,45 +1,33 @@
 ================================Erreur de script================================
 Message :
-undefined method `%' for :ice:Symbol
+undefined method `item_pick' for #<Interpreter:0x0ecfdc60>
 
 Type : NoMethodError
-Script : 00700 Ajout_PSDK/00500 SpriteSheet.rb (PSDK)
-Ligne : 72
-Date : 18/05/2023 19:27:01
+Script : (eval) (RMXP)
+Ligne : 1
+Date : 18/06/2023 14:42:27
 Game Version : 256
 Logiciel : Pokémon SDK 26.10
+Script used by eval command : 
+item_pick(622)
+
+
 ===================================Backtraces===================================
-[41] : 00700 Ajout_PSDK/00500 SpriteSheet.rb (PSDK) | ligne 72 sy=
-[40] : 01450 Systems/00000 General/00100 UI Generics/00500 HelperSprites.rb (PSDK) | ligne 15 data=
-[39] : 01450 Systems/00000 General/00100 UI Generics/00100 SpriteStack.rb (PSDK) | ligne 270 data=
-[38] : 01450 Systems/00000 General/00100 UI Generics/00100 SpriteStack.rb (PSDK) | ligne 269 each
-[37] : 01450 Systems/00000 General/00100 UI Generics/00100 SpriteStack.rb (PSDK) | ligne 269 data=
-[36] : 01450 Systems/00102 Party/00002 UI/00200 Summary_Memo.rb (PSDK) | ligne 23 data=
-[35] : 01450 Systems/00102 Party/00003 GamePlay/00200 Summary.rb (PSDK) | ligne 95 update_pokemon
-[34] : 01450 Systems/00102 Party/00003 GamePlay/00200 Summary.rb (PSDK) | ligne 95 each
-[33] : 01450 Systems/00102 Party/00003 GamePlay/00200 Summary.rb (PSDK) | ligne 95 update_pokemon
-[32] : 01450 Systems/00102 Party/00003 GamePlay/00200 Summary.rb (PSDK) | ligne 53 create_graphics
-[31] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 251 main_begin
-[30] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 152 main
-[29] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 190 call_scene
-[28] : 01450 Systems/00102 Party/00003 GamePlay/00102 Party_Menu Choice & Process.rb (PSDK) | ligne 127 launch_summary
-[27] : 01450 Systems/00000 General/00001 PFM/00200 Helpers/00200 Choice_Helper.rb (PSDK) | ligne 134 call
-[26] : 01450 Systems/00000 General/00001 PFM/00200 Helpers/00200 Choice_Helper.rb (PSDK) | ligne 134 call_validate_handle
-[25] : 01450 Systems/00000 General/00001 PFM/00200 Helpers/00200 Choice_Helper.rb (PSDK) | ligne 67 display_choice
-[24] : 01450 Systems/00102 Party/00003 GamePlay/00102 Party_Menu Choice & Process.rb (PSDK) | ligne 186 show_battle_mode_choice
-[23] : 01450 Systems/00102 Party/00003 GamePlay/00102 Party_Menu Choice & Process.rb (PSDK) | ligne 17 show_choice
-[22] : 01450 Systems/00102 Party/00003 GamePlay/00101 Party_Menu Input.rb (PSDK) | ligne 13 action_A
-[21] : 01450 Systems/00102 Party/00003 GamePlay/00100 Party_Menu.rb (PSDK) | ligne 68 update_inputs
-[20] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 468 update
-[19] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 504 update
-[18] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 260 main_process
-[17] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 153 main
-[16] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 190 call_scene
-[15] : 01450 Systems/00000 General/00100 GamePlay.rb (PSDK) | ligne 150 open_party_menu_to_switch
-[14] : 01600 Alpha 25 Battle Engine/00002 Battle_Visual/00204 Show_item_or_pokemon_choice.rb (PSDK) | ligne 21 show_pokemon_choice
-[13] : 01600 Alpha 25 Battle Engine/00001 Battle_Scene/00101 Scene Choice.rb (PSDK) | ligne 215 switch_choice
-[12] : 01600 Alpha 25 Battle Engine/00001 Battle_Scene/00100 Scene.rb (PSDK) | ligne 83 next_update_process
-[11] : 01600 Alpha 25 Battle Engine/00001 Battle_Scene/00100 Scene.rb (PSDK) | ligne 73 update
+[25] : (eval) (RMXP) | ligne 1 eval_script
+[24] : 00600 Script_RMXP/03000 Interpreter_7.rb (PSDK) | ligne 124 eval
+[23] : 00600 Script_RMXP/03000 Interpreter_7.rb (PSDK) | ligne 124 eval_script
+[22] : 00600 Script_RMXP/03000 Interpreter_7.rb (PSDK) | ligne 114 command_355
+[21] : 00600 Script_RMXP/02500 Interpreter_2.rb (PSDK) | ligne 16 execute_command
+[20] : 00600 Script_RMXP/02400 Interpreter_1.rb (PSDK) | ligne 132 update
+[19] : 00600 Script_RMXP/02400 Interpreter_1.rb (PSDK) | ligne 100 loop
+[18] : 00600 Script_RMXP/02400 Interpreter_1.rb (PSDK) | ligne 100 update
+[17] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 171 auto_transfert_update
+[16] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 168 loop
+[15] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 168 auto_transfert_update
+[14] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 21 update
+[13] : 00700 Ajout_PSDK/00002 FPSBalancer.rb (PSDK) | ligne 44 times
+[12] : 00700 Ajout_PSDK/00002 FPSBalancer.rb (PSDK) | ligne 44 run
+[11] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 21 update
 [10] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 260 main_process
 [9] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 153 main
 [8] : tools/GameLoader/Z_main.rb (PSDK) | ligne 17 <top (required)>

@@ -45,13 +45,35 @@
       "hatchSteps": 10240,
       "babyDbSymbol": "goomy",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "lum_berry",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "sap_sipper",
         "hydration",
         "gooey"
       ],
       "frontOffsetY": 31,
+      "resources": {
+        "icon": "704",
+        "iconShiny": "",
+        "front": "704",
+        "frontShiny": "704",
+        "back": "704",
+        "backShiny": "704",
+        "footprint": "",
+        "character": "704_0",
+        "characterShiny": "704s_0",
+        "cry": "704cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -247,21 +269,12 @@
         {
           "klass": "BreedLearnableMove",
           "move": "poison_tail"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "704",
-        "iconShiny": "",
-        "front": "704",
-        "frontShiny": "704",
-        "back": "704",
-        "backShiny": "704",
-        "footprint": "",
-        "character": "704_0",
-        "characterShiny": "704s_0",
-        "cry": "704cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

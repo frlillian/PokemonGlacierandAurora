@@ -49,13 +49,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "__undef__",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "natural_cure",
         "poison_point",
         "leaf_guard"
       ],
       "frontOffsetY": 28,
+      "resources": {
+        "icon": "406",
+        "iconShiny": "",
+        "front": "406",
+        "frontShiny": "406",
+        "back": "406",
+        "backShiny": "406",
+        "footprint": "406",
+        "character": "406_0",
+        "characterShiny": "406s_0",
+        "cry": "406cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -283,20 +305,7 @@
           "klass": "BreedLearnableMove",
           "move": "leaf_storm"
         }
-      ],
-      "resources": {
-        "icon": "406",
-        "iconShiny": "",
-        "front": "406",
-        "frontShiny": "406",
-        "back": "406",
-        "backShiny": "406",
-        "footprint": "406",
-        "character": "406_0",
-        "characterShiny": "406s_0",
-        "cry": "406cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

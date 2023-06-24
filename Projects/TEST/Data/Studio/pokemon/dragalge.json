@@ -41,6 +41,19 @@
         "adaptability"
       ],
       "frontOffsetY": 7,
+      "resources": {
+        "icon": "691",
+        "iconShiny": "",
+        "front": "691",
+        "frontShiny": "691",
+        "back": "691",
+        "backShiny": "691",
+        "footprint": "",
+        "character": "691_0",
+        "characterShiny": "691s_0",
+        "cry": "691cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -309,21 +322,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "691",
-        "iconShiny": "",
-        "front": "691",
-        "frontShiny": "691",
-        "back": "691",
-        "backShiny": "691",
-        "footprint": "",
-        "character": "691_0",
-        "characterShiny": "691s_0",
-        "cry": "691cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

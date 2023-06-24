@@ -45,13 +45,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "treecko",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "iron_plate",
+          "chance": 90
+        },
+        {
+          "dbSymbol": "sceptilite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "overgrow",
         "overgrow",
         "unburden"
       ],
       "frontOffsetY": 25,
+      "resources": {
+        "icon": "252",
+        "iconShiny": "",
+        "front": "252",
+        "frontShiny": "252",
+        "back": "252",
+        "backShiny": "252",
+        "footprint": "252",
+        "character": "252_0",
+        "characterShiny": "252s_0",
+        "cry": "252cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -371,20 +393,7 @@
           "klass": "BreedLearnableMove",
           "move": "grassy_terrain"
         }
-      ],
-      "resources": {
-        "icon": "252",
-        "iconShiny": "",
-        "front": "252",
-        "frontShiny": "252",
-        "back": "252",
-        "backShiny": "252",
-        "footprint": "252",
-        "character": "252_0",
-        "characterShiny": "252s_0",
-        "cry": "252cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

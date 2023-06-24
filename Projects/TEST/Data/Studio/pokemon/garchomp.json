@@ -44,13 +44,39 @@
       "hatchSteps": 10240,
       "babyDbSymbol": "gible",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "garchompite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "sand_veil",
         "sand_veil",
         "rough_skin"
       ],
       "frontOffsetY": 10,
+      "resources": {
+        "icon": "445",
+        "iconShiny": "",
+        "front": "445",
+        "frontF": "445f",
+        "frontShiny": "445",
+        "frontShinyF": "445f",
+        "back": "445",
+        "backF": "445f",
+        "backShiny": "445",
+        "backShinyF": "445f",
+        "footprint": "445",
+        "character": "445_0",
+        "characterShiny": "",
+        "cry": "445cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -347,25 +373,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "445",
-        "iconShiny": "",
-        "front": "445",
-        "frontF": "445f",
-        "frontShiny": "445",
-        "frontShinyF": "445f",
-        "back": "445",
-        "backF": "445f",
-        "backShiny": "445",
-        "backShinyF": "445f",
-        "footprint": "445",
-        "character": "445_0",
-        "characterShiny": "",
-        "cry": "445cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 30,
@@ -405,6 +418,23 @@
         "sand_force"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "445_30",
+        "iconShiny": "",
+        "front": "445_30",
+        "frontF": "445f",
+        "frontShiny": "445_30",
+        "frontShinyF": "445f",
+        "back": "445",
+        "backF": "445f",
+        "backShiny": "445",
+        "backShinyF": "445f",
+        "footprint": "445",
+        "character": "",
+        "characterShiny": "",
+        "cry": "445cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -702,24 +732,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "445_30",
-        "iconShiny": "",
-        "front": "445_30",
-        "frontF": "445f",
-        "frontShiny": "445_30",
-        "frontShinyF": "445f",
-        "back": "445",
-        "backF": "445f",
-        "backShiny": "445",
-        "backShinyF": "445f",
-        "footprint": "445",
-        "character": "",
-        "characterShiny": "",
-        "cry": "445cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

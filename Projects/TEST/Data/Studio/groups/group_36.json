@@ -1,0 +1,55 @@
+{
+  "klass": "Group",
+  "id": 36,
+  "dbSymbol": "group_36",
+  "encounters": [
+    {
+      "specie": "magcargo",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "minmax",
+        "level": {
+          "minimumLevel": 40,
+          "maximumLevel": 45
+        }
+      },
+      "randomEncounterChance": 100,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "stealth_rock",
+            "flamethrower",
+            "__undef__",
+            "__undef__"
+          ]
+        }
+      ]
+    }
+  ],
+  "isDoubleBattle": false,
+  "systemTag": "RegularGround",
+  "terrainTag": 0,
+  "customConditions": [],
+  "tool": null,
+  "isHordeBattle": false
+}

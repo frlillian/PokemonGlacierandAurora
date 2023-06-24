@@ -45,13 +45,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "carvanha",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "sharpedonite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "rough_skin",
         "rough_skin",
         "speed_boost"
       ],
       "frontOffsetY": 22,
+      "resources": {
+        "icon": "318",
+        "iconShiny": "",
+        "front": "318",
+        "frontShiny": "318",
+        "back": "318",
+        "backShiny": "318",
+        "footprint": "318",
+        "character": "318_0",
+        "characterShiny": "318s_0",
+        "cry": "318cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -303,20 +325,7 @@
           "klass": "BreedLearnableMove",
           "move": "brine"
         }
-      ],
-      "resources": {
-        "icon": "318",
-        "iconShiny": "",
-        "front": "318",
-        "frontShiny": "318",
-        "back": "318",
-        "backShiny": "318",
-        "footprint": "318",
-        "character": "318_0",
-        "characterShiny": "318s_0",
-        "cry": "318cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

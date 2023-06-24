@@ -50,6 +50,19 @@
         "steadfast"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "824",
+        "iconShiny": "",
+        "front": "824",
+        "frontShiny": "",
+        "back": "824",
+        "backShiny": "",
+        "footprint": "",
+        "character": "824",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -131,20 +144,7 @@
           "move": "guillotine",
           "level": 62
         }
-      ],
-      "resources": {
-        "icon": "824",
-        "iconShiny": "",
-        "front": "824",
-        "frontShiny": "",
-        "back": "824",
-        "backShiny": "",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

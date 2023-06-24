@@ -45,13 +45,35 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "sewaddle",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "coba_berry",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "swarm",
         "chlorophyll",
         "overcoat"
       ],
       "frontOffsetY": 30,
+      "resources": {
+        "icon": "540",
+        "iconShiny": "",
+        "front": "540",
+        "frontShiny": "540",
+        "back": "540",
+        "backShiny": "540",
+        "footprint": "540",
+        "character": "540_0",
+        "characterShiny": "540s_0",
+        "cry": "540cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -286,20 +308,7 @@
           "klass": "BreedLearnableMove",
           "move": "air_slash"
         }
-      ],
-      "resources": {
-        "icon": "540",
-        "iconShiny": "",
-        "front": "540",
-        "frontShiny": "540",
-        "back": "540",
-        "backShiny": "540",
-        "footprint": "540",
-        "character": "540_0",
-        "characterShiny": "540s_0",
-        "cry": "540cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

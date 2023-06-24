@@ -51,12 +51,12 @@
       "babyForm": 0,
       "itemHeld": [
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "quick_claw",
+          "chance": 90
         },
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "scizorite",
+          "chance": 10
         }
       ],
       "abilities": [
@@ -65,6 +65,23 @@
         "steadfast"
       ],
       "frontOffsetY": 17,
+      "resources": {
+        "icon": "123",
+        "iconShiny": "",
+        "front": "123",
+        "frontF": "123f",
+        "frontShiny": "123",
+        "frontShinyF": "123f",
+        "back": "123",
+        "backF": "123f",
+        "backShiny": "123",
+        "backShinyF": "123f",
+        "footprint": "123",
+        "character": "123_0",
+        "characterShiny": "123s_0",
+        "cry": "123cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -348,24 +365,7 @@
           "klass": "BreedLearnableMove",
           "move": "quick_guard"
         }
-      ],
-      "resources": {
-        "icon": "123",
-        "iconShiny": "",
-        "front": "123",
-        "frontF": "123f",
-        "frontShiny": "123",
-        "frontShinyF": "123f",
-        "back": "123",
-        "backF": "123f",
-        "backShiny": "123",
-        "backShinyF": "123f",
-        "footprint": "123",
-        "character": "123_0",
-        "characterShiny": "123s_0",
-        "cry": "123cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

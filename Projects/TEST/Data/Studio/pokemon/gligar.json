@@ -29,10 +29,6 @@
             {
               "type": "itemHold",
               "value": "razor_fang"
-            },
-            {
-              "type": "dayNight",
-              "value": 0
             }
           ]
         }
@@ -56,6 +52,23 @@
         "immunity"
       ],
       "frontOffsetY": 22,
+      "resources": {
+        "icon": "207",
+        "iconShiny": "",
+        "front": "207",
+        "frontF": "207f",
+        "frontShiny": "207",
+        "frontShinyF": "207f",
+        "back": "207",
+        "backF": "207f",
+        "backShiny": "207",
+        "backShinyF": "207f",
+        "footprint": "207",
+        "character": "207_0",
+        "characterShiny": "207s_0",
+        "cry": "207cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -412,24 +425,7 @@
           "klass": "BreedLearnableMove",
           "move": "cross_poison"
         }
-      ],
-      "resources": {
-        "icon": "207",
-        "iconShiny": "",
-        "front": "207",
-        "frontF": "207f",
-        "frontShiny": "207",
-        "frontShinyF": "207f",
-        "back": "207",
-        "backF": "207f",
-        "backShiny": "207",
-        "backShinyF": "207f",
-        "footprint": "207",
-        "character": "207_0",
-        "characterShiny": "207s_0",
-        "cry": "207cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

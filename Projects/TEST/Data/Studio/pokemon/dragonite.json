@@ -41,6 +41,19 @@
         "multiscale"
       ],
       "frontOffsetY": 8,
+      "resources": {
+        "icon": "149",
+        "iconShiny": "",
+        "front": "149",
+        "frontShiny": "149",
+        "back": "149",
+        "backShiny": "149",
+        "footprint": "149",
+        "character": "149_0",
+        "characterShiny": "149s_0",
+        "cry": "149cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -444,20 +457,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "149",
-        "iconShiny": "",
-        "front": "149",
-        "frontShiny": "149",
-        "back": "149",
-        "backShiny": "149",
-        "footprint": "149",
-        "character": "149_0",
-        "characterShiny": "149s_0",
-        "cry": "149cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -497,6 +497,19 @@
         "multiscale"
       ],
       "frontOffsetY": 8,
+      "resources": {
+        "icon": "149_01",
+        "iconShiny": "",
+        "front": "149_01",
+        "frontShiny": "149",
+        "back": "149_01",
+        "backShiny": "149",
+        "footprint": "149",
+        "character": "",
+        "characterShiny": "",
+        "cry": "149cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -894,21 +907,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "149_01",
-        "iconShiny": "",
-        "front": "149_01",
-        "frontShiny": "149",
-        "back": "149_01",
-        "backShiny": "149",
-        "footprint": "149",
-        "character": "",
-        "characterShiny": "",
-        "cry": "149cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

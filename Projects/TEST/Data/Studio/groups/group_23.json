@@ -128,9 +128,9 @@
           "type": "moves",
           "value": [
             "__undef__",
+            "shadow_claw",
             "__undef__",
-            "__undef__",
-            "shadow_claw"
+            "__undef__"
           ]
         }
       ]

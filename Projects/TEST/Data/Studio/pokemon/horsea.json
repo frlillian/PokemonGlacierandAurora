@@ -28,7 +28,7 @@
           "conditions": [
             {
               "type": "minLevel",
-              "value": 32
+              "value": 18
             }
           ]
         }
@@ -61,6 +61,19 @@
         "damp"
       ],
       "frontOffsetY": 30,
+      "resources": {
+        "icon": "116",
+        "iconShiny": "",
+        "front": "116",
+        "frontShiny": "116",
+        "back": "116",
+        "backShiny": "116",
+        "footprint": "116",
+        "character": "116_0",
+        "characterShiny": "116s_0",
+        "cry": "116cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -298,20 +311,7 @@
           "klass": "BreedLearnableMove",
           "move": "clear_smog"
         }
-      ],
-      "resources": {
-        "icon": "116",
-        "iconShiny": "",
-        "front": "116",
-        "frontShiny": "116",
-        "back": "116",
-        "backShiny": "116",
-        "footprint": "116",
-        "character": "116_0",
-        "characterShiny": "116s_0",
-        "cry": "116cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -28,7 +28,24 @@
           "conditions": [
             {
               "type": "minLevel",
-              "value": 37
+              "value": 42
+            },
+            {
+              "type": "none"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "clawitzer",
+          "form": 1,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 42
+            },
+            {
+              "type": "skill1",
+              "value": "origin_pulse"
             }
           ]
         }
@@ -52,6 +69,19 @@
         "mega_launcher"
       ],
       "frontOffsetY": 29,
+      "resources": {
+        "icon": "692",
+        "iconShiny": "",
+        "front": "692",
+        "frontShiny": "692",
+        "back": "692",
+        "backShiny": "692",
+        "footprint": "",
+        "character": "692_0",
+        "characterShiny": "692s_0",
+        "cry": "692cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -290,20 +320,7 @@
           "klass": "BreedLearnableMove",
           "move": "entrainment"
         }
-      ],
-      "resources": {
-        "icon": "692",
-        "iconShiny": "",
-        "front": "692",
-        "frontShiny": "692",
-        "back": "692",
-        "backShiny": "692",
-        "footprint": "",
-        "character": "692_0",
-        "characterShiny": "692s_0",
-        "cry": "692cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

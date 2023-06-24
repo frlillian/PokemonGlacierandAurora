@@ -46,13 +46,13 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "mirror_shot"
           ]
         }
       ]
     },
     {
-      "specie": "pichu",
+      "specie": "elekid",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -88,7 +88,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "meteor_mash"
           ]
         }
       ]
@@ -172,7 +172,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "flash_cannon"
           ]
         }
       ]

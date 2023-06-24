@@ -34,13 +34,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "snivy",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "absorb_bulb",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "overgrow",
         "overgrow",
         "contrary"
       ],
       "frontOffsetY": 14,
+      "resources": {
+        "icon": "497",
+        "iconShiny": "",
+        "front": "497",
+        "frontShiny": "497",
+        "back": "497",
+        "backShiny": "497",
+        "footprint": "497",
+        "character": "497_0",
+        "characterShiny": "497s_0",
+        "cry": "497cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -332,20 +354,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "497",
-        "iconShiny": "",
-        "front": "497",
-        "frontShiny": "497",
-        "back": "497",
-        "backShiny": "497",
-        "footprint": "497",
-        "character": "497_0",
-        "characterShiny": "497s_0",
-        "cry": "497cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

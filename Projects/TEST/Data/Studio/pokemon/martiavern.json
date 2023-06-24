@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "absol",
           "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "dusk_stone"
             }
-          ],
-          "dbSymbol": "absol"
+          ]
         }
       ],
       "experienceType": 0,
@@ -51,8 +51,8 @@
           "chance": 0
         },
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "absolite",
+          "chance": 10
         }
       ],
       "abilities": [

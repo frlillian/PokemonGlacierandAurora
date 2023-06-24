@@ -1,1 +1,421 @@
-{"klass":"TrainerBattleSetup","id":96,"dbSymbol":"trainer_96","vsType":1,"isCouple":false,"baseMoney":30,"battlers":["001"],"bagEntries":[],"battleId":0,"ai":0,"party":[]}
+{
+  "klass": "TrainerBattleSetup",
+  "id": 96,
+  "dbSymbol": "trainer_96",
+  "vsType": 1,
+  "isCouple": false,
+  "baseMoney": 30,
+  "battlers": [
+    "004"
+  ],
+  "bagEntries": [
+    {
+      "dbSymbol": "mega_cuff",
+      "amount": 1
+    },
+    {
+      "dbSymbol": "hyper_potion",
+      "amount": 1
+    }
+  ],
+  "battleId": 0,
+  "ai": 7,
+  "party": [
+    {
+      "specie": "ludicolo",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 45
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "rain_dance",
+            "toxic_spikes",
+            "giga_drain",
+            "leaf_storm"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Francis"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "damp_rock"
+        },
+        {
+          "type": "ability",
+          "value": "rain_dish"
+        }
+      ]
+    },
+    {
+      "specie": "azumarill",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 45
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "play_rough",
+            "sludge_bomb",
+            "toxic",
+            "hydro_pump"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Francis"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "sludge_born"
+        },
+        {
+          "type": "itemHeld",
+          "value": "wise_glasses"
+        }
+      ]
+    },
+    {
+      "specie": "volcarona",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 45
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "venoshock",
+            "bug_buzz",
+            "fiery_dance",
+            "leech_life"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Francis"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "poison_point"
+        },
+        {
+          "type": "itemHeld",
+          "value": "leftovers"
+        }
+      ]
+    },
+    {
+      "specie": "malamar",
+      "form": 1,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 45
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "night_slash",
+            "psycho_cut",
+            "poison_jab",
+            "rock_slide"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Francis"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "assault_vest"
+        },
+        {
+          "type": "ability",
+          "value": "toxic_boost"
+        }
+      ]
+    },
+    {
+      "specie": "gunphin",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 45
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "toxic_spikes",
+            "poison_jab",
+            "aqua_tail",
+            "venom_drench"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Francis"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "dry_skin"
+        },
+        {
+          "type": "itemHeld",
+          "value": "poison_barb"
+        }
+      ]
+    },
+    {
+      "specie": "seismitoad",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 45
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "drain_punch",
+            "waterfall",
+            "dig",
+            "rain_dance"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Francis"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "poison_touch"
+        },
+        {
+          "type": "itemHeld",
+          "value": "leftovers"
+        }
+      ]
+    }
+  ]
+}

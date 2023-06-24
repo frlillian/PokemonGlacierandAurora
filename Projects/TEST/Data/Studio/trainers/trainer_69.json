@@ -129,7 +129,7 @@
       ]
     },
     {
-      "specie": "diancie",
+      "specie": "carbink",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -183,10 +183,6 @@
         {
           "type": "originalTrainerId",
           "value": 0
-        },
-        {
-          "type": "givenName",
-          "value": "Jenny"
         }
       ]
     }

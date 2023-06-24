@@ -8,7 +8,12 @@
   "battlers": [
     "001"
   ],
-  "bagEntries": [],
+  "bagEntries": [
+    {
+      "dbSymbol": "mega_ring",
+      "amount": 1
+    }
+  ],
   "battleId": 0,
   "ai": 6,
   "party": [
@@ -290,7 +295,7 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
+            "hyper_beam",
             "__undef__",
             "__undef__",
             "__undef__"
@@ -303,6 +308,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "altarianite"
         }
       ]
     },

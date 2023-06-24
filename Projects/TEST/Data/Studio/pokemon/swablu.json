@@ -45,13 +45,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "swablu",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "altarianite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "natural_cure",
         "natural_cure",
         "cloud_nine"
       ],
       "frontOffsetY": 26,
+      "resources": {
+        "icon": "333",
+        "iconShiny": "",
+        "front": "333",
+        "frontShiny": "333",
+        "back": "333",
+        "backShiny": "333",
+        "footprint": "333",
+        "character": "333_0",
+        "characterShiny": "333s_0",
+        "cry": "333cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -330,20 +352,7 @@
           "klass": "BreedLearnableMove",
           "move": "dragon_rush"
         }
-      ],
-      "resources": {
-        "icon": "333",
-        "iconShiny": "",
-        "front": "333",
-        "frontShiny": "333",
-        "back": "333",
-        "backShiny": "333",
-        "footprint": "333",
-        "character": "333_0",
-        "characterShiny": "333s_0",
-        "cry": "333cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

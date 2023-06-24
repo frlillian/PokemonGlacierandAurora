@@ -4,7 +4,9 @@
   "dbSymbol": "group_19",
   "systemTag": "Grass",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -176,7 +178,7 @@
       ]
     },
     {
-      "specie": "hawlucha",
+      "specie": "heatmor",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",

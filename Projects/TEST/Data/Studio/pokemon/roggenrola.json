@@ -45,13 +45,35 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "roggenrola",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "chople_berry",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "sturdy",
         "weak_armor",
         "sand_force"
       ],
       "frontOffsetY": 30,
+      "resources": {
+        "icon": "524",
+        "iconShiny": "",
+        "front": "524",
+        "frontShiny": "524",
+        "back": "524",
+        "backShiny": "524",
+        "footprint": "524",
+        "character": "524_0",
+        "characterShiny": "524s_0",
+        "cry": "524cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -290,20 +312,7 @@
           "klass": "BreedLearnableMove",
           "move": "heavy_slam"
         }
-      ],
-      "resources": {
-        "icon": "524",
-        "iconShiny": "",
-        "front": "524",
-        "frontShiny": "524",
-        "back": "524",
-        "backShiny": "524",
-        "footprint": "524",
-        "character": "524_0",
-        "characterShiny": "524s_0",
-        "cry": "524cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

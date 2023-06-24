@@ -45,13 +45,39 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "torchic",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "passho_berry",
+          "chance": 90
+        },
+        {
+          "dbSymbol": "blazikenite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "blaze",
         "blaze",
         "speed_boost"
       ],
       "frontOffsetY": 16,
+      "resources": {
+        "icon": "256",
+        "iconShiny": "",
+        "front": "256",
+        "frontF": "256f",
+        "frontShiny": "256",
+        "frontShinyF": "256f",
+        "back": "256",
+        "backF": "256f",
+        "backShiny": "256",
+        "backShinyF": "256f",
+        "footprint": "256",
+        "character": "256_0",
+        "characterShiny": "256s_0",
+        "cry": "256cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -337,24 +363,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "256",
-        "iconShiny": "",
-        "front": "256",
-        "frontF": "256f",
-        "frontShiny": "256",
-        "frontShinyF": "256f",
-        "back": "256",
-        "backF": "256f",
-        "backShiny": "256",
-        "backShinyF": "256f",
-        "footprint": "256",
-        "character": "256_0",
-        "characterShiny": "256s_0",
-        "cry": "256cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

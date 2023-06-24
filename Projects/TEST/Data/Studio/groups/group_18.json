@@ -4,7 +4,9 @@
   "dbSymbol": "group_18",
   "systemTag": "Grass",
   "terrainTag": 0,
+  "tool": null,
   "isDoubleBattle": false,
+  "isHordeBattle": false,
   "customConditions": [],
   "encounters": [
     {
@@ -170,7 +172,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "draining_kiss"
           ]
         }
       ]
@@ -212,7 +214,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "moonblast"
           ]
         }
       ]
@@ -254,7 +256,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "__undef__"
+            "u_turn"
           ]
         }
       ]

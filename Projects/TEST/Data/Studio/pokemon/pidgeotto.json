@@ -273,7 +273,7 @@
       "form": 1,
       "height": 1.1,
       "weight": 30,
-      "type1": "rock",
+      "type1": "ice",
       "type2": "flying",
       "baseHp": 63,
       "baseAtk": 60,
@@ -322,9 +322,9 @@
         }
       ],
       "abilities": [
-        "pressure",
-        "big_pecks",
-        "big_pecks"
+        "ice_body",
+        "ice_body",
+        "ice_body"
       ],
       "frontOffsetY": 3,
       "resources": {
@@ -363,7 +363,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_blast",
+          "move": "ice_shard",
           "level": 9
         },
         {
@@ -398,7 +398,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_blast",
+          "move": "icicle_crash",
           "level": 42
         },
         {
@@ -408,7 +408,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "stealth_rock",
+          "move": "hail",
           "level": 52
         },
         {
@@ -418,7 +418,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "stone_edge",
+          "move": "sheer_cold",
           "level": 62
         },
         {
@@ -440,6 +440,10 @@
         {
           "klass": "TutorLearnableMove",
           "move": "tailwind"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "drake_renaissance"
         },
         {
           "klass": "TechLearnableMove",
@@ -602,8 +606,12 @@
           "move": "confide"
         },
         {
-          "klass": "EvolutionLearnableMove",
-          "move": "drake_renaissance"
+          "klass": "TechLearnableMove",
+          "move": "ice_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "blizzard"
         }
       ]
     }

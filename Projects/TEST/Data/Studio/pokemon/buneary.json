@@ -45,13 +45,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "buneary",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "custap_berry",
+          "chance": 90
+        },
+        {
+          "dbSymbol": "lopunnite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "run_away",
         "klutz",
         "limber"
       ],
       "frontOffsetY": 19,
+      "resources": {
+        "icon": "427",
+        "iconShiny": "",
+        "front": "427",
+        "frontShiny": "427",
+        "back": "427",
+        "backShiny": "427",
+        "footprint": "427",
+        "character": "427_0",
+        "characterShiny": "427s_0",
+        "cry": "427cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -410,20 +432,7 @@
           "klass": "BreedLearnableMove",
           "move": "circle_throw"
         }
-      ],
-      "resources": {
-        "icon": "427",
-        "iconShiny": "",
-        "front": "427",
-        "frontShiny": "427",
-        "back": "427",
-        "backShiny": "427",
-        "footprint": "427",
-        "character": "427_0",
-        "characterShiny": "427s_0",
-        "cry": "427cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

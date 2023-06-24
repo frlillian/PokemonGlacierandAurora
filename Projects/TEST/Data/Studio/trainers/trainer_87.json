@@ -6,7 +6,7 @@
   "isCouple": false,
   "baseMoney": 100,
   "battlers": [
-    "001"
+    "071"
   ],
   "bagEntries": [
     {
@@ -16,6 +16,10 @@
     {
       "dbSymbol": "max_potion",
       "amount": 3
+    },
+    {
+      "dbSymbol": "mega_ring",
+      "amount": 1
     }
   ],
   "battleId": 0,
@@ -23,14 +27,14 @@
   "party": [
     {
       "specie": "mightyena",
-      "form": 0,
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 47
+        "level": 57
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -88,7 +92,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 50
+        "level": 60
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -146,7 +150,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 58
+        "level": 68
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -195,7 +199,7 @@
         },
         {
           "type": "itemHeld",
-          "value": "leftovers"
+          "value": "charizardite_y"
         }
       ]
     },
@@ -324,7 +328,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 56
+        "level": 60
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

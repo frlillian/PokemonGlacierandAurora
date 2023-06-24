@@ -42,7 +42,7 @@
         14,
         14
       ],
-      "hatchSteps": 10240,
+      "hatchSteps": 1000,
       "babyDbSymbol": "jangmo_o",
       "babyForm": 0,
       "itemHeld": [],
@@ -52,6 +52,19 @@
         "overcoat"
       ],
       "frontOffsetY": 22,
+      "resources": {
+        "icon": "782",
+        "iconShiny": "",
+        "front": "782",
+        "frontShiny": "782",
+        "back": "782",
+        "backShiny": "782",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -229,21 +242,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "snarl"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "782",
-        "iconShiny": "",
-        "front": "782",
-        "frontShiny": "782",
-        "back": "782",
-        "backShiny": "782",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

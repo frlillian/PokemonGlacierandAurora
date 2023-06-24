@@ -45,11 +45,24 @@
         }
       ],
       "abilities": [
-        "drought",
-        "drought",
-        "desolate_land"
+        "ancient_dragon_call",
+        "ancient_dragon_call",
+        "ancient_dragon_call"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "826",
+        "iconShiny": "",
+        "front": "826",
+        "frontShiny": "",
+        "back": "826",
+        "backShiny": "",
+        "footprint": "",
+        "character": "826_0",
+        "characterShiny": "",
+        "cry": "826cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -322,21 +335,12 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "826",
-        "iconShiny": "",
-        "front": "826",
-        "frontShiny": "",
-        "back": "826",
-        "backShiny": "",
-        "footprint": "",
-        "character": "826_0",
-        "characterShiny": "",
-        "cry": "826cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -23,7 +23,7 @@
       "evDfs": 1,
       "evolutions": [],
       "experienceType": 1,
-      "baseExperience": 40,
+      "baseExperience": 236,
       "baseLoyalty": 70,
       "catchRate": 45,
       "femaleRate": 50,
@@ -45,9 +45,9 @@
         }
       ],
       "abilities": [
-        "misty_surge",
+        "soft_skin",
         "liquid_voice",
-        "competitive"
+        "misty_surge"
       ],
       "frontOffsetY": 0,
       "resources": {

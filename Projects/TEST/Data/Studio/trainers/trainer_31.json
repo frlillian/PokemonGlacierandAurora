@@ -6,22 +6,22 @@
   "isCouple": false,
   "baseMoney": 30,
   "battlers": [
-    "001"
+    "071"
   ],
   "bagEntries": [],
   "battleId": 0,
   "ai": 5,
   "party": [
     {
-      "specie": "poochyena",
-      "form": 0,
+      "specie": "mightyena",
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 22
+        "level": 25
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -196,6 +196,64 @@
       "levelSetup": {
         "kind": "fixed",
         "level": 24
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "__undef__",
+            "__undef__",
+            "__undef__",
+            "__undef__"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Genna"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "specie": "kadabra",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 28
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [

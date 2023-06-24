@@ -29,10 +29,6 @@
             {
               "type": "minLoyalty",
               "value": 220
-            },
-            {
-              "type": "dayNight",
-              "value": 0
             }
           ]
         }
@@ -56,6 +52,19 @@
         "levitate"
       ],
       "frontOffsetY": 29,
+      "resources": {
+        "icon": "433",
+        "iconShiny": "",
+        "front": "433",
+        "frontShiny": "433",
+        "back": "433",
+        "backShiny": "433",
+        "footprint": "433",
+        "character": "433_0",
+        "characterShiny": "433s_0",
+        "cry": "433cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -345,20 +354,7 @@
           "klass": "BreedLearnableMove",
           "move": "stored_power"
         }
-      ],
-      "resources": {
-        "icon": "433",
-        "iconShiny": "",
-        "front": "433",
-        "frontShiny": "433",
-        "back": "433",
-        "backShiny": "433",
-        "footprint": "433",
-        "character": "433_0",
-        "characterShiny": "433s_0",
-        "cry": "433cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

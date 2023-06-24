@@ -51,8 +51,8 @@
           "chance": 0
         },
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "pidgeotite",
+          "chance": 10
         }
       ],
       "abilities": [
@@ -61,6 +61,19 @@
         "big_pecks"
       ],
       "frontOffsetY": 27,
+      "resources": {
+        "icon": "016",
+        "iconShiny": "",
+        "front": "016",
+        "frontShiny": "016",
+        "back": "016",
+        "backShiny": "016",
+        "footprint": "016",
+        "character": "016_0",
+        "characterShiny": "016s_0",
+        "cry": "016cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -280,26 +293,13 @@
           "klass": "BreedLearnableMove",
           "move": "defog"
         }
-      ],
-      "resources": {
-        "icon": "016",
-        "iconShiny": "",
-        "front": "016",
-        "frontShiny": "016",
-        "back": "016",
-        "backShiny": "016",
-        "footprint": "016",
-        "character": "016_0",
-        "characterShiny": "016s_0",
-        "cry": "016cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
       "height": 0.3,
       "weight": 1.8,
-      "type1": "rock",
+      "type1": "ice",
       "type2": "flying",
       "baseHp": 40,
       "baseAtk": 45,
@@ -348,11 +348,24 @@
         }
       ],
       "abilities": [
-        "keen_eye",
-        "tangled_feet",
-        "big_pecks"
+        "ice_body",
+        "ice_body",
+        "ice_body"
       ],
       "frontOffsetY": 27,
+      "resources": {
+        "icon": "016_01",
+        "iconShiny": "",
+        "front": "016_01",
+        "frontShiny": "016",
+        "back": "016_01",
+        "backShiny": "016",
+        "footprint": "016",
+        "character": "",
+        "characterShiny": "",
+        "cry": "016cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -366,7 +379,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "smack_down",
+          "move": "ice_shard",
           "level": 9
         },
         {
@@ -401,7 +414,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_blast",
+          "move": "icicle_crash",
           "level": 37
         },
         {
@@ -443,6 +456,42 @@
         {
           "klass": "TutorLearnableMove",
           "move": "tailwind"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "feint_attack"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "foresight"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "steel_wing"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "pursuit"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "uproar"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "air_cutter"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "air_slash"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "brave_bird"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "defog"
         },
         {
           "klass": "TechLearnableMove",
@@ -605,55 +654,14 @@
           "move": "confide"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "feint_attack"
+          "klass": "TechLearnableMove",
+          "move": "ice_beam"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "foresight"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "steel_wing"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "pursuit"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "uproar"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "air_cutter"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "air_slash"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "brave_bird"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "defog"
+          "klass": "TechLearnableMove",
+          "move": "blizzard"
         }
-      ],
-      "resources": {
-        "icon": "016_01",
-        "iconShiny": "",
-        "front": "016_01",
-        "frontShiny": "016",
-        "back": "016_01",
-        "backShiny": "016",
-        "footprint": "016",
-        "character": "",
-        "characterShiny": "",
-        "cry": "016cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

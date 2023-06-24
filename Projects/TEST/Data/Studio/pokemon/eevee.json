@@ -76,7 +76,8 @@
                 95,
                 92,
                 93,
-                94
+                94,
+                71
               ]
             }
           ]
@@ -181,6 +182,19 @@
         "anticipation"
       ],
       "frontOffsetY": 24,
+      "resources": {
+        "icon": "133",
+        "iconShiny": "",
+        "front": "133",
+        "frontShiny": "133",
+        "back": "133",
+        "backShiny": "133",
+        "footprint": "133",
+        "character": "133_0",
+        "characterShiny": "133s_0",
+        "cry": "133cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -439,20 +453,7 @@
           "klass": "BreedLearnableMove",
           "move": "stored_power"
         }
-      ],
-      "resources": {
-        "icon": "133",
-        "iconShiny": "",
-        "front": "133",
-        "frontShiny": "133",
-        "back": "133",
-        "backShiny": "133",
-        "footprint": "133",
-        "character": "133_0",
-        "characterShiny": "133s_0",
-        "cry": "133cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

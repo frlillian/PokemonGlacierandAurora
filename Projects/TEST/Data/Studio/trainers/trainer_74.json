@@ -6,14 +6,19 @@
   "isCouple": false,
   "baseMoney": 30,
   "battlers": [
-    "001"
+    "090"
   ],
-  "bagEntries": [],
+  "bagEntries": [
+    {
+      "dbSymbol": "mega_cuff",
+      "amount": 1
+    }
+  ],
   "battleId": 0,
   "ai": 6,
   "party": [
     {
-      "specie": "archeops",
+      "specie": "terrakion",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -21,7 +26,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 52
+        "level": 56
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -54,10 +59,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "sacred_sword",
+            "aerial_ace",
+            "stone_edge",
+            "stealth_rock"
           ]
         },
         {
@@ -67,122 +72,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
-        }
-      ]
-    },
-    {
-      "specie": "kabutops",
-      "form": 0,
-      "shinySetup": {
-        "kind": "automatic",
-        "rate": -1
-      },
-      "levelSetup": {
-        "kind": "fixed",
-        "level": 48
-      },
-      "randomEncounterChance": 1,
-      "expandPokemonSetup": [
-        {
-          "type": "evs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
         },
         {
-          "type": "ivs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "loyalty",
-          "value": 70
-        },
-        {
-          "type": "moves",
-          "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
-          ]
-        },
-        {
-          "type": "originalTrainerName",
-          "value": "Ja Olivar"
-        },
-        {
-          "type": "originalTrainerId",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "specie": "tyrantrum",
-      "form": 0,
-      "shinySetup": {
-        "kind": "automatic",
-        "rate": -1
-      },
-      "levelSetup": {
-        "kind": "fixed",
-        "level": 50
-      },
-      "randomEncounterChance": 1,
-      "expandPokemonSetup": [
-        {
-          "type": "evs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "ivs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "loyalty",
-          "value": 70
-        },
-        {
-          "type": "moves",
-          "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
-          ]
-        },
-        {
-          "type": "originalTrainerName",
-          "value": "Ja Olivar"
-        },
-        {
-          "type": "originalTrainerId",
-          "value": 0
+          "type": "itemHeld",
+          "value": "assault_vest"
         }
       ]
     },
@@ -195,7 +88,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 55
+        "level": 57
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -228,10 +121,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "roar_of_time",
+            "ice_beam",
+            "flash_cannon",
+            "earth_power"
           ]
         },
         {
@@ -241,6 +134,72 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "rocky_helmet"
+        }
+      ]
+    },
+    {
+      "specie": "tyrantrum",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 56
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "dragon_claw",
+            "aerial_ace",
+            "stone_edge",
+            "crunch"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Ja Olivar"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "assault_vest"
         }
       ]
     },
@@ -253,7 +212,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 53
+        "level": 56
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -286,10 +245,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "meteor_mash",
+            "power_up_punch",
+            "earthquake",
+            "zen_headbutt"
           ]
         },
         {
@@ -299,6 +258,72 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "focus_sash"
+        }
+      ]
+    },
+    {
+      "specie": "aerodactyl",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 56
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "fly",
+            "roost",
+            "rock_slide",
+            "thunder_fang"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Ja Olivar"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "razor_fang"
         }
       ]
     },
@@ -311,7 +336,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 52
+        "level": 57
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -344,10 +369,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "iron_head",
+            "x_scissor",
+            "night_slash",
+            "aerial_ace"
           ]
         },
         {
@@ -357,6 +382,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "scizorite"
         }
       ]
     }

@@ -45,13 +45,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "mudkip",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "swampertite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "torrent",
         "torrent",
         "damp"
       ],
       "frontOffsetY": 27,
+      "resources": {
+        "icon": "258",
+        "iconShiny": "",
+        "front": "258",
+        "frontShiny": "258",
+        "back": "258",
+        "backShiny": "258",
+        "footprint": "258",
+        "character": "258_0",
+        "characterShiny": "258s_0",
+        "cry": "258cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -350,20 +372,7 @@
           "klass": "BreedLearnableMove",
           "move": "wide_guard"
         }
-      ],
-      "resources": {
-        "icon": "258",
-        "iconShiny": "",
-        "front": "258",
-        "frontShiny": "258",
-        "back": "258",
-        "backShiny": "258",
-        "footprint": "258",
-        "character": "258_0",
-        "characterShiny": "258s_0",
-        "cry": "258cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

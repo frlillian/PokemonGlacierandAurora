@@ -51,8 +51,8 @@
           "chance": 0
         },
         {
-          "dbSymbol": "none",
-          "chance": 0
+          "dbSymbol": "gengarite",
+          "chance": 10
         }
       ],
       "abilities": [
@@ -61,6 +61,19 @@
         "levitate"
       ],
       "frontOffsetY": 16,
+      "resources": {
+        "icon": "092",
+        "iconShiny": "",
+        "front": "092",
+        "frontShiny": "092",
+        "back": "092",
+        "backShiny": "092",
+        "footprint": "092",
+        "character": "092_0",
+        "characterShiny": "092s_0",
+        "cry": "092cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -393,20 +406,7 @@
           "klass": "BreedLearnableMove",
           "move": "reflect_type"
         }
-      ],
-      "resources": {
-        "icon": "092",
-        "iconShiny": "",
-        "front": "092",
-        "frontShiny": "092",
-        "back": "092",
-        "backShiny": "092",
-        "footprint": "092",
-        "character": "092_0",
-        "characterShiny": "092s_0",
-        "cry": "092cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

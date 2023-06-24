@@ -44,13 +44,35 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "shuppet",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "banettite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "insomnia",
         "frisk",
         "cursed_body"
       ],
       "frontOffsetY": 22,
+      "resources": {
+        "icon": "354",
+        "iconShiny": "",
+        "front": "354",
+        "frontShiny": "354",
+        "back": "354",
+        "backShiny": "354",
+        "footprint": "354",
+        "character": "354_0",
+        "characterShiny": "354s_0",
+        "cry": "354cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -368,20 +390,7 @@
           "klass": "TechLearnableMove",
           "move": "infestation"
         }
-      ],
-      "resources": {
-        "icon": "354",
-        "iconShiny": "",
-        "front": "354",
-        "frontShiny": "354",
-        "back": "354",
-        "backShiny": "354",
-        "footprint": "354",
-        "character": "354_0",
-        "characterShiny": "354s_0",
-        "cry": "354cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 30,
@@ -421,6 +430,19 @@
         "prankster"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "354_30",
+        "iconShiny": "",
+        "front": "354_30",
+        "frontShiny": "354_30",
+        "back": "354_30",
+        "backShiny": "354",
+        "footprint": "354",
+        "character": "",
+        "characterShiny": "",
+        "cry": "354cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -738,20 +760,7 @@
           "klass": "TechLearnableMove",
           "move": "infestation"
         }
-      ],
-      "resources": {
-        "icon": "354_30",
-        "iconShiny": "",
-        "front": "354_30",
-        "frontShiny": "354_30",
-        "back": "354_30",
-        "backShiny": "354",
-        "footprint": "354",
-        "character": "",
-        "characterShiny": "",
-        "cry": "354cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

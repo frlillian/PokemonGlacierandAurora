@@ -51,6 +51,23 @@
         "light_metal"
       ],
       "frontOffsetY": 11,
+      "resources": {
+        "icon": "212",
+        "iconShiny": "",
+        "front": "212",
+        "frontF": "212f",
+        "frontShiny": "212",
+        "frontShinyF": "212f",
+        "back": "212",
+        "backF": "212f",
+        "backShiny": "212",
+        "backShinyF": "212f",
+        "footprint": "212",
+        "character": "212_0",
+        "characterShiny": "212s_0",
+        "cry": "212cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -331,24 +348,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "212",
-        "iconShiny": "",
-        "front": "212",
-        "frontF": "212f",
-        "frontShiny": "212",
-        "frontShinyF": "212f",
-        "back": "212",
-        "backF": "212f",
-        "backShiny": "212",
-        "backShinyF": "212f",
-        "footprint": "212",
-        "character": "212_0",
-        "characterShiny": "212s_0",
-        "cry": "212cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 30,
@@ -388,6 +388,23 @@
         "technician"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "212_30",
+        "iconShiny": "",
+        "front": "212_30",
+        "frontF": "212f",
+        "frontShiny": "212_30",
+        "frontShinyF": "212f",
+        "back": "212_30",
+        "backF": "212f",
+        "backShiny": "212_30",
+        "backShinyF": "212f",
+        "footprint": "212",
+        "character": "",
+        "characterShiny": "",
+        "cry": "212cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -668,24 +685,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "212_30",
-        "iconShiny": "",
-        "front": "212_30",
-        "frontF": "212f",
-        "frontShiny": "212_30",
-        "frontShinyF": "212f",
-        "back": "212_30",
-        "backF": "212f",
-        "backShiny": "212_30",
-        "backShinyF": "212f",
-        "footprint": "212",
-        "character": "",
-        "characterShiny": "",
-        "cry": "212cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

@@ -29,10 +29,6 @@
             {
               "type": "minLoyalty",
               "value": 200
-            },
-            {
-              "type": "dayNight",
-              "value": 3
             }
           ]
         }
@@ -49,7 +45,16 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "__undef__",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "starf_berry",
+          "chance": 90
+        },
+        {
+          "dbSymbol": "lucarionite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "inner_focus",
         "steadfast",

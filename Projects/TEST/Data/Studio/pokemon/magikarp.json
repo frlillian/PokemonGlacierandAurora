@@ -28,7 +28,7 @@
           "conditions": [
             {
               "type": "minLevel",
-              "value": 20
+              "value": 40
             }
           ]
         }
@@ -45,13 +45,39 @@
       "hatchSteps": 1280,
       "babyDbSymbol": "magikarp",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "rindo_berry",
+          "chance": 90
+        },
+        {
+          "dbSymbol": "gyaradosite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "swift_swim",
         "swift_swim",
         "rattled"
       ],
       "frontOffsetY": 19,
+      "resources": {
+        "icon": "129",
+        "iconShiny": "129s",
+        "front": "129",
+        "frontF": "129f",
+        "frontShiny": "129",
+        "frontShinyF": "129f",
+        "back": "129",
+        "backF": "129f",
+        "backShiny": "129",
+        "backShinyF": "129f",
+        "footprint": "129",
+        "character": "129_0",
+        "characterShiny": "129s_0",
+        "cry": "129cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -72,24 +98,7 @@
           "klass": "TutorLearnableMove",
           "move": "bounce"
         }
-      ],
-      "resources": {
-        "icon": "129",
-        "iconShiny": "129s",
-        "front": "129",
-        "frontF": "129f",
-        "frontShiny": "129",
-        "frontShinyF": "129f",
-        "back": "129",
-        "backF": "129f",
-        "backShiny": "129",
-        "backShinyF": "129f",
-        "footprint": "129",
-        "character": "129_0",
-        "characterShiny": "129s_0",
-        "cry": "129cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

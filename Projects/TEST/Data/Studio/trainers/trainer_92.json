@@ -12,6 +12,10 @@
     {
       "dbSymbol": "full_restore",
       "amount": 1
+    },
+    {
+      "dbSymbol": "mega_charm",
+      "amount": 1
     }
   ],
   "battleId": 0,
@@ -246,6 +250,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "gyaradosite"
         }
       ]
     },

@@ -45,13 +45,35 @@
       "hatchSteps": 1000,
       "babyDbSymbol": "ralts",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "babiri_berry",
+          "chance": 90
+        },
+        {
+          "dbSymbol": "gardevoirite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "synchronize",
         "trace",
         "telepathy"
       ],
       "frontOffsetY": 29,
+      "resources": {
+        "icon": "280",
+        "iconShiny": "",
+        "front": "280",
+        "frontShiny": "280",
+        "back": "280",
+        "backShiny": "280",
+        "footprint": "280",
+        "character": "280_0",
+        "characterShiny": "280s_0",
+        "cry": "280cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -414,20 +436,7 @@
           "klass": "BreedLearnableMove",
           "move": "misty_terrain"
         }
-      ],
-      "resources": {
-        "icon": "280",
-        "iconShiny": "",
-        "front": "280",
-        "frontShiny": "280",
-        "back": "280",
-        "backShiny": "280",
-        "footprint": "280",
-        "character": "280_0",
-        "characterShiny": "280s_0",
-        "cry": "280cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

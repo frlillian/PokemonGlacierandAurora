@@ -59,13 +59,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "snorunt",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "shuca_berry",
+          "chance": 90
+        },
+        {
+          "dbSymbol": "glalitite",
+          "chance": 10
+        }
+      ],
       "abilities": [
         "inner_focus",
         "ice_body",
         "moody"
       ],
       "frontOffsetY": 28,
+      "resources": {
+        "icon": "361",
+        "iconShiny": "",
+        "front": "361",
+        "frontShiny": "361",
+        "back": "361",
+        "backShiny": "361",
+        "footprint": "361",
+        "character": "361_0",
+        "characterShiny": "361s_0",
+        "cry": "361cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -288,20 +310,7 @@
           "klass": "BreedLearnableMove",
           "move": "hex"
         }
-      ],
-      "resources": {
-        "icon": "361",
-        "iconShiny": "",
-        "front": "361",
-        "frontShiny": "361",
-        "back": "361",
-        "backShiny": "361",
-        "footprint": "361",
-        "character": "361_0",
-        "characterShiny": "361s_0",
-        "cry": "361cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

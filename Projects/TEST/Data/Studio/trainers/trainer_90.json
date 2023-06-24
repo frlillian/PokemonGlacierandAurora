@@ -8,7 +8,12 @@
   "battlers": [
     "001"
   ],
-  "bagEntries": [],
+  "bagEntries": [
+    {
+      "dbSymbol": "mega_ring",
+      "amount": 1
+    }
+  ],
   "battleId": 0,
   "ai": 6,
   "party": [
@@ -241,6 +246,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "tyranitarite"
         }
       ]
     },

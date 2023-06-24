@@ -41,6 +41,19 @@
         "overcoat"
       ],
       "frontOffsetY": 8,
+      "resources": {
+        "icon": "784",
+        "iconShiny": "",
+        "front": "784",
+        "frontShiny": "784",
+        "back": "784",
+        "backShiny": "784",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -84,12 +97,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "work_up",
+          "move": "outrage",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "screech",
+          "move": "karate_chop",
           "level": 24
         },
         {
@@ -242,21 +255,12 @@
         {
           "klass": "EvolutionLearnableMove",
           "move": "clanging_scales"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "drake_call"
         }
-      ],
-      "resources": {
-        "icon": "784",
-        "iconShiny": "",
-        "front": "784",
-        "frontShiny": "784",
-        "back": "784",
-        "backShiny": "784",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -296,7 +300,6 @@
         "overcoat"
       ],
       "frontOffsetY": 8,
-      "moveSet": [],
       "resources": {
         "icon": "784",
         "iconShiny": "",
@@ -309,7 +312,8 @@
         "characterShiny": "",
         "cry": "",
         "hasFemale": false
-      }
+      },
+      "moveSet": []
     }
   ]
 }

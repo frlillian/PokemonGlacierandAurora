@@ -45,13 +45,35 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "poochyena",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "cheri_berry",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "run_away",
         "quick_feet",
         "rattled"
       ],
       "frontOffsetY": 28,
+      "resources": {
+        "icon": "261",
+        "iconShiny": "",
+        "front": "261",
+        "frontShiny": "261",
+        "back": "261",
+        "backShiny": "261",
+        "footprint": "261",
+        "character": "261_0",
+        "characterShiny": "261s_0",
+        "cry": "261cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -331,20 +353,7 @@
           "klass": "BreedLearnableMove",
           "move": "play_rough"
         }
-      ],
-      "resources": {
-        "icon": "261",
-        "iconShiny": "",
-        "front": "261",
-        "frontShiny": "261",
-        "back": "261",
-        "backShiny": "261",
-        "footprint": "261",
-        "character": "261_0",
-        "characterShiny": "261s_0",
-        "cry": "261cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -388,13 +397,35 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "poochyena",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "safety_goggles",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "run_away",
         "quick_feet",
         "rattled"
       ],
       "frontOffsetY": 28,
+      "resources": {
+        "icon": "261_01",
+        "iconShiny": "",
+        "front": "261_01",
+        "frontShiny": "261",
+        "back": "261_01",
+        "backShiny": "261",
+        "footprint": "261",
+        "character": "",
+        "characterShiny": "",
+        "cry": "261cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -690,20 +721,7 @@
           "klass": "BreedLearnableMove",
           "move": "play_rough"
         }
-      ],
-      "resources": {
-        "icon": "261_01",
-        "iconShiny": "",
-        "front": "261_01",
-        "frontShiny": "261",
-        "back": "261_01",
-        "backShiny": "261",
-        "footprint": "261",
-        "character": "",
-        "characterShiny": "",
-        "cry": "261cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

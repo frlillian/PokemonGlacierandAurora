@@ -8,7 +8,7 @@
       "height": 0.8,
       "weight": 28.5,
       "type1": "water",
-      "type2": "__undef__",
+      "type2": "fairy",
       "baseHp": 100,
       "baseAtk": 50,
       "baseDfe": 80,
@@ -34,13 +34,35 @@
       "hatchSteps": 2560,
       "babyDbSymbol": "marill",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "rawst_berry",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "huge_power",
         "thick_fat",
         "sap_sipper"
       ],
       "frontOffsetY": 18,
+      "resources": {
+        "icon": "184",
+        "iconShiny": "",
+        "front": "184",
+        "frontShiny": "184",
+        "back": "184",
+        "backShiny": "184",
+        "footprint": "184",
+        "character": "184_0",
+        "characterShiny": "184s_0",
+        "cry": "184cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -324,20 +346,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "184",
-        "iconShiny": "",
-        "front": "184",
-        "frontShiny": "184",
-        "back": "184",
-        "backShiny": "184",
-        "footprint": "184",
-        "character": "184_0",
-        "characterShiny": "184s_0",
-        "cry": "184cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }
