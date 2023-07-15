@@ -45,7 +45,7 @@
         }
       ],
       "abilities": [
-        "big_pecks",
+        "burrowing",
         "__undef__",
         "__undef__"
       ],
@@ -289,6 +289,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dig"
         }
       ]
     }

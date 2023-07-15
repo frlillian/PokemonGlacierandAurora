@@ -41,6 +41,19 @@
         "moxie"
       ],
       "frontOffsetY": 16,
+      "resources": {
+        "icon": "262",
+        "iconShiny": "",
+        "front": "262",
+        "frontShiny": "262",
+        "back": "262",
+        "backShiny": "262",
+        "footprint": "262",
+        "character": "262_0",
+        "characterShiny": "262s_0",
+        "cry": "262cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -310,20 +323,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "262",
-        "iconShiny": "",
-        "front": "262",
-        "frontShiny": "262",
-        "back": "262",
-        "backShiny": "262",
-        "footprint": "262",
-        "character": "262_0",
-        "characterShiny": "262s_0",
-        "cry": "262cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -363,6 +363,19 @@
         "assassin"
       ],
       "frontOffsetY": 16,
+      "resources": {
+        "icon": "262_01",
+        "iconShiny": "",
+        "front": "262_01",
+        "frontShiny": "262",
+        "back": "262_01",
+        "backShiny": "262",
+        "footprint": "262",
+        "character": "262_01",
+        "characterShiny": "",
+        "cry": "262cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -416,7 +429,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "roar",
+          "move": "black_ice",
           "level": 16
         },
         {
@@ -648,20 +661,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "262_01",
-        "iconShiny": "",
-        "front": "262_01",
-        "frontShiny": "262",
-        "back": "262_01",
-        "backShiny": "262",
-        "footprint": "262",
-        "character": "",
-        "characterShiny": "",
-        "cry": "262cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

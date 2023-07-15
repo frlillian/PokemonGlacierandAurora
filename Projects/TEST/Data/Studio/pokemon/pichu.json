@@ -52,6 +52,19 @@
         "lightning_rod"
       ],
       "frontOffsetY": 29,
+      "resources": {
+        "icon": "172",
+        "iconShiny": "",
+        "front": "172",
+        "frontShiny": "172",
+        "back": "172",
+        "backShiny": "172",
+        "footprint": "172",
+        "character": "172_0",
+        "characterShiny": "172s_0",
+        "cry": "172cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -291,20 +304,7 @@
           "klass": "BreedLearnableMove",
           "move": "disarming_voice"
         }
-      ],
-      "resources": {
-        "icon": "172",
-        "iconShiny": "",
-        "front": "172",
-        "frontShiny": "172",
-        "back": "172",
-        "backShiny": "172",
-        "footprint": "172",
-        "character": "172_0",
-        "characterShiny": "172s_0",
-        "cry": "172cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -355,6 +355,19 @@
         "lightning_rod"
       ],
       "frontOffsetY": 29,
+      "resources": {
+        "icon": "172_01",
+        "iconShiny": "",
+        "front": "172_01",
+        "frontShiny": "172",
+        "back": "172_01",
+        "backShiny": "172",
+        "footprint": "172",
+        "character": "172_1",
+        "characterShiny": "172s_1",
+        "cry": "172cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -413,12 +426,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "discharge",
+          "move": "charge_beam",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "thunderbolt",
+          "move": "sword_charge",
           "level": 29
         },
         {
@@ -659,20 +672,7 @@
           "klass": "BreedLearnableMove",
           "move": "disarming_voice"
         }
-      ],
-      "resources": {
-        "icon": "172_01",
-        "iconShiny": "",
-        "front": "172_01",
-        "frontShiny": "172",
-        "back": "172_01",
-        "backShiny": "172",
-        "footprint": "172",
-        "character": "172_1",
-        "characterShiny": "172s_1",
-        "cry": "172cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

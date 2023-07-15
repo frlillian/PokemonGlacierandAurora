@@ -1,0 +1,51 @@
+{
+  "klass": "Move",
+  "id": 730,
+  "dbSymbol": "edda_verse",
+  "mapUse": 0,
+  "battleEngineMethod": "s_basic",
+  "type": "fighting",
+  "power": 0,
+  "accuracy": 70,
+  "pp": 20,
+  "category": "status",
+  "movecriticalRate": 1,
+  "priority": 1,
+  "isAuthentic": false,
+  "isBallistics": false,
+  "isBite": false,
+  "isBlocable": true,
+  "isCharge": false,
+  "isDance": false,
+  "isDirect": false,
+  "isDistance": false,
+  "isEffectChance": false,
+  "isGravity": false,
+  "isHeal": false,
+  "isKingRockUtility": false,
+  "isMagicCoatAffected": true,
+  "isMental": false,
+  "isMirrorMove": true,
+  "isNonSkyBattle": false,
+  "isPowder": false,
+  "isPulse": false,
+  "isPunch": false,
+  "isRecharge": false,
+  "isSnatchable": false,
+  "isSoundAttack": false,
+  "isUnfreeze": false,
+  "battleEngineAimedTarget": "all_foe",
+  "battleStageMod": [
+    {
+      "battleStage": "DFE_STAGE",
+      "modificator": -1
+    }
+  ],
+  "moveStatus": [
+    {
+      "status": "FLINCH",
+      "luckRate": 70
+    }
+  ],
+  "effectChance": 100
+}

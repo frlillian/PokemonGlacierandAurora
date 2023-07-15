@@ -26,6 +26,68 @@
   "ai": 7,
   "party": [
     {
+      "specie": "charizard",
+      "form": 0,
+      "shinySetup": {
+        "kind": "rate",
+        "rate": 1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 62
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "solar_beam",
+            "flamethrower",
+            "earthquake",
+            "air_slash"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Genna"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "charizardite_y"
+        }
+      ]
+    },
+    {
       "specie": "mightyena",
       "form": 1,
       "shinySetup": {
@@ -67,10 +129,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "black_ice",
+            "crunch",
+            "dig",
+            "icicle_crash"
           ]
         },
         {
@@ -125,10 +187,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "testudo",
+            "high_jump_kick",
+            "sky_attack",
+            "toxic"
           ]
         },
         {
@@ -138,68 +200,6 @@
         {
           "type": "originalTrainerId",
           "value": 0
-        }
-      ]
-    },
-    {
-      "specie": "charizard",
-      "form": 0,
-      "shinySetup": {
-        "kind": "rate",
-        "rate": 1
-      },
-      "levelSetup": {
-        "kind": "fixed",
-        "level": 68
-      },
-      "randomEncounterChance": 1,
-      "expandPokemonSetup": [
-        {
-          "type": "evs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "ivs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "loyalty",
-          "value": 70
-        },
-        {
-          "type": "moves",
-          "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
-          ]
-        },
-        {
-          "type": "originalTrainerName",
-          "value": "Genna"
-        },
-        {
-          "type": "originalTrainerId",
-          "value": 0
-        },
-        {
-          "type": "itemHeld",
-          "value": "charizardite_y"
         }
       ]
     },
@@ -245,10 +245,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "blizzard"
+            "psychic",
+            "fiery_dance",
+            "aura_sphere",
+            "hypnosis"
           ]
         },
         {
@@ -303,10 +303,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "sunny_day",
+            "solar_beam",
+            "growth",
+            "rock_slide"
           ]
         },
         {
@@ -320,7 +320,7 @@
       ]
     },
     {
-      "specie": "golurk",
+      "specie": "heliolisk",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -361,10 +361,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "razor_wind",
+            "dark_pulse",
+            "parabolic_charge",
+            "grass_knot"
           ]
         },
         {
@@ -374,6 +374,14 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "solar_power"
+        },
+        {
+          "type": "itemHeld",
+          "value": "shell_bell"
         }
       ]
     }

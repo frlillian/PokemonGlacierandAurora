@@ -612,6 +612,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "blizzard"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hail"
         }
       ]
     }

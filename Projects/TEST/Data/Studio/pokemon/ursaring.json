@@ -768,9 +768,9 @@
       "babyForm": 2,
       "itemHeld": [],
       "abilities": [
-        "reckless",
-        "contrary",
-        "moxie"
+        "five_turn_plan",
+        "five_turn_plan",
+        "five_turn_plan"
       ],
       "frontOffsetY": 14,
       "resources": {
@@ -791,6 +791,71 @@
         "hasFemale": false
       },
       "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fake_tears",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "lick",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_claw",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_swipes",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "beat_up",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_head",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crush_claw",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gyro_ball",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rush",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "skull_bash",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_burst",
+          "level": 57
+        },
         {
           "klass": "TutorLearnableMove",
           "move": "fire_punch"
@@ -1020,74 +1085,8 @@
           "move": "power_up_punch"
         },
         {
-          "klass": "LevelLearnableMove",
-          "move": "fake_tears",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "lick",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "metal_claw",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "fury_swipes",
-          "level": 8
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "beat_up",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "iron_head",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "nasty_plot",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "slash",
-          "level": 29
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "heavy_slam",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rest",
-          "level": 43
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "snore",
-          "level": 43
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "thrash",
-          "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "metal_burst",
-          "level": 57
+          "klass": "TechLearnableMove",
+          "move": "gyro_ball"
         }
       ]
     }

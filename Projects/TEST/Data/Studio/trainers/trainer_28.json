@@ -170,10 +170,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "electro_ball",
+            "sword_charge",
+            "jump_kick",
+            "ice_punch"
           ]
         },
         {
@@ -208,10 +208,10 @@
           "value": {
             "hp": 0,
             "atk": 0,
-            "dfe": 0,
+            "dfe": 100,
             "spd": 0,
-            "ats": 0,
-            "dfs": 0
+            "ats": 252,
+            "dfs": 100
           }
         },
         {
@@ -232,10 +232,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "thunder",
+            "psybeam",
+            "hypnosis",
+            "aura_sphere"
           ]
         },
         {
@@ -306,7 +306,7 @@
         },
         {
           "type": "itemHeld",
-          "value": "sky_plate"
+          "value": "none"
         }
       ]
     }

@@ -228,10 +228,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "__remove__",
+            "__remove__",
+            "__remove__",
+            "memory_claw"
           ]
         },
         {

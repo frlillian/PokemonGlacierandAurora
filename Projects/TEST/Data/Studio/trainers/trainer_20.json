@@ -76,8 +76,8 @@
       ]
     },
     {
-      "specie": "shieldon",
-      "form": 0,
+      "specie": "luxio",
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
@@ -117,10 +117,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "thunder_fang",
+            "charge",
+            "ice_fang",
+            "drake_renaissance"
           ]
         },
         {

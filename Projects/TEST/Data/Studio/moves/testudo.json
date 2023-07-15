@@ -1,0 +1,54 @@
+{
+  "klass": "Move",
+  "id": 734,
+  "dbSymbol": "testudo",
+  "type": "fighting",
+  "category": "status",
+  "isAuthentic": false,
+  "isBallistics": false,
+  "isBite": false,
+  "isBlocable": false,
+  "isCharge": false,
+  "isDance": false,
+  "isDirect": false,
+  "isDistance": false,
+  "isEffectChance": false,
+  "isGravity": false,
+  "isHeal": false,
+  "isKingRockUtility": false,
+  "isMagicCoatAffected": false,
+  "isMental": false,
+  "isMirrorMove": false,
+  "isNonSkyBattle": false,
+  "isPowder": false,
+  "isPulse": false,
+  "isPunch": false,
+  "isRecharge": false,
+  "isSnatchable": true,
+  "isSoundAttack": false,
+  "isUnfreeze": false,
+  "power": 0,
+  "pp": 10,
+  "priority": 0,
+  "accuracy": 0,
+  "movecriticalRate": 1,
+  "effectChance": 100,
+  "moveStatus": [],
+  "battleEngineMethod": "s_self_stat",
+  "battleStageMod": [
+    {
+      "battleStage": "DFS_STAGE",
+      "modificator": 2
+    },
+    {
+      "battleStage": "DFE_STAGE",
+      "modificator": 2
+    },
+    {
+      "battleStage": "SPD_STAGE",
+      "modificator": -2
+    }
+  ],
+  "battleEngineAimedTarget": "user",
+  "mapUse": 0
+}

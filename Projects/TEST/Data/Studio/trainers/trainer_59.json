@@ -13,6 +13,68 @@
   "ai": 6,
   "party": [
     {
+      "specie": "sunphin",
+      "form": 0,
+      "shinySetup": {
+        "kind": "automatic",
+        "rate": -1
+      },
+      "levelSetup": {
+        "kind": "fixed",
+        "level": 37
+      },
+      "randomEncounterChance": 1,
+      "expandPokemonSetup": [
+        {
+          "type": "evs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "ivs",
+          "value": {
+            "hp": 0,
+            "atk": 0,
+            "dfe": 0,
+            "spd": 0,
+            "ats": 0,
+            "dfs": 0
+          }
+        },
+        {
+          "type": "loyalty",
+          "value": 70
+        },
+        {
+          "type": "moves",
+          "value": [
+            "calm_mind",
+            "brine",
+            "moonblast",
+            "focus_blast"
+          ]
+        },
+        {
+          "type": "originalTrainerName",
+          "value": "Elizabeth"
+        },
+        {
+          "type": "originalTrainerId",
+          "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "misty_surge"
+        }
+      ]
+    },
+    {
       "specie": "klefki",
       "form": 0,
       "shinySetup": {
@@ -293,11 +355,11 @@
           "type": "evs",
           "value": {
             "hp": 0,
-            "atk": 0,
-            "dfe": 0,
+            "atk": 100,
+            "dfe": 252,
             "spd": 0,
             "ats": 0,
-            "dfs": 0
+            "dfs": 100
           }
         },
         {
@@ -339,68 +401,6 @@
         {
           "type": "ability",
           "value": "sand_veil"
-        }
-      ]
-    },
-    {
-      "specie": "sunphin",
-      "form": 0,
-      "shinySetup": {
-        "kind": "automatic",
-        "rate": -1
-      },
-      "levelSetup": {
-        "kind": "fixed",
-        "level": 37
-      },
-      "randomEncounterChance": 1,
-      "expandPokemonSetup": [
-        {
-          "type": "evs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "ivs",
-          "value": {
-            "hp": 0,
-            "atk": 0,
-            "dfe": 0,
-            "spd": 0,
-            "ats": 0,
-            "dfs": 0
-          }
-        },
-        {
-          "type": "loyalty",
-          "value": 70
-        },
-        {
-          "type": "moves",
-          "value": [
-            "calm_mind",
-            "brine",
-            "moonblast",
-            "focus_blast"
-          ]
-        },
-        {
-          "type": "originalTrainerName",
-          "value": "Elizabeth"
-        },
-        {
-          "type": "originalTrainerId",
-          "value": 0
-        },
-        {
-          "type": "ability",
-          "value": "misty_surge"
         }
       ]
     }

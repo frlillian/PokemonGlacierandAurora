@@ -26,7 +26,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 45
+        "level": 58
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -59,8 +59,8 @@
         {
           "type": "moves",
           "value": [
-            "trick_room",
-            "explosion",
+            "psychic",
+            "confuse_ray",
             "flash_cannon",
             "shadow_ball"
           ]
@@ -92,7 +92,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 45
+        "level": 58
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -158,7 +158,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 54
+        "level": 60
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -166,11 +166,11 @@
           "type": "evs",
           "value": {
             "hp": 0,
-            "atk": 0,
-            "dfe": 0,
+            "atk": 252,
+            "dfe": 100,
             "spd": 0,
             "ats": 0,
-            "dfs": 0
+            "dfs": 100
           }
         },
         {
@@ -216,7 +216,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 49
+        "level": 57
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -249,7 +249,7 @@
         {
           "type": "moves",
           "value": [
-            "wish",
+            "aurora_light",
             "thunder",
             "dark_pulse",
             "hypnosis"
@@ -282,7 +282,7 @@
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 52
+        "level": 57
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -337,14 +337,14 @@
     },
     {
       "specie": "arcanine",
-      "form": 0,
+      "form": 2,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
       },
       "levelSetup": {
         "kind": "fixed",
-        "level": 51
+        "level": 59
       },
       "randomEncounterChance": 1,
       "expandPokemonSetup": [
@@ -378,9 +378,9 @@
           "type": "moves",
           "value": [
             "flare_blitz",
-            "hyper_beam",
+            "psychic_fangs",
             "aura_sphere",
-            "dragon_dance"
+            "stradlands_vigor"
           ]
         },
         {
@@ -390,6 +390,10 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "itemHeld",
+          "value": "first_ranger_rank"
         }
       ]
     }

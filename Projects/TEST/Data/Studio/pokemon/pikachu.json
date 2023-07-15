@@ -3347,7 +3347,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "discharge",
+          "move": "sword_charge",
           "level": 34
         },
         {
@@ -3555,6 +3555,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "swords_dance"
         }
       ]
     }

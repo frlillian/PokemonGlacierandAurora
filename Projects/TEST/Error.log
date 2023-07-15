@@ -1,33 +1,38 @@
 ================================Erreur de script================================
 Message :
-undefined method `item_pick' for #<Interpreter:0x0ecfdc60>
+undefined local variable or method `handler' for #<Battle::Effects::Ability::FrostSouled:0x0fa23978>
 
-Type : NoMethodError
-Script : (eval) (RMXP)
-Ligne : 1
-Date : 18/06/2023 14:42:27
+Type : NameError
+Script : 99998 Trainer.rb (user)
+Ligne : 775
+Date : 14/07/2023 20:19:34
 Game Version : 256
 Logiciel : Pokémon SDK 26.10
-Script used by eval command : 
-item_pick(622)
-
-
 ===================================Backtraces===================================
-[25] : (eval) (RMXP) | ligne 1 eval_script
-[24] : 00600 Script_RMXP/03000 Interpreter_7.rb (PSDK) | ligne 124 eval
-[23] : 00600 Script_RMXP/03000 Interpreter_7.rb (PSDK) | ligne 124 eval_script
-[22] : 00600 Script_RMXP/03000 Interpreter_7.rb (PSDK) | ligne 114 command_355
-[21] : 00600 Script_RMXP/02500 Interpreter_2.rb (PSDK) | ligne 16 execute_command
-[20] : 00600 Script_RMXP/02400 Interpreter_1.rb (PSDK) | ligne 132 update
-[19] : 00600 Script_RMXP/02400 Interpreter_1.rb (PSDK) | ligne 100 loop
-[18] : 00600 Script_RMXP/02400 Interpreter_1.rb (PSDK) | ligne 100 update
-[17] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 171 auto_transfert_update
-[16] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 168 loop
-[15] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 168 auto_transfert_update
-[14] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 21 update
-[13] : 00700 Ajout_PSDK/00002 FPSBalancer.rb (PSDK) | ligne 44 times
-[12] : 00700 Ajout_PSDK/00002 FPSBalancer.rb (PSDK) | ligne 44 run
-[11] : 01450 Systems/00003 Map Engine/00003 GamePlay/00200 Scene_Map.rb (PSDK) | ligne 21 update
+[34] : 99998 Trainer.rb (user) | ligne 775 soul_effect
+[33] : 99998 Trainer.rb (user) | ligne 732 on_move_prevention_user
+[32] : 01600 Alpha 25 Battle Engine/04150 Battle_Move/00121 Move Prevention.rb (PSDK) | ligne 105 <module:Battle>
+[31] : 01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (PSDK) | ligne 27 each_effects
+[30] : 01600 Alpha 25 Battle Engine/00100 PokemonBattler/00500 Effects.rb (PSDK) | ligne 18 evaluate_effects
+[29] : 01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (PSDK) | ligne 36 each_effects
+[28] : 01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (PSDK) | ligne 36 each
+[27] : 01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (PSDK) | ligne 36 each_effects
+[26] : 01600 Alpha 25 Battle Engine/04150 Battle_Move/00121 Move Prevention.rb (PSDK) | ligne 104 <module:Battle>
+[25] : 01600 Alpha 25 Battle Engine/04150 Battle_Move/00121 Move Prevention.rb (PSDK) | ligne 72 register_move_prevention_user_hook
+[24] : 00010 Hooks.rb (PSDK) | ligne 57 instance_exec
+[23] : 00010 Hooks.rb (PSDK) | ligne 57 exec_hooks
+[22] : 00010 Hooks.rb (PSDK) | ligne 55 each
+[21] : 00010 Hooks.rb (PSDK) | ligne 55 exec_hooks
+[20] : 01600 Alpha 25 Battle Engine/04150 Battle_Move/00121 Move Prevention.rb (PSDK) | ligne 12 move_usable_by_user
+[19] : 01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (PSDK) | ligne 78 proceed_internal_precheck
+[18] : 01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (PSDK) | ligne 51 proceed_internal
+[17] : 01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (PSDK) | ligne 44 proceed_one_target
+[16] : 01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (PSDK) | ligne 18 proceed
+[15] : 01600 Alpha 25 Battle Engine/03000 Actions/00002 Attack.rb (PSDK) | ligne 85 execute
+[14] : 01600 Alpha 25 Battle Engine/00200 Battle_Logic/00102 Actions.rb (PSDK) | ligne 39 perform_next_action
+[13] : 01600 Alpha 25 Battle Engine/00001 Battle_Scene/00103 Scene Battle Phase.rb (PSDK) | ligne 21 update_battle_phase
+[12] : 01600 Alpha 25 Battle Engine/00001 Battle_Scene/00100 Scene.rb (PSDK) | ligne 83 next_update_process
+[11] : 01600 Alpha 25 Battle Engine/00001 Battle_Scene/00100 Scene.rb (PSDK) | ligne 73 update
 [10] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 260 main_process
 [9] : 01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (PSDK) | ligne 153 main
 [8] : tools/GameLoader/Z_main.rb (PSDK) | ligne 17 <top (required)>

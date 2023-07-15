@@ -7,7 +7,7 @@
   "type": "rock",
   "power": 60,
   "accuracy": 100,
-  "pp": 5,
+  "pp": 15,
   "category": "special",
   "movecriticalRate": 1,
   "priority": 0,

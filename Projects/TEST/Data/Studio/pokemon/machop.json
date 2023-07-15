@@ -61,6 +61,19 @@
         "steadfast"
       ],
       "frontOffsetY": 23,
+      "resources": {
+        "icon": "066",
+        "iconShiny": "",
+        "front": "066",
+        "frontShiny": "066",
+        "back": "066",
+        "backShiny": "066",
+        "footprint": "066",
+        "character": "066_0",
+        "characterShiny": "066s_0",
+        "cry": "066cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -407,20 +420,7 @@
           "klass": "BreedLearnableMove",
           "move": "quick_guard"
         }
-      ],
-      "resources": {
-        "icon": "066",
-        "iconShiny": "",
-        "front": "066",
-        "frontShiny": "066",
-        "back": "066",
-        "backShiny": "066",
-        "footprint": "066",
-        "character": "066_0",
-        "characterShiny": "066s_0",
-        "cry": "066cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -480,6 +480,19 @@
         "steadfast"
       ],
       "frontOffsetY": 23,
+      "resources": {
+        "icon": "066_01",
+        "iconShiny": "",
+        "front": "066_01",
+        "frontShiny": "066",
+        "back": "066_01",
+        "backShiny": "066",
+        "footprint": "066",
+        "character": "",
+        "characterShiny": "",
+        "cry": "066cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -543,7 +556,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dive",
+          "move": "wave_break_raid",
           "level": 33
         },
         {
@@ -830,20 +843,7 @@
           "klass": "BreedLearnableMove",
           "move": "quick_guard"
         }
-      ],
-      "resources": {
-        "icon": "066_01",
-        "iconShiny": "",
-        "front": "066_01",
-        "frontShiny": "066",
-        "back": "066_01",
-        "backShiny": "066",
-        "footprint": "066",
-        "character": "",
-        "characterShiny": "",
-        "cry": "066cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

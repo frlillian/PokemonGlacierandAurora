@@ -421,7 +421,7 @@
         "back": "261_01",
         "backShiny": "261",
         "footprint": "261",
-        "character": "",
+        "character": "261_01",
         "characterShiny": "",
         "cry": "261cry.ogg",
         "hasFemale": false
@@ -454,7 +454,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "roar",
+          "move": "black_ice",
           "level": 16
         },
         {

@@ -51,6 +51,23 @@
         "unnerve"
       ],
       "frontOffsetY": 14,
+      "resources": {
+        "icon": "229",
+        "iconShiny": "",
+        "front": "229",
+        "frontF": "229f",
+        "frontShiny": "229",
+        "frontShinyF": "229f",
+        "back": "229",
+        "backF": "229f",
+        "backShiny": "229",
+        "backShinyF": "229f",
+        "footprint": "229",
+        "character": "229_0",
+        "characterShiny": "229s_0",
+        "cry": "229cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -353,24 +370,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "229",
-        "iconShiny": "",
-        "front": "229",
-        "frontF": "229f",
-        "frontShiny": "229",
-        "frontShinyF": "229f",
-        "back": "229",
-        "backF": "229f",
-        "backShiny": "229",
-        "backShinyF": "229f",
-        "footprint": "229",
-        "character": "229_0",
-        "characterShiny": "229s_0",
-        "cry": "229cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 1,
@@ -420,6 +420,23 @@
         "solar_power"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "229",
+        "iconShiny": "",
+        "front": "229",
+        "frontF": "229f",
+        "frontShiny": "229",
+        "frontShinyF": "229f",
+        "back": "229",
+        "backF": "229f",
+        "backShiny": "229",
+        "backShinyF": "229f",
+        "footprint": "229",
+        "character": "",
+        "characterShiny": "",
+        "cry": "229cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -722,24 +739,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "229",
-        "iconShiny": "",
-        "front": "229",
-        "frontF": "229f",
-        "frontShiny": "229",
-        "frontShinyF": "229f",
-        "back": "229",
-        "backF": "229f",
-        "backShiny": "229",
-        "backShinyF": "229f",
-        "footprint": "229",
-        "character": "",
-        "characterShiny": "",
-        "cry": "229cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 30,
@@ -779,6 +779,23 @@
         "solar_power"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "229_30",
+        "iconShiny": "",
+        "front": "229_30",
+        "frontF": "229f",
+        "frontShiny": "229_30",
+        "frontShinyF": "229f",
+        "back": "229_30",
+        "backF": "229f",
+        "backShiny": "229_30",
+        "backShinyF": "229f",
+        "footprint": "229",
+        "character": "",
+        "characterShiny": "",
+        "cry": "229cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1081,24 +1098,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "229_30",
-        "iconShiny": "",
-        "front": "229_30",
-        "frontF": "229f",
-        "frontShiny": "229_30",
-        "frontShinyF": "229f",
-        "back": "229_30",
-        "backF": "229f",
-        "backShiny": "229_30",
-        "backShinyF": "229f",
-        "footprint": "229",
-        "character": "",
-        "characterShiny": "",
-        "cry": "229cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

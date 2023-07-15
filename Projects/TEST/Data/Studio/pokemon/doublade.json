@@ -52,6 +52,19 @@
         "no_guard"
       ],
       "frontOffsetY": 13,
+      "resources": {
+        "icon": "680",
+        "iconShiny": "",
+        "front": "680",
+        "frontShiny": "680",
+        "back": "680",
+        "backShiny": "680",
+        "footprint": "",
+        "character": "680_0",
+        "characterShiny": "680s_0",
+        "cry": "680cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -95,6 +108,11 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "edda_verse",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "retaliate",
           "level": 26
         },
@@ -112,11 +130,6 @@
           "klass": "LevelLearnableMove",
           "move": "night_slash",
           "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "power_trick",
-          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
@@ -260,20 +273,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "680",
-        "iconShiny": "",
-        "front": "680",
-        "frontShiny": "680",
-        "back": "680",
-        "backShiny": "680",
-        "footprint": "",
-        "character": "680_0",
-        "characterShiny": "680s_0",
-        "cry": "680cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

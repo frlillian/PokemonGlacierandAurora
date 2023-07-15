@@ -367,6 +367,11 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "ice_fang",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "twister",
           "level": 18
         },
@@ -556,7 +561,11 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "fly"
+          "move": "cut"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hail"
         }
       ]
     }

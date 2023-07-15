@@ -1,0 +1,14 @@
+{
+  "klass": "Item",
+  "id": 779,
+  "dbSymbol": "first_ranger_rank",
+  "icon": "806",
+  "price": 0,
+  "socket": 1,
+  "position": 0,
+  "isBattleUsable": false,
+  "isMapUsable": false,
+  "isLimited": false,
+  "isHoldable": true,
+  "flingPower": 30
+}

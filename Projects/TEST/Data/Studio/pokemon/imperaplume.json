@@ -10,16 +10,16 @@
       "type1": "fighting",
       "type2": "flying",
       "baseHp": 80,
-      "baseAtk": 120,
-      "baseDfe": 80,
-      "baseSpd": 70,
-      "baseAts": 100,
-      "baseDfs": 80,
+      "baseAtk": 110,
+      "baseDfe": 90,
+      "baseSpd": 80,
+      "baseAts": 80,
+      "baseDfs": 90,
       "evHp": 0,
       "evAtk": 2,
       "evDfe": 0,
       "evSpd": 0,
-      "evAts": 1,
+      "evAts": 0,
       "evDfs": 0,
       "evolutions": [],
       "experienceType": 3,
@@ -111,7 +111,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "flying_press",
+          "move": "low_kick",
           "level": 28
         },
         {
@@ -340,6 +340,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "testudo"
         }
       ]
     }

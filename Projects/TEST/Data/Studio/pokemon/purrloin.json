@@ -481,8 +481,8 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "torment",
-          "level": 19
+          "move": "black_ice",
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",

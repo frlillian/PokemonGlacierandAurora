@@ -51,6 +51,25 @@
         "sheer_force"
       ],
       "frontOffsetY": 11,
+      "resources": {
+        "icon": "208",
+        "iconShiny": "",
+        "front": "208",
+        "frontF": "208f",
+        "frontShiny": "208",
+        "frontShinyF": "208f",
+        "back": "208",
+        "backF": "208f",
+        "backShiny": "208",
+        "backShinyF": "208f",
+        "footprint": "208",
+        "character": "208_0",
+        "characterF": "208f_0",
+        "characterShiny": "208s_0",
+        "characterShinyF": "208fs_0",
+        "cry": "208cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -381,26 +400,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "208",
-        "iconShiny": "",
-        "front": "208",
-        "frontF": "208f",
-        "frontShiny": "208",
-        "frontShinyF": "208f",
-        "back": "208",
-        "backF": "208f",
-        "backShiny": "208",
-        "backShinyF": "208f",
-        "footprint": "208",
-        "character": "208_0",
-        "characterF": "208f_0",
-        "characterShiny": "208s_0",
-        "characterShinyF": "208fs_0",
-        "cry": "208cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 30,
@@ -440,6 +440,23 @@
         "sand_force"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "208_30",
+        "iconShiny": "",
+        "front": "208_30",
+        "frontF": "208f",
+        "frontShiny": "208_30",
+        "frontShinyF": "208f",
+        "back": "208_30",
+        "backF": "208f",
+        "backShiny": "208_30",
+        "backShinyF": "208f",
+        "footprint": "208",
+        "character": "",
+        "characterShiny": "",
+        "cry": "208cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -770,24 +787,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "208_30",
-        "iconShiny": "",
-        "front": "208_30",
-        "frontF": "208f",
-        "frontShiny": "208_30",
-        "frontShinyF": "208f",
-        "back": "208_30",
-        "backF": "208f",
-        "backShiny": "208_30",
-        "backShinyF": "208f",
-        "footprint": "208",
-        "character": "",
-        "characterShiny": "",
-        "cry": "208cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

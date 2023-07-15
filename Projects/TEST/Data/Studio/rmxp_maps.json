@@ -144,10 +144,6 @@
     "name": "Hideout"
   },
   {
-    "id": 100,
-    "name": "Hall"
-  },
-  {
     "id": 101,
     "name": "Lab"
   },
@@ -158,6 +154,10 @@
   {
     "id": 103,
     "name": "Bottom"
+  },
+  {
+    "id": 100,
+    "name": "Hall"
   },
   {
     "id": 105,
@@ -332,12 +332,12 @@
     "name": "House East"
   },
   {
-    "id": 126,
-    "name": "MAP126"
-  },
-  {
     "id": 129,
     "name": "Temple"
+  },
+  {
+    "id": 126,
+    "name": "MAP126"
   },
   {
     "id": 60,
@@ -506,6 +506,10 @@
   {
     "id": 97,
     "name": "house 2"
+  },
+  {
+    "id": 136,
+    "name": "Kyogre"
   },
   {
     "id": 115,

@@ -45,11 +45,24 @@
         }
       ],
       "abilities": [
-        "pressure",
-        "__undef__",
-        "unnerve"
+        "grassy_surge",
+        "grassy_surge",
+        "grassy_surge"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "825",
+        "iconShiny": "",
+        "front": "825",
+        "frontShiny": "",
+        "back": "825",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -141,20 +154,7 @@
           "move": "psystrike",
           "level": 100
         }
-      ],
-      "resources": {
-        "icon": "825",
-        "iconShiny": "",
-        "front": "825",
-        "frontShiny": "",
-        "back": "825",
-        "backShiny": "",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

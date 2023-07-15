@@ -96,6 +96,11 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "memory_claw",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "meditate",
           "level": 5
         },
@@ -108,11 +113,6 @@
           "klass": "LevelLearnableMove",
           "move": "fake_out",
           "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "spirit_shackle",
-          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
@@ -141,7 +141,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_force",
+          "move": "confuse_ray",
           "level": 49
         },
         {
@@ -376,7 +376,7 @@
         },
         {
           "klass": "EvolutionLearnableMove",
-          "move": "shadow_sneak"
+          "move": "memory_claw"
         }
       ]
     }

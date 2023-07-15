@@ -122,7 +122,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "flying_press",
+          "move": "low_kick",
           "level": 28
         },
         {
@@ -351,6 +351,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "testudo"
         }
       ]
     }

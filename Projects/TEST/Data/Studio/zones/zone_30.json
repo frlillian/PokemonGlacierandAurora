@@ -12,11 +12,11 @@
     "y": null
   },
   "position": {
-    "x": null,
-    "y": null
+    "x": 10,
+    "y": 18
   },
   "isFlyAllowed": false,
-  "isWarpDisallowed": false,
+  "isWarpDisallowed": true,
   "forcedWeather": 0,
   "wildGroups": [
     "group_31"

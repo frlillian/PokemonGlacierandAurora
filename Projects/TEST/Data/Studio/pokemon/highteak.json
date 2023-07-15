@@ -13,8 +13,8 @@
       "baseAtk": 135,
       "baseDfe": 130,
       "baseSpd": 25,
-      "baseAts": 60,
-      "baseDfs": 80,
+      "baseAts": 40,
+      "baseDfs": 100,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -86,6 +86,11 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "mountain_siege",
+          "level": 2
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "harden",
           "level": 4
         },
@@ -146,7 +151,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ice_hammer",
+          "move": "avalanche",
           "level": 41
         },
         {
@@ -156,7 +161,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "explosion",
+          "move": "ice_hammer",
           "level": 55
         },
         {
@@ -325,7 +330,7 @@
         },
         {
           "klass": "EvolutionLearnableMove",
-          "move": "avalanche"
+          "move": "mountain_siege"
         }
       ]
     }

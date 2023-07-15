@@ -41,6 +41,19 @@
         "prankster"
       ],
       "frontOffsetY": 17,
+      "resources": {
+        "icon": "510",
+        "iconShiny": "",
+        "front": "510",
+        "frontShiny": "510",
+        "back": "510",
+        "backShiny": "510",
+        "footprint": "510",
+        "character": "510_0",
+        "characterShiny": "510s_0",
+        "cry": "510cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -342,20 +355,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "510",
-        "iconShiny": "",
-        "front": "510",
-        "frontShiny": "510",
-        "back": "510",
-        "backShiny": "510",
-        "footprint": "510",
-        "character": "510_0",
-        "characterShiny": "510s_0",
-        "cry": "510cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -395,6 +395,19 @@
         "assassin"
       ],
       "frontOffsetY": 17,
+      "resources": {
+        "icon": "510_01",
+        "iconShiny": "",
+        "front": "510_01",
+        "frontShiny": "510",
+        "back": "510_01",
+        "backShiny": "510",
+        "footprint": "510",
+        "character": "",
+        "characterShiny": "",
+        "cry": "510cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -428,11 +441,6 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sand_attack",
-          "level": 10
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "fury_swipes",
           "level": 12
         },
@@ -440,6 +448,11 @@
           "klass": "LevelLearnableMove",
           "move": "pursuit",
           "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "black_ice",
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
@@ -712,20 +725,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "510_01",
-        "iconShiny": "",
-        "front": "510_01",
-        "frontShiny": "510",
-        "back": "510_01",
-        "backShiny": "510",
-        "footprint": "510",
-        "character": "",
-        "characterShiny": "",
-        "cry": "510cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

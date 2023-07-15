@@ -855,11 +855,20 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "teddiursa",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "iron_ball",
+          "chance": 100
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
-        "pickpocket",
-        "unburden",
-        "moxie"
+        "five_turn_plan",
+        "five_turn_plan",
+        "five_turn_plan"
       ],
       "frontOffsetY": 30,
       "resources": {
@@ -918,12 +927,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "slash",
+          "move": "crush_claw",
           "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "heavy_slam",
+          "move": "gyro_ball",
           "level": 36
         },
         {
@@ -938,7 +947,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "thrash",
+          "move": "skull_bash",
           "level": 50
         },
         {
@@ -1205,6 +1214,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "gyro_ball"
         }
       ]
     }

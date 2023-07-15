@@ -382,6 +382,11 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "ice_fang",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "twister",
           "level": 18
         },
@@ -468,7 +473,7 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "strength"
+          "move": "blizzard"
         },
         {
           "klass": "TechLearnableMove",
@@ -577,6 +582,18 @@
         {
           "klass": "TechLearnableMove",
           "move": "confide"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cut"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hail"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_beam"
         }
       ]
     }

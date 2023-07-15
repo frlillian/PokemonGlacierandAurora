@@ -1,8 +1,7 @@
 {
-  "klass": "Item",
   "id": 622,
   "dbSymbol": "stone_flower",
-  "icon": "466",
+  "icon": "802",
   "price": 0,
   "socket": 1,
   "position": 0,
@@ -10,5 +9,6 @@
   "isMapUsable": false,
   "isLimited": false,
   "isHoldable": true,
-  "flingPower": 30
+  "flingPower": 30,
+  "klass": "Item"
 }

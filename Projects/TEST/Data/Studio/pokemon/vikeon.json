@@ -14,7 +14,7 @@
       "baseDfe": 105,
       "baseSpd": 70,
       "baseAts": 70,
-      "baseDfs": 100,
+      "baseDfs": 90,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -46,7 +46,7 @@
       ],
       "abilities": [
         "defiant",
-        "__undef__",
+        "defiant",
         "steadfast"
       ],
       "frontOffsetY": 0,
@@ -91,11 +91,6 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "scary_face",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "metal_claw",
           "level": 25
         },
@@ -111,17 +106,17 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "edda_verse",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "metal_sound",
           "level": 38
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "iron_head",
-          "level": 41
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "iron_defense",
+          "move": "crashing_strike",
           "level": 46
         },
         {
@@ -143,6 +138,106 @@
           "klass": "LevelLearnableMove",
           "move": "guillotine",
           "level": 62
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hyper_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunderbolt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_wave"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "toxic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sandstorm"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swagger"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sleep_talk"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "return"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "frustration"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_smash"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "facade"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "secret_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_polish"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flash_cannon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "charge_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "round"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "volt_switch"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "wild_charge"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "confide"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "metal_claw"
         }
       ]
     }

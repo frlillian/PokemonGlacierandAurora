@@ -36,6 +36,11 @@ class Interpreter
             pokemon.status_sleep(true)
         end
     end
+    def all_sleep()
+      $actors.each do |pokemon|
+          pokemon.status_frozen(true)
+      end
+    end
     def all_burn()
       $actors.each do |pokemon|
           pokemon.status_burn(true)
@@ -268,6 +273,15 @@ class Interpreter
         end
     end
 
+    def testClaw()
+      $actors.each do |pokemon|
+        next unless pokemon
+        if pokemon.id == 811
+            pokemon.ability = 261
+        end
+      end
+    end
+
     def evoClawjou()
         call_party_menu()
         index = $game_variables[::Yuki::Var::Party_Menu_Sel]
@@ -276,6 +290,8 @@ class Interpreter
             $scene.display_message_and_wait($actors[index].name + " is not a spirit.")
         else
             $scene.display_message_and_wait($actors[index].name + " is a perfect selection.")
+            stolen_pokemon = $actors[index].id
+            steal_pokemon([index])
             $scene.display_message_and_wait("Now hand over Clawjou.")
             call_party_menu()
             clawdex = $game_variables[::Yuki::Var::Party_Menu_Sel]
@@ -283,12 +299,30 @@ class Interpreter
                 retrieve_stolen_pokemon()
                 $scene.display_message_and_wait("Come back with your Clawjou.")
             else
-            steal_pokemon([index], no_save = true)
-            $scene.display_message_and_wait("Let us begin.")
-            $scene.display_message_and_wait("Suscita Bestia Muta et Cognosce Locum Tuum!")
-            GamePlay.make_pokemon_evolve($actors[clawdex], 811, forced = true)
-            steal_pokemon([clawdex])
-            return true
+              $scene.display_message_and_wait("Let us begin.")
+              $scene.display_message_and_wait("Suscita Bestia Muta et Cognosce Locum Tuum!")
+              GamePlay.make_pokemon_evolve($actors[clawdex], 811, forced = true)
+              if stolen_pokemon == 562 || stolen_pokemon == 563 || stolen_pokemon == 622 || stolen_pokemon == 623
+                $actors[clawdex].ability = 259
+              elsif stolen_pokemon == 425 || stolen_pokemon == 426
+                $actors[clawdex].ability = 256
+              elsif stolen_pokemon == 607 || stolen_pokemon == 608 || stolen_pokemon == 609
+                $actors[clawdex].ability = 255
+              elsif stolen_pokemon == 708 || stolen_pokemon == 709
+                $actors[clawdex].ability = 260
+              elsif stolen_pokemon == 478 || stolen_pokemon == 680
+                $actors[clawdex].ability = 258
+              elsif stolen_pokemon == 570 || stolen_pokemon == 571
+                $actors[clawdex].ability = 262
+              elsif stolen_pokemon == 592 || stolen_pokemon == 593
+                $actors[clawdex].ability = 261
+              elsif stolen_pokemon == 105 || stolen_pokemon == 38
+                $actors[clawdex].ability = 263
+              else
+                $actors[clawdex].ability = 257
+              end
+              steal_pokemon([clawdex])
+              return true
             end
         end
         return false
@@ -439,6 +473,22 @@ class Interpreter
             call_battle_wild(PFM::Pokemon.new(622, level, false, false, 0), 100)
         end
     end
+
+    def start_pc
+      if game_state.game_switches[195]
+        c = $scene.display_message_and_wait("Which PC to Access.", 1, "Box Access", "DNA Drop")
+        if c == 1
+          Audio.se_play('audio/se/computeropen')
+          GamePlay.open_DNA()
+        else
+          Audio.se_play('audio/se/computeropen')
+          GamePlay.open_pokemon_storage_system
+        end
+      else
+        $scene.display_message_and_wait("You don't have access...")
+      end
+    end
+    alias demarrer_pc start_pc
 end
 
 module PFM
@@ -477,11 +527,30 @@ module PFM
         ShotItem = %i[__undef__ long_barrelattachment explosive_shot]
         FORM_CALIBRATE[:insurvern] = proc { @form = ShotItem.index(item_db_symbol).to_i }
         FORM_CALIBRATE[:blastoise] = proc { @form = ShotItem.index(item_db_symbol).to_i }
+
+        FORM_CALIBRATE[:ninetales] = proc { @form = ([:lieutenant_rank, :capt_rank, :first_ranger_rank, :protector_rank].include? item_db_symbol) ? (([0, 3].include? @form) ? 3 : 2) : (([1, 2].include? @form) ? 1 : 0) }
+        FORM_CALIBRATE[:arcanine] = proc { @form = ([:lieutenant_rank, :capt_rank, :first_ranger_rank, :protector_rank].include? item_db_symbol) ? (([0, 2].include? @form) ? 2 : 3) : (([1, 3].include? @form) ? 1 : 0) }
     end
 end  
 
 module Battle
     class Logic
+      class FTerrainChangeHandler < ChangeHandlerBase
+        FTERRAIN_SYM_TO_MSG = {
+          none: {
+            electric_terrain: 227,
+            grassy_terrain: 223,
+            misty_terrain: 225,
+            psychic_terrain: 347,
+            factory_terrain: 534
+          },
+          electric_terrain: 226,
+          grassy_terrain: 222,
+          misty_terrain: 224,
+          psychic_terrain: 346,
+          factory_terrain: 535
+        }
+      end
       class WeatherChangeHandler < ChangeHandlerBase
         WEATHER_SYM_TO_MSG = {
         none: 97,
@@ -603,7 +672,280 @@ module Battle
 end
 
     module Effects
+      class Protect < PokemonTiedEffectBase
+        class ClansShield < Protect
+          # Function called when we try to check if the target evades the move
+          # @param user [PFM::PokemonBattler]
+          # @param target [PFM::PokemonBattler] expected target
+          # @param move [Battle::Move]
+          # @return [Boolean] if the target is evading the move
+          def on_move_prevention_target(user, target, move)
+            return false if move.status?
+  
+            return super
+          end
+  
+          private
+  
+          # Function responsive of playing the protect effect if protect got triggered (inc. message)
+          # @param user [PFM::PokemonBattler]
+          # @param target [PFM::PokemonBattler] expected target
+          # @param move [Battle::Move]
+          def play_protect_effect(user, target, move)
+            move.scene.display_message_and_wait(parse_text_with_pokemon(19, 523, target))
+            @logic.damage_handler.damage_change((user.max_hp / 8).to_i.clamp(1, Float::INFINITY), user) if move.direct? && !user.has_ability?(:long_reach)
+            # move.scene.logic.stat_change_handler.stat_change_with_process(:atk, -1, user) if move.direct? && !user.has_ability?(:long_reach)
+          end
+        end
+        Protect.register(:clans_shield, ClansShield)
+      end
+  
+      class FieldTerrain
+        class Factory < FieldTerrain
+          # Function called at the end of a turn
+          # @param logic [Battle::Logic] logic of the battle
+          # @param scene [Battle::Scene] battle scene
+          # @param battlers [Array<PFM::PokemonBattler>] all alive battlers
+          def on_end_turn_event(logic, scene, battlers)
+            @internal_counter -= 1
+            logic.fterrain_change_handler.fterrain_change(:none) if @internal_counter <= 0
+          end
+  
+          # Function called when a status_prevention is checked
+          # @param handler [Battle::Logic::StatusChangeHandler]
+          # @param status [Symbol] :poison, :toxic, :confusion, :sleep, :freeze, :paralysis, :burn, :flinch, :cure
+          # @param target [PFM::PokemonBattler]
+          # @param launcher [PFM::PokemonBattler, nil] Potential launcher of a move
+          # @param skill [Battle::Move, nil] Potential move used
+          # @return [:prevent, nil] :prevent if the status cannot be applied
+          def on_stat_change_post(handler, stat, power, target, launcher, skill)
+            return if stat == :spd
+            if power > 0
+              handler.logic.stat_change_handler.stat_change_with_process(:spd, -1, target)
+            elsif power < 0
+              handler.logic.stat_change_handler.stat_change_with_process(:spd, 1, target)
+            end
+          end
+  
+          # Give the move mod1 mutiplier (before the +2 in the formula)
+          # @param user [PFM::PokemonBattler] user of the move
+          # @param target [PFM::PokemonBattler] target of the move
+          # @param move [Battle::Move] move
+          # @return [Float, Integer] multiplier
+          def mod1_multiplier(user, target, move)
+            return 1 unless move.type_fairy? && user.affected_by_terrain?
+  
+            return 0.5
+          end
+        end
+      register(:factory_terrain, Factory)
+    end
+  
+
       class Ability
+
+        class Souled < Ability
+          def on_move_prevention_user(user, targets, move)
+            return if user != @target
+            return if move.db_symbol != :memory_claw
+
+            soul_effect(user, targets)
+          end
+
+          def soul_effect(user, targets)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories are empty")
+            
+          end
+        end
+
+        class FireSouled < Souled
+          def soul_effect(user, targets)
+            return unless bchance?(0.3, @logic)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories are cloaked in flame")
+            targets.each do |target|
+              @logic.status_change_handler.status_change_with_process(:burn, target)
+            end
+          end
+        end
+
+        class WindSouled < Souled
+          def soul_effect(user, targets)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories are rushing wind")
+            @logic.stat_change_handler.stat_change_with_process(:spd, 1, user)
+          end
+        end
+
+        class Unsouled < Souled
+          def soul_effect(user, targets)
+            return unless bchance?(0.3, @logic)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories are cutting")
+            targets.each do |target|
+              @logic.status_change_handler.status_change_with_process(:poison, target)
+            end
+          end
+        end
+
+        class FrostSouled < Souled
+          def soul_effect(user, targets)
+            return unless bchance?(0.2, @logic)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories are icy chill")
+            targets.each do |target|
+              @logic.status_change_handler.status_change_with_process(:freeze, target)
+            end
+          end
+        end
+
+        class EarthSouled < Souled
+          def soul_effect(user, targets)
+            return unless bchance?(0.5, @logic)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories are solid earth")
+            @logic.stat_change_handler.stat_change_with_process(:dfe, 1, user)
+          end
+        end
+
+        class RootSouled < Souled
+          def soul_effect(user, targets)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories are deep in soil")
+            @logic.damage_handler.heal(@target, @target.max_hp / 8)
+          end
+        end
+    #       (((((((Level * 2 / 5) + 2) * BasePower * [Sp]Atk / 50) / [Sp]Def) * Mod1) + 2) *
+    #         CH * Mod2 * R / 100) * STAB * Type1 * Type2 * Mod3)
+
+        class SeaSouled < Souled
+          def soul_effect(user, targets)
+            # return unless bchance?(0.3, @logic)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories are a sea in storm")
+            targets.each do |target|
+              type = 1.0
+              if target.type_fire? 
+                type *= 2
+              end
+              if target.type_ground?
+                type *= 2
+              end
+              if target.type_rock?
+                type *= 2
+              end
+              if target.type_water?
+                type /= 2
+              end
+              if target.type_grass?
+                type /= 2
+              end
+              if target.type_dragon?
+                type /= 2
+              end
+              hp  = (((((user.level * 2) / 5) * 60 * (user.atk / 50)) / target.dfe) + 2) * type
+              @logic.damage_handler.damage_change(hp.clamp(1, Float::INFINITY), target)
+              if type > 1
+                @logic.scene.display_message_and_wait("It's super effective!")
+              elsif type < 1
+                @logic.scene.display_message_and_wait("It's not very effective.")
+              end
+            end
+          end
+        end
+
+        class DreamSouled < Souled
+          def soul_effect(user, targets)
+            return unless bchance?(0.1, @logic)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories twist the light")
+            targets.each do |target|
+              @logic.status_change_handler.status_change_with_process(:confusion, target)
+            end
+          end
+        end
+
+        class MysticSouled < Souled
+          def soul_effect(user, targets)
+            return unless bchance?(0.3, @logic)
+            @logic.scene.visual.show_ability(user)
+            @logic.scene.display_message_and_wait("The memories are cloaked in dark flame")
+            targets.each do |target|
+              @logic.status_change_handler.status_change_with_process(:burn, target)
+              return unless bchance?(0.5, @logic)
+              @logic.stat_change_handler.stat_change_with_process(:dfe, -1, target)
+            end
+          end
+        end
+
+        register(:fire_souled, FireSouled)
+        register(:wind_souled, WindSouled)
+        register(:dualsouled, Unsouled)
+        register(:frost_souled, FrostSouled)
+        register(:earth_souled, EarthSouled)
+        register(:root_souled, RootSouled)
+        register(:sea_souled, SeaSouled)
+        register(:dream_souled, DreamSouled)
+        register(:mystic_souled, MysticSouled)
+
+        class WorldTree < Ability
+          def on_stat_change(handler, stat, power, target, launcher, skill)
+            return if power < 0
+
+            handler.scene.visual.show_ability(@target)
+            @logic.stat_change_handler.stat_change_with_process(stat, power, @target)
+          end
+        end
+
+        register(:world_tree, WorldTree)
+
+
+        class Burrowing < Ability
+          def on_move_prevention_user(user, targets, move)
+            return if user != @target
+            return if move.db_symbol != :dig
+
+            @logic.damage_handler.heal(@target, @target.max_hp / 8)
+          end
+        end
+        register(:burrowing, Burrowing)
+
+        class StanceChange < Ability
+          def on_move_prevention_user(user, targets, move)
+            return if user != @target
+  
+            blade if move.real_base_power(user, targets.first) > 0
+            shield if move.db_symbol == :clans_shield
+          end
+        end
+
+        class ProletariatSurge < Ability
+          # Function called when a Pokemon has actually switched with another one
+          # @param handler [Battle::Logic::SwitchHandler]
+          # @param who [PFM::PokemonBattler] Pokemon that is switched out
+          # @param with [PFM::PokemonBattler] Pokemon that is switched in
+          def on_switch_event(handler, who, with)
+            return if with != @target
+  
+            fterrain_handler = handler.logic.fterrain_change_handler
+            return unless fterrain_handler.fterrain_appliable?(terrain_type)
+  
+            handler.scene.visual.show_ability(with)
+            fterrain_handler.fterrain_change(terrain_type)
+          end
+  
+          private
+  
+          # Tell which fieldterrain will be set
+          # @return [Symbol]
+          def terrain_type
+            return :factory_terrain
+          end
+        end
+        register(:five_turn_plan, ProletariatSurge)
+  
+
         class Dry < Ability
           def spd_modifier
             return $env.sunny? ? 1.5 : 1
@@ -758,7 +1100,7 @@ end
           # # @return [Float]
           def base_power_multiplier(user, target, move)
             return 1 if user != self.target
-            return move.type == data_type(:water).id ? 1.25 : 1
+            return ($env.sunny? || $env.hardsun?) && move.type == data_type(:water).id ? 1.5 : 1
           end
   
           # Function called when a damage_prevention is checked
@@ -868,7 +1210,36 @@ end
             return 1 if user != @target
             return 1 if user.db_symbol != :insurvern && user.db_symbol != :blastoise
   
-            return 1.2
+            return 1.3
+          end
+        end
+
+        class LieutenantRank < Item
+          def sp_def_multiplier(user, target, move)
+            return 1 if target != @target
+            return 1 if user.db_symbol != :ninetales && user.db_symbol != :arcanine
+            return move.physical? ? 1 : 1.1
+          end
+        end
+        class CaptRank < Item
+          def sp_def_multiplier(user, target, move)
+            return 1 if target != @target
+            return 1 if user.db_symbol != :ninetales && user.db_symbol != :arcanine
+            return move.physical? ? 1 : 1.2
+          end
+        end
+        class FirstRank < Item
+          def sp_def_multiplier(user, target, move)
+            return 1 if target != @target
+            return 1 if user.db_symbol != :ninetales && user.db_symbol != :arcanine
+            return move.physical? ? 1 : 1.3
+          end
+        end
+        class ProtectorRank < Item
+          def sp_def_multiplier(user, target, move)
+            return 1 if target != @target
+            return 1 if user.db_symbol != :ninetales && user.db_symbol != :arcanine
+            return move.physical? ? 1 : 1.4
           end
         end
         class TerraHeart < Item
@@ -876,18 +1247,21 @@ end
           TYPE = {
             hear_of_the_tundra: :ice,
             on_board_ai: :electric,
-            stone_flower: :ground
+            stone_flower: :ground,
+            iron_sickle: :steel
           }
           MESSAGE = {
             hear_of_the_tundra: "The air grows cold ",
             on_board_ai: "Transistors clatter ",
-            stone_flower: "The earth quakes "
+            stone_flower: "The earth quakes ",
+            iron_sickle: "Metal voices cheer "
           }
 
           ANIMATION = {
             hear_of_the_tundra: 360,
             on_board_ai: 86,
-            stone_flower: 683
+            stone_flower: 683,
+            iron_sickle: 219
           }
 
           # Saving original types of the pokemon
@@ -947,11 +1321,15 @@ end
     #       return 1
     #     end
     # end
-
         register(:long_barrelattachment, LongBarrelAttachment)
         register(:hear_of_the_tundra, TerraHeart)
         register(:on_board_ai, TerraHeart)
         register(:stone_flower, TerraHeart)
+        register(:iron_sickle, TerraHeart)
+        register(:capt_rank, CaptRank)
+        register(:lieutenant_rank, LieutenantRank)
+        register(:first_ranger_rank, FirstRank)
+        register(:protector_rank, ProtectorRank)
       end
     class Weather
       class Hail < Weather

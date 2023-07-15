@@ -59,10 +59,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "dragon_rage",
-            "__undef__"
+            "flamethrower",
+            "air_slash",
+            "earthquake",
+            "solar_beam"
           ]
         },
         {
@@ -121,10 +121,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "black_ice",
+            "crunch",
+            "icicle_crash",
+            "dig"
           ]
         },
         {
@@ -179,10 +179,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "testudo",
+            "bounce",
+            "high_jump_kick",
+            "toxic"
           ]
         },
         {
@@ -240,7 +240,7 @@
             "psychic",
             "calm_mind",
             "focus_blast",
-            "diamond_storm"
+            "fiery_dance"
           ]
         },
         {
@@ -297,8 +297,8 @@
           "value": [
             "solar_beam",
             "sunny_day",
-            "__undef__",
-            "__undef__"
+            "growth",
+            "rock_slide"
           ]
         },
         {
@@ -316,7 +316,7 @@
       ]
     },
     {
-      "specie": "golurk",
+      "specie": "heliolisk",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -357,10 +357,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "parabolic_charge",
+            "razor_wind",
+            "grass_knot",
+            "dark_pulse"
           ]
         },
         {
@@ -370,6 +370,14 @@
         {
           "type": "originalTrainerId",
           "value": 0
+        },
+        {
+          "type": "ability",
+          "value": "solar_power"
+        },
+        {
+          "type": "itemHeld",
+          "value": "shell_bell"
         }
       ]
     }

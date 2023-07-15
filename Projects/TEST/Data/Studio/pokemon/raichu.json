@@ -443,7 +443,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "thunder",
+          "move": "sword_charge",
           "level": 1
         },
         {

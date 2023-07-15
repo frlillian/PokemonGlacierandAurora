@@ -54,10 +54,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "black_ice",
+            "bite",
+            "ice_fang",
+            "sand_attack"
           ]
         },
         {
@@ -112,10 +112,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "testudo",
+            "aerial_ace",
+            "low_kick",
+            "dig"
           ]
         },
         {
