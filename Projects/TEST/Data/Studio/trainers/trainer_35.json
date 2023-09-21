@@ -72,7 +72,7 @@
     },
     {
       "specie": "cinccino",
-      "form": 0,
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1

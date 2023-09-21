@@ -3307,11 +3307,6 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "meditate",
-          "level": 7
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "mach_punch",
           "level": 10
         },
@@ -3334,6 +3329,11 @@
           "klass": "LevelLearnableMove",
           "move": "force_palm",
           "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "meditate",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",

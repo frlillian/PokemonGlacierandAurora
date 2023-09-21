@@ -47,7 +47,6 @@ class Interpreter
       end
     end
     def typeCheck(*types)
-        healed = []
         types.map!{|type| data_type(type).id}
         $actors.each do |pokemon|
             next unless pokemon
@@ -240,6 +239,57 @@ class Interpreter
             return true
         end
         return false
+    end
+    def minccino()
+      have = false
+      $actors.each do |pokemon|
+        if (pokemon.id == 572)
+          have = true
+          if pokemon.skill_learnt?(96)
+            $scene.display_message_and_wait(pokemon.given_name + " already knows how to meditate!")
+          else
+            skill_learn(pokemon, 96)
+          end
+        end
+      end
+      if (!have)
+        $scene.display_message_and_wait("You don't have a Minccino!")
+      end
+    end
+    def meditation()
+      used = false
+      $actors.each do |pokemon|
+        pokemon.skills_set.each do |skill|
+          if (skill.id == 96) # Meditate
+            used = true
+            $scene.display_message_and_wait(pokemon.given_name + " used " + skill.name + "!")
+            if (pokemon.id == 809 || pokemon.id == 810)
+              $scene.display_message_and_wait(pokemon.given_name + " has a vison of spectors")
+              $scene.display_message_and_wait(pokemon.given_name + " currles up in fear")
+            end
+            if (pokemon.id == 572)
+              $scene.display_message_and_wait(pokemon.given_name + " resonates with the energy of this place!")
+              GamePlay.make_pokemon_evolve(pokemon, 573, form = 1, forced = true)
+            end
+            if (pokemon.id == 25)
+              $scene.display_message_and_wait(pokemon.given_name + " resonates with the energy of this place!")
+              $scene.display_message_and_wait(pokemon.given_name + " finally realizes is done fighting. There are better ways to spend one's life")
+              $scene.display_message_and_wait("All " + pokemon.given_name + " wants to do is surf on waves of thought.")
+              GamePlay.make_pokemon_evolve(pokemon, 26, form = 1, forced = true)
+            end
+            if (pokemon.id == 619 || pokemon.id == 620)
+              $scene.display_message_and_wait(pokemon.given_name + " resonates with the energy of this place!")
+              skill_learn(pokemon, 9)
+            end
+            if (pokemon.id == 172)
+              $scene.display_message_and_wait(pokemon.given_name + " is not ready to surf on the world beyond")
+            end
+          end
+        end
+      end
+      if (!used)
+        $scene.display_message_and_wait("None of your pokemon can meditate.")
+      end
     end
     def littleHeal()
         allDead = true
@@ -535,6 +585,15 @@ end
 
 module Battle
     class Logic
+      # Handler responsive of answering properly statistic changes requests
+      class StatChangeHandler < ChangeHandlerBase
+        def stat_change_no_hook(stat, power, target, launcher = nil, skill = nil, no_message: false)
+          log_data("# stat_change(#{stat}, #{power}, #{target}, #{launcher}, #{skill})")
+          amount = target.change_stat(STAT_INDEX[stat], power)
+          show_stat_change_text_and_animation(stat, power, amount, target, no_message)
+        end
+      end
+      
       class FTerrainChangeHandler < ChangeHandlerBase
         FTERRAIN_SYM_TO_MSG = {
           none: {
@@ -542,13 +601,15 @@ module Battle
             grassy_terrain: 223,
             misty_terrain: 225,
             psychic_terrain: 347,
-            factory_terrain: 534
+            factory_terrain: 536,
+            mountain_terrain: 538,
           },
           electric_terrain: 226,
           grassy_terrain: 222,
           misty_terrain: 224,
           psychic_terrain: 346,
-          factory_terrain: 535
+          factory_terrain: 535,
+          mountain_terrain: 537,
         }
       end
       class WeatherChangeHandler < ChangeHandlerBase
@@ -659,6 +720,7 @@ module Battle
             end
         Move.register(:s_drake_renaissance, DrakeRenaissance)
         end
+
         class AncientPower < Basic
           def effect_chance
             return 50 if $env.time?
@@ -668,8 +730,21 @@ module Battle
             super(user, [user])
           end    
         Move.register(:s_ancient_power, AncientPower)
+        end
+
+        class GalvanicWave < Basic
+          # Function that deals the status condition to the pokemon
+          # @param user [PFM::PokemonBattler] user of the move
+          # @param actual_targets [Array<PFM::PokemonBattler>] targets that will be affected by the move
+          def deal_effect(user, actual_targets)
+            actual_targets.each do |target|
+              @logic.status_change_handler.status_change_with_process(:confusion, target, user, self)
+              @logic.status_change_handler.status_change_with_process(:paralysis, target, user, self)
+            end
+          end
+        Move.register(:s_galvanic_wave, GalvanicWave)
+        end
     end
-end
 
     module Effects
       class Protect < PokemonTiedEffectBase
@@ -721,9 +796,9 @@ end
           def on_stat_change_post(handler, stat, power, target, launcher, skill)
             return if stat == :spd
             if power > 0
-              handler.logic.stat_change_handler.stat_change_with_process(:spd, -1, target)
+              handler.logic.stat_change_handler.stat_change_no_hook(:spd, -1, target)
             elsif power < 0
-              handler.logic.stat_change_handler.stat_change_with_process(:spd, 1, target)
+              handler.logic.stat_change_handler.stat_change_no_hook(:spd, 1, target)
             end
           end
   
@@ -739,7 +814,30 @@ end
           end
         end
       register(:factory_terrain, Factory)
-    end
+
+      class Mountain < FieldTerrain
+        # Function called at the end of a turn
+        # @param logic [Battle::Logic] logic of the battle
+        # @param scene [Battle::Scene] battle scene
+        # @param battlers [Array<PFM::PokemonBattler>] all alive battlers
+        def on_end_turn_event(logic, scene, battlers)
+          @internal_counter -= 1
+          logic.fterrain_change_handler.fterrain_change(:none) if @internal_counter <= 0
+        end
+
+        # Give the move mod1 mutiplier (before the +2 in the formula)
+        # @param user [PFM::PokemonBattler] user of the move
+        # @param target [PFM::PokemonBattler] target of the move
+        # @param move [Battle::Move] move
+        # @return [Float, Integer] multiplier
+        def mod1_multiplier(user, target, move)
+          return 1 unless target.affected_by_terrain? && user.affected_by_terrain?
+
+          return 0.5
+        end
+      end
+    register(:mountain_terrain, Mountain)
+  end
   
 
       class Ability
@@ -919,6 +1017,31 @@ end
             shield if move.db_symbol == :clans_shield
           end
         end
+
+        class MountainSurge < Ability
+          # Function called when a Pokemon has actually switched with another one
+          # @param handler [Battle::Logic::SwitchHandler]
+          # @param who [PFM::PokemonBattler] Pokemon that is switched out
+          # @param with [PFM::PokemonBattler] Pokemon that is switched in
+          def on_switch_event(handler, who, with)
+            return if with != @target
+  
+            fterrain_handler = handler.logic.fterrain_change_handler
+            return unless fterrain_handler.fterrain_appliable?(terrain_type)
+  
+            handler.scene.visual.show_ability(with)
+            fterrain_handler.fterrain_change(terrain_type)
+          end
+  
+          private
+  
+          # Tell which fieldterrain will be set
+          # @return [Symbol]
+          def terrain_type
+            return :mountain_terrain
+          end
+        end
+        register(:mountainous, MountainSurge)
 
         class ProletariatSurge < Ability
           # Function called when a Pokemon has actually switched with another one

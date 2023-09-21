@@ -60,7 +60,7 @@
         "back": "680",
         "backShiny": "680",
         "footprint": "",
-        "character": "680_0",
+        "character": "",
         "characterShiny": "680s_0",
         "cry": "680cry.ogg",
         "hasFemale": false
@@ -98,7 +98,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_sneak",
+          "move": "hail",
           "level": 20
         },
         {
@@ -113,17 +113,17 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "retaliate",
+          "move": "shadow_sneak",
           "level": 26
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "slash",
+          "move": "icicle_spear",
           "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hail",
+          "move": "shield_wall_maneuver",
           "level": 32
         },
         {
@@ -133,13 +133,13 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "blizzard",
-          "level": 45
+          "move": "ice_cleave",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_hammer",
-          "level": 51
+          "level": 45
         },
         {
           "klass": "TutorLearnableMove",

@@ -61,6 +61,19 @@
         "drought"
       ],
       "frontOffsetY": 25,
+      "resources": {
+        "icon": "037",
+        "iconShiny": "",
+        "front": "037",
+        "frontShiny": "037",
+        "back": "037",
+        "backShiny": "037",
+        "footprint": "037",
+        "character": "037_0",
+        "characterShiny": "037s_0",
+        "cry": "037cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -370,20 +383,7 @@
           "klass": "BreedLearnableMove",
           "move": "tail_slap"
         }
-      ],
-      "resources": {
-        "icon": "037",
-        "iconShiny": "",
-        "front": "037",
-        "frontShiny": "037",
-        "back": "037",
-        "backShiny": "037",
-        "footprint": "037",
-        "character": "037_0",
-        "characterShiny": "037s_0",
-        "cry": "037cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -409,8 +409,10 @@
           "form": 1,
           "conditions": [
             {
-              "type": "stone",
-              "value": "none"
+              "type": "maps",
+              "value": [
+                113
+              ]
             }
           ]
         }
@@ -443,6 +445,19 @@
         "snow_warning"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "037_01",
+        "iconShiny": "",
+        "front": "037_01",
+        "frontShiny": "037_01",
+        "back": "037_01",
+        "backShiny": "037_01",
+        "footprint": "037",
+        "character": "",
+        "characterShiny": "",
+        "cry": "037cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -652,20 +667,7 @@
           "klass": "TechLearnableMove",
           "move": "confide"
         }
-      ],
-      "resources": {
-        "icon": "037_01",
-        "iconShiny": "",
-        "front": "037_01",
-        "frontShiny": "037_01",
-        "back": "037_01",
-        "backShiny": "037_01",
-        "footprint": "037",
-        "character": "",
-        "characterShiny": "",
-        "cry": "037cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

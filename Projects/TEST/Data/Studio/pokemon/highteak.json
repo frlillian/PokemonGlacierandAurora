@@ -45,8 +45,8 @@
         }
       ],
       "abilities": [
-        "sturdy",
-        "__undef__",
+        "mountainous",
+        "mountainous",
         "__undef__"
       ],
       "frontOffsetY": 0,
@@ -151,7 +151,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "avalanche",
+          "move": "mountain_siege",
           "level": 41
         },
         {
@@ -330,7 +330,7 @@
         },
         {
           "klass": "EvolutionLearnableMove",
-          "move": "mountain_siege"
+          "move": "avalanche"
         }
       ]
     }

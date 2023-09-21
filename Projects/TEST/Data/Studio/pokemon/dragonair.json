@@ -360,9 +360,9 @@
       "babyForm": 0,
       "itemHeld": [],
       "abilities": [
-        "shed_skin",
-        "shed_skin",
-        "marvel_scale"
+        "regenerator",
+        "regenerator",
+        "regenerator"
       ],
       "frontOffsetY": 14,
       "resources": {
@@ -433,6 +433,11 @@
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
           "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shield_wall_maneuver",
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",

@@ -94,7 +94,7 @@
       ]
     },
     {
-      "specie": "pidgey",
+      "specie": "seedot",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -127,7 +127,7 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
+            "water_pulse",
             "__undef__",
             "__undef__",
             "__undef__"

@@ -22,7 +22,7 @@
       "evAts": 0,
       "evDfs": 2,
       "evolutions": [],
-      "experienceType": 3,
+      "experienceType": 1,
       "baseExperience": 236,
       "baseLoyalty": 70,
       "catchRate": 45,
@@ -122,27 +122,32 @@
         {
           "klass": "LevelLearnableMove",
           "move": "toxic_spikes",
-          "level": 30
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "venom_drench",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aqua_tail",
+          "move": "dreadful_wail",
           "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_jab",
+          "move": "aqua_tail",
           "level": 38
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "memento",
+          "move": "venom_drench",
           "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_jab",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "payback",
+          "level": 50
         },
         {
           "klass": "TechLearnableMove",

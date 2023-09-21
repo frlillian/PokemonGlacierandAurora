@@ -917,12 +917,17 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "iron_head",
+          "move": "payback",
           "level": 22
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "nasty_plot",
+          "move": "screech",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_head",
           "level": 25
         },
         {

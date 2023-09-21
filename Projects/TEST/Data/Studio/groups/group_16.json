@@ -272,7 +272,7 @@
         "kind": "minmax",
         "level": {
           "minimumLevel": 25,
-          "maximumLevel": 29
+          "maximumLevel": 30
         }
       },
       "randomEncounterChance": 10,

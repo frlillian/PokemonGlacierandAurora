@@ -486,7 +486,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "seismic_toss",
+          "move": "ice_punch",
           "level": 15
         },
         {
@@ -506,7 +506,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "wake_up_slap",
+          "move": "shield_wall_maneuver",
           "level": 27
         },
         {

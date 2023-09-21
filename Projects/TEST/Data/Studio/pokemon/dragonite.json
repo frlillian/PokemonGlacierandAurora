@@ -492,9 +492,9 @@
       "babyForm": 0,
       "itemHeld": [],
       "abilities": [
-        "inner_focus",
-        "inner_focus",
-        "multiscale"
+        "regenerator",
+        "regenerator",
+        "regenerator"
       ],
       "frontOffsetY": 8,
       "resources": {
@@ -580,6 +580,11 @@
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
           "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shield_wall_maneuver",
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",

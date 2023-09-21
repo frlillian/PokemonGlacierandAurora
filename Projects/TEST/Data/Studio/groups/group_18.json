@@ -136,7 +136,7 @@
       ]
     },
     {
-      "specie": "minccino",
+      "specie": "herdier",
       "form": 0,
       "shinySetup": {
         "kind": "automatic",
@@ -172,7 +172,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "draining_kiss"
+            "moonblast"
           ]
         }
       ]

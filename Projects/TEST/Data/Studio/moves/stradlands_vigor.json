@@ -2,8 +2,15 @@
   "klass": "Move",
   "id": 726,
   "dbSymbol": "stradlands_vigor",
+  "mapUse": 0,
+  "battleEngineMethod": "s_self_status",
   "type": "dark",
+  "power": 0,
+  "accuracy": 0,
+  "pp": 20,
   "category": "status",
+  "movecriticalRate": 1,
+  "priority": 0,
   "isAuthentic": false,
   "isBallistics": false,
   "isBite": false,
@@ -27,24 +34,26 @@
   "isSnatchable": false,
   "isSoundAttack": false,
   "isUnfreeze": false,
-  "power": 0,
-  "pp": 20,
-  "priority": 0,
-  "accuracy": 0,
-  "movecriticalRate": 1,
-  "effectChance": 100,
-  "moveStatus": [],
-  "battleEngineMethod": "s_self_stat",
+  "battleEngineAimedTarget": "user",
   "battleStageMod": [
     {
+      "battleStage": "ATK_STAGE",
+      "modificator": 1
+    },
+    {
       "battleStage": "ATS_STAGE",
-      "modificator": 2
+      "modificator": 1
     },
     {
       "battleStage": "DFS_STAGE",
-      "modificator": 1
+      "modificator": 2
     }
   ],
-  "battleEngineAimedTarget": "user",
-  "mapUse": 0
+  "moveStatus": [
+    {
+      "status": "POISONED",
+      "luckRate": 100
+    }
+  ],
+  "effectChance": 100
 }

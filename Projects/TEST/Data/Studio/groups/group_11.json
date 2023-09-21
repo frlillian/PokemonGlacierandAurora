@@ -19,8 +19,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 16,
-          "maximumLevel": 19
+          "minimumLevel": 20,
+          "maximumLevel": 22
         }
       },
       "randomEncounterChance": 10,
@@ -62,7 +62,7 @@
         "kind": "minmax",
         "level": {
           "minimumLevel": 15,
-          "maximumLevel": 19
+          "maximumLevel": 22
         }
       },
       "randomEncounterChance": 20,
@@ -104,7 +104,7 @@
         "kind": "minmax",
         "level": {
           "minimumLevel": 16,
-          "maximumLevel": 19
+          "maximumLevel": 22
         }
       },
       "randomEncounterChance": 20,
@@ -145,8 +145,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 17,
-          "maximumLevel": 20
+          "minimumLevel": 20,
+          "maximumLevel": 22
         }
       },
       "randomEncounterChance": 10,
@@ -188,7 +188,7 @@
         "kind": "minmax",
         "level": {
           "minimumLevel": 17,
-          "maximumLevel": 20
+          "maximumLevel": 22
         }
       },
       "randomEncounterChance": 20,
@@ -230,7 +230,7 @@
         "kind": "minmax",
         "level": {
           "minimumLevel": 15,
-          "maximumLevel": 20
+          "maximumLevel": 22
         }
       },
       "randomEncounterChance": 10,
@@ -271,8 +271,8 @@
       "levelSetup": {
         "kind": "minmax",
         "level": {
-          "minimumLevel": 17,
-          "maximumLevel": 20
+          "minimumLevel": 20,
+          "maximumLevel": 22
         }
       },
       "randomEncounterChance": 10,

@@ -115,7 +115,7 @@ module GamePlay
         def prize_check
             Item_list.each_with_index do |item, index|
                 if Thresh_list[index] <= PFM.game_state.game_variables[Yuki::Var::Pokedex_Catch]
-                    if not Given_list[index]
+                    if index >= PFM.game_state.game_variables[114]
                         if game_state.game_switches[154]
                             display_message("Hey it's Lary. Looks like you've got enough DNA for an item.")
                         else
@@ -136,8 +136,8 @@ module GamePlay
                             $game_system.battle_interpreter.add_rename_pokemon(150, 60, false)
                             display_message("The rebellion's hopes lie with you.")
                         end
+                        PFM.game_state.game_variables[114] += 1
                     end
-                    Given_list[index] = true
                 end
             end
 

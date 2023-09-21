@@ -121,12 +121,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "endeavor",
+          "move": "shield_wall_maneuver",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "feather_dance",
+          "move": "stradlands_vigor",
           "level": 40
         },
         {

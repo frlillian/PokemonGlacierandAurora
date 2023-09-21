@@ -113,52 +113,52 @@
         {
           "klass": "LevelLearnableMove",
           "move": "encore",
-          "level": 20
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fling",
-          "level": 24
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "low_kick",
-          "level": 28
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bounce",
-          "level": 32
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "endeavor",
-          "level": 36
+          "move": "shield_wall_maneuver",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "feather_dance",
-          "level": 40
+          "move": "stradlands_vigor",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "high_jump_kick",
-          "level": 44
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sky_attack",
-          "level": 48
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sky_drop",
-          "level": 55
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swords_dance",
-          "level": 60
+          "level": 55
         },
         {
           "klass": "TechLearnableMove",

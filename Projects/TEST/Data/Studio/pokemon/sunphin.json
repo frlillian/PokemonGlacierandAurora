@@ -141,6 +141,11 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "inspire",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "calm_mind",
           "level": 43
         },

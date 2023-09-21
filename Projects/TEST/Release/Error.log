@@ -1,22 +1,53 @@
 ================================Erreur de script================================
 Message :
-instance of IO needed
+undefined method `evaluate_effects' for true:TrueClass
 
-Type : TypeError
-Script : UNKNOWN/Game/Boot.rb (RMXP)
-Ligne : 560
-Date : 31/01/2023 08:18:46
+Type : NoMethodError
+Script : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (RMXP)
+Ligne : 36
+Date : 20/08/2023 16:02:54
 Game Version : 256
-Logiciel : Pokémon SDK 26.4
+Logiciel : Pokémon SDK 26.10
 ===================================Backtraces===================================
-[9] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 560 load
-[8] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 560 load_data_vd
-[7] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 544 load_data
-[6] : PSDK//00800 Studio/00001 Accessors.rb (RMXP) | ligne 215 __game_data
-[5] : PSDK//00800 Studio/00001 Accessors.rb (RMXP) | ligne 232 <compiled>
-[4] : PSDK//00000 Dependencies/00001 LiteRGSS2/00001 Graphics.rb (RMXP) | ligne 150 each
-[3] : PSDK//00000 Dependencies/00001 LiteRGSS2/00001 Graphics.rb (RMXP) | ligne 150 start
-[2] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 599 <compiled>
+[40] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (RMXP) | ligne 36 each_effects
+[39] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (RMXP) | ligne 36 each
+[38] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (RMXP) | ligne 36 each_effects
+[37] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00001 Handlers/01001 StatChangeHandler.rb (RMXP) | ligne 271 <class:Logic>
+[36] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00001 Handlers/01001 StatChangeHandler.rb (RMXP) | ligne 227 register_stat_change_hook
+[35] : PSDK//00010 Hooks.rb (RMXP) | ligne 57 instance_exec
+[34] : PSDK//00010 Hooks.rb (RMXP) | ligne 57 exec_hooks
+[33] : PSDK//00010 Hooks.rb (RMXP) | ligne 55 each
+[32] : PSDK//00010 Hooks.rb (RMXP) | ligne 55 exec_hooks
+[31] : UNKNOWN///99998 Trainer.rb (RMXP) | ligne 593 stat_change
+[30] : UNKNOWN///99998 Trainer.rb (RMXP) | ligne 794 on_stat_change_post
+[29] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00001 Handlers/01001 StatChangeHandler.rb (RMXP) | ligne 279 <class:Logic>
+[28] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (RMXP) | ligne 27 each_effects
+[27] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00106 Effects.rb (RMXP) | ligne 34 each_effects
+[26] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00001 Handlers/01001 StatChangeHandler.rb (RMXP) | ligne 278 <class:Logic>
+[25] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00001 Handlers/01001 StatChangeHandler.rb (RMXP) | ligne 205 register_stat_change_post_event_hook
+[24] : PSDK//00010 Hooks.rb (RMXP) | ligne 57 instance_exec
+[23] : PSDK//00010 Hooks.rb (RMXP) | ligne 57 exec_hooks
+[22] : PSDK//00010 Hooks.rb (RMXP) | ligne 55 each
+[21] : PSDK//00010 Hooks.rb (RMXP) | ligne 55 exec_hooks
+[20] : UNKNOWN///99998 Trainer.rb (RMXP) | ligne 598 stat_change
+[19] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00001 Handlers/01001 StatChangeHandler.rb (RMXP) | ligne 110 stat_change_with_process
+[18] : PSDK//01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (RMXP) | ligne 350 deal_stats
+[17] : PSDK//01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (RMXP) | ligne 347 each
+[16] : PSDK//01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (RMXP) | ligne 347 deal_stats
+[15] : PSDK//01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (RMXP) | ligne 346 each
+[14] : PSDK//01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (RMXP) | ligne 346 deal_stats
+[13] : PSDK//01600 Alpha 25 Battle Engine/04150 Battle_Move/00001 Mechanics/00101 Self.rb (RMXP) | ligne 9 deal_stats
+[12] : PSDK//01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (RMXP) | ligne 62 proceed_internal
+[11] : PSDK//01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (RMXP) | ligne 44 proceed_one_target
+[10] : PSDK//01600 Alpha 25 Battle Engine/04150 Battle_Move/00120 Procedure.rb (RMXP) | ligne 18 proceed
+[9] : PSDK//01600 Alpha 25 Battle Engine/03000 Actions/00002 Attack.rb (RMXP) | ligne 85 execute
+[8] : PSDK//01600 Alpha 25 Battle Engine/00200 Battle_Logic/00102 Actions.rb (RMXP) | ligne 39 perform_next_action
+[7] : PSDK//01600 Alpha 25 Battle Engine/00001 Battle_Scene/00103 Scene Battle Phase.rb (RMXP) | ligne 21 update_battle_phase
+[6] : PSDK//01600 Alpha 25 Battle Engine/00001 Battle_Scene/00100 Scene.rb (RMXP) | ligne 83 next_update_process
+[5] : PSDK//01600 Alpha 25 Battle Engine/00001 Battle_Scene/00100 Scene.rb (RMXP) | ligne 73 update
+[4] : PSDK//01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (RMXP) | ligne 260 main_process
+[3] : PSDK//01450 Systems/00000 General/00003 GamePlay__Base/00000 GamePlay__Base.rb (RMXP) | ligne 153 main
+[2] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 612 <compiled>
 [1] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 364 rgss_main
 [0] : Game.rb (RMXP) | ligne 3 <main>
 ===================================Fin du log===================================

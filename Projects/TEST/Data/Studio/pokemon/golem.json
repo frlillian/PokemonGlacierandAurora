@@ -50,6 +50,19 @@
         "sand_veil"
       ],
       "frontOffsetY": 19,
+      "resources": {
+        "icon": "076",
+        "iconShiny": "",
+        "front": "076",
+        "frontShiny": "076",
+        "back": "076",
+        "backShiny": "076",
+        "footprint": "076",
+        "character": "076_0",
+        "characterShiny": "076s_0",
+        "cry": "076cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -351,20 +364,7 @@
           "klass": "TechLearnableMove",
           "move": "power_up_punch"
         }
-      ],
-      "resources": {
-        "icon": "076",
-        "iconShiny": "",
-        "front": "076",
-        "frontShiny": "076",
-        "back": "076",
-        "backShiny": "076",
-        "footprint": "076",
-        "character": "076_0",
-        "characterShiny": "076s_0",
-        "cry": "076cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
@@ -413,7 +413,6 @@
         "galvanize"
       ],
       "frontOffsetY": 0,
-      "moveSet": [],
       "resources": {
         "icon": "076_01",
         "iconShiny": "",
@@ -426,7 +425,29 @@
         "characterShiny": "",
         "cry": "076cry.ogg",
         "hasFemale": false
-      }
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 2
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earthquake",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flamethrower",
+          "level": 4
+        }
+      ]
     }
   ]
 }

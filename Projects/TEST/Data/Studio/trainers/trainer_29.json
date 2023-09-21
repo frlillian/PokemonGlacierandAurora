@@ -112,10 +112,10 @@
         {
           "type": "moves",
           "value": [
-            "__undef__",
-            "__undef__",
-            "__undef__",
-            "__undef__"
+            "psywave",
+            "confuse_ray",
+            "gyro_ball",
+            "__remove__"
           ]
         },
         {

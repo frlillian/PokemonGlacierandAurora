@@ -1,0 +1,51 @@
+{
+  "klass": "Move",
+  "id": 741,
+  "dbSymbol": "dreadful_wail",
+  "mapUse": 0,
+  "battleEngineMethod": "s_basic",
+  "type": "poison",
+  "power": 0,
+  "accuracy": 0,
+  "pp": 20,
+  "category": "status",
+  "movecriticalRate": 1,
+  "priority": 0,
+  "isAuthentic": false,
+  "isBallistics": false,
+  "isBite": false,
+  "isBlocable": true,
+  "isCharge": false,
+  "isDance": false,
+  "isDirect": false,
+  "isDistance": false,
+  "isEffectChance": false,
+  "isGravity": false,
+  "isHeal": false,
+  "isKingRockUtility": false,
+  "isMagicCoatAffected": true,
+  "isMental": true,
+  "isMirrorMove": true,
+  "isNonSkyBattle": false,
+  "isPowder": false,
+  "isPulse": false,
+  "isPunch": false,
+  "isRecharge": false,
+  "isSnatchable": false,
+  "isSoundAttack": true,
+  "isUnfreeze": false,
+  "battleEngineAimedTarget": "adjacent_all_pokemon",
+  "battleStageMod": [
+    {
+      "battleStage": "ATS_STAGE",
+      "modificator": -2
+    }
+  ],
+  "moveStatus": [
+    {
+      "status": "POISONED",
+      "luckRate": 30
+    }
+  ],
+  "effectChance": 100
+}

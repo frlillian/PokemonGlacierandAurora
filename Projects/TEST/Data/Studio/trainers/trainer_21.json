@@ -71,8 +71,8 @@
       ]
     },
     {
-      "specie": "geodude",
-      "form": 0,
+      "specie": "tauros",
+      "form": 1,
       "shinySetup": {
         "kind": "automatic",
         "rate": -1
@@ -115,7 +115,7 @@
             "__undef__",
             "__undef__",
             "__undef__",
-            "ice_ball"
+            "__undef__"
           ]
         },
         {

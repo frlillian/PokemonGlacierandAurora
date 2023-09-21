@@ -86,7 +86,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "close_combat",
+          "move": "sword_charge",
           "level": 35
         },
         {
